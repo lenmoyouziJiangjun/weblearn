@@ -1,0 +1,5 @@
+{% for c in channels %}
+    <div class="no-margin no-padding col-3 text-center margin-top-5 {% if not c.fixed %}{{ custom_class }} js-removable {% endif %}" data-id="{{ c.id }}">
+        <div class="{% if not c.fixed %} white-bg {% else %} gray-bg {% endif %}" style="width: 95%;line-height: 24px;">{{ c.name }}</div>
+    </div>
+{% endfor %}

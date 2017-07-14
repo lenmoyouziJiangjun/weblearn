@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    <div id="js-play-list">
+        {% block playlist %}
+            {% include 'playlist_partial_wf.html' %}
+        {% endblock %}
+    </div>
+
+    <div id="js-loading" style="clear:both;">
+        <p class="loading-prompt">加载更多...</p>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript" src="{% static 'js/playlist_wf.js.js' %}"></script>
+    <script type="text/javascript">
+        window.playlist && playlist.init("{{ partial_url }}", "{{ c }}", 10);
+    </script>
+    {% block other_scripts %}
+    {% endblock %}
+{% endblock %}
+{% block linker %}
+    <link rel="stylesheet" href="{% static 'css/wf.css' %}">
+{% endblock %}

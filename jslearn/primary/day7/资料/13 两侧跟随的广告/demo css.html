@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        img{
+            position: absolute;
+            left:0;
+            top:50px;
+        }
+        #demo{
+            width:1000px;
+            margin:0 auto;
+        }
+    </style>
+</head>
+<body>
+<img src="images/aside.jpg" alt="" id="pic"/>
+<div id="demo">
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+   <p>天王盖地虎，小鸡炖蘑菇</p>
+</div>
+</body>
+</html>
+<script src="my.js" type="text/javascript"></script>
+<script>
+    var pic = document.getElementById("pic");
+    window.onscroll = function() {
+        animate(pic,scroll().top+50);
+    }
+
+    function animate(obj,target) {
+        clearInterval(obj.timer);
+        obj.timer = setInterval(function() {
+            // 运动公式  leader = leader + (target - leadaer) / 10
+            var step = (target - obj.offsetTop) / 10;
+            step = step > 0 ? Math.ceil(step) : Math.floor(step);
+            obj.style.top = obj.offsetTop + step + "px";
+            if(target == obj.offsetTop) {
+                clearInterval(obj.timer);
+            }
+        },30)
+    }
+</script>

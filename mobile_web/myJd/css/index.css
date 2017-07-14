@@ -1,0 +1,300 @@
+/*index界面css文件*/
+/*最外层容器*/
+.jd_container {
+    width: 100%;
+    /*height: 800px;*/
+    background-color: #eee;
+}
+
+/*顶部header*/
+.jd_header {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(201, 21, 35);
+    position: fixed;/*滑动的时候固定在屏幕上*/
+    z-index: 99;/*指定层级,层级越大越在前面*/
+    padding-left: 70px;
+    padding-right: 60px;
+    background-color: rgba(201,21,35,0);
+}
+
+/*header里面的logo元素,中间必须有空格*/
+.jd_header .header_logo {
+    width: 60px;
+    height: 36px;
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    /*背景图片*/
+    background-image: url("../images/sprites.png");
+    background-repeat: no-repeat;
+    background-position: 0 -103px;
+    background-size: 200px 200px;
+}
+
+/*搜索框样式*/
+.jd_header .header_search {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 15px;
+    padding-left: 25px;
+}
+
+/*登录样式*/
+.jd_header .header_login {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    line-height: 40px; /*行高*/
+    color: white;
+    font-size: 17px;
+}
+
+/*搜索框里面放大镜样式*/
+.jd_header .header_glass {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url("../images/sprites.png");
+    background-size: 200px 200px;
+    background-position: -60px -109px;
+    background-repeat: no-repeat;
+    top:10px;
+    left: 75px;
+}
+
+
+
+
+
+/*banner样式*/
+.jd_banner{
+    width: 100%;
+    overflow: hidden;/*溢出隐藏*/
+    position: relative;/*子元素要定位的话,父元素必须设置position,这样才有参考*/
+}
+.jd_banner .banner_images{
+    /*10倍父元素宽度,在横向放10张图片,必须设置父元素jd_banner 的overflow为hidden,不然会滑动显示出来*/
+    width: 1000%;
+    /*默认显示索引为1的哪一张*/
+    transform: translateX(-10%);
+}
+.jd_banner .banner_images li{
+    float: left;/*左浮动*/
+    width: 10%;/*想对父元素的10%*/
+}
+/*.jd_banner .banner_images li a 层级选择器表示跟jd_banner class下面的banner_images样式的li标签下面的a标签*/
+.jd_banner .banner_images li a{
+    display: block;/*元素块显示 http://www.w3school.com.cn/cssref/pr_class_display.asp*/
+    width: 100%;
+}
+.jd_banner .banner_images li a img{
+    display: block;
+    width:100%;
+}
+/**/
+.jd_banner .banner_pointer{
+    position: absolute;
+    bottom: 10px;/*距离底部10像素*/
+    left: 50%;/*居中显示*/
+    margin-left: -44px;
+}
+.jd_banner .banner_pointer li{
+    float: left;/*子元素设置了浮动,父元素一定要设置清楚浮动。否则父元素也会相应浮动*/
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border:  1px solid white;
+    margin-left: 5px;
+}
+/*定义选择指示器的样式:
+  表示li标签有.current class 会使用下列样式
+  注意 .current 和li之间不能有空格
+*/
+.jd_banner .banner_pointer li.current{
+     background-color: white;//设置一个背景为白色,
+}
+
+
+
+/*导航样式*/
+.jd_nav{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+}
+.jd_nav ul{
+    width: 100%;
+}
+.jd_nav ul li{
+    float: left;/*左浮动*/
+    width: 25%;/*宽度为25%,表示一行4个*/
+}
+.jd_nav ul li a{
+    display: block;
+    width: 100%;
+}
+.jd_nav ul li a img{
+    display: block;
+    width: 60%;
+    margin: 0 auto;/*图片居中*/
+}
+.jd_nav ul li a p{
+    color: #2e6da4;
+    text-align: center;
+    padding: 5px 0;/*表示上下5px的padding,*/
+}
+
+
+/*主要内容*/
+.jd_main{
+    width: 100%;
+    padding: 0 3px;/*上下padding为0,左右为5*/
+    margin-top: 10px;
+}
+.jd_main .main_content{
+    width: 100%;/*宽度可以不以写,因为继承父盒子*/
+    background-color: white;
+    margin-bottom: 10px;
+    min-height: 150px;/*设置最低高度*/
+    box-shadow: 0 0 2px gray;/*设置盒子阴影*/
+}
+.jd_main .main_content .content_top{
+    border-bottom: 1px solid #ccc;
+    height: 36px;
+}
+.jd_main .main_content .content_bottom{}
+
+/*内容第一个div的样式
+   语法一:.jd_main .main_content:first-child
+   语法二:.jd_main .main_content:nth-child(1)
+*/
+.jd_main .main_content:nth-child(1){
+
+}
+.jd_main .main_content:first-child .content_top{
+    border-bottom: none;/*第一个div 的top没有分割线*/
+}
+.jd_main .main_content:first-child .content_top span{
+    background-image: url("../images/seckill-icon.png");
+    background-size: 20px 25px;
+    float: left;
+    margin-top: 3.5px;
+    margin-left: 5px;
+    width: 20px;
+    height: 25px;
+}
+.jd_main .main_content:first-child .content_top p{
+    color: rgb(201,21,35);
+    margin-left: 5px;
+    line-height: 32px;
+    float: left;
+}
+.jd_main .main_content:first-child .content_top ul{
+    line-height: 32px;
+    padding-top: 8.5px;
+}
+.jd_main .main_content:first-child .content_top ul li{
+    float: left;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    color: white;
+    text-align: center;
+    line-height: 15px;
+}
+/*第三个li和第六个li不一样*/
+.jd_main .main_content:first-child .content_top ul li:nth-child(3n){
+    background-color: transparent;
+    color: black;
+}
+
+.jd_main .main_content:first-child .content_top a{
+    float: right;
+    margin-right: 5px;
+    color: gray;
+    line-height: 32px;
+}
+/*第一个div的内容*/
+.jd_main .main_content:first-child .content_bottom {
+    width: 100%;
+}
+.jd_main .main_content:first-child .content_bottom ul{
+    width: 100%;
+    overflow: hidden;
+}
+.jd_main .main_content:first-child .content_bottom ul li{
+    float: left;
+    /*为了保证零头不影响布局,多写几位小数*/
+    width: 33.3333333%;
+}
+.jd_main .main_content:first-child .content_bottom ul li a{
+    display: block;
+    width:100%;
+    border-right: 1px solid gray;
+}
+/*最后一个li标签的a标签没有分割线*/
+.jd_main .main_content:first-child .content_bottom ul li:last-child a{
+    border-right:none;
+}
+
+.jd_main .main_content:first-child .content_bottom ul li a img{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+.jd_main .main_content:first-child .content_bottom ul li p{
+    text-align: center;
+    padding: 1.5px 0;
+}
+/*细节:为什么是2? 因为a 标签和p标签是平级的,所以这里写的是2,a标签的索引是1*/
+.jd_main .main_content:first-child .content_bottom ul li p:nth-child(2){
+     color: rgb(201,21,35);
+}
+.jd_main .main_content:first-child .content_bottom ul li p:nth-child(3){
+    color:black;
+    text-decoration: line-through;/*文字中划线*/
+}
+
+/*除了第一个主要div的其它div样式*/
+.jd_main .main_content:nth-child(n+2) .content_top{}
+.jd_main .main_content:nth-child(n+2) .content_top span{
+    color: rgb(201,21,35);
+    line-height: 32px;
+    margin-left: 10px;
+    position: relative;
+    padding-left: 5px;
+}
+.jd_main .main_content:nth-child(n+2) .content_top span::before{
+    content:"";
+    position: absolute;
+    height: 15px;
+    width: 5px;
+    background-color: rgb(201,21,35);
+    left: 0px;
+    top:9.0px;
+}
+
+/*设置除了描述区域的主要内容的底部样式*/
+.jd_main .main_content:nth-child(n+2) .content_bottom{
+    width: 100%;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul{
+    width: 100%;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li{
+    width: 50%;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li a{
+    width: 100%;
+    display: block;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li a img{
+    width: 100%;
+    display: block;
+}
+
+

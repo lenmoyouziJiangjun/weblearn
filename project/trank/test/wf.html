@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>瀑布流布局</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="stylesheet" href="../static/css/main.css">
+    <script type="application/javascript" src="../static/js/jquery.min.js"></script>
+    <script type="application/javascript" src="../static/js/playlist_wf.js"></script>
+</head>
+<body>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative;overflow: hidden;">
+            <div class="img-wrapper ratio1_1 " >
+                <img src="{{ item.icon }}" width="100vw" height="100vw">
+            </div>
+
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative">
+            <img src="{{ item.icon }}" width="100%">
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative">
+            <img src="{{ item.icon }}" width="100%">
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative">
+            <img src="{{ item.icon }}" width="100%">
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative;overflow: hidden;">
+            <div class="img-wrapper ratio1_1">
+                <img src="{{ item.icon }}" width="100%">
+            </div>
+
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative;overflow: hidden;">
+            <div class="img-wrapper ratio1_1">
+                <img src="{{ item.icon }}" width="100%">
+            </div>
+
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative">
+            <img src="{{ item.icon }}" width="100%">
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative">
+            <img src="{{ item.icon }}" width="100%">
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative">
+            <img src="{{ item.icon }}" width="100%">
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative">
+            <img src="{{ item.icon }}" width="100%">
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative">
+            <img src="{{ item.icon }}" width="100%">
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative;overflow: hidden;">
+            <div class="img-wrapper ratio1_1">
+                <img src="{{ item.icon }}" width="100%">
+            </div>
+
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative;overflow: hidden;">
+            <div class="img-wrapper ratio1_1">
+                <img src="{{ item.icon }}" width="100%">
+            </div>
+
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative">
+            <img src="{{ item.icon }}" width="100%">
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative">
+            <img src="{{ item.icon }}" width="100%">
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative">
+            <img src="{{ item.icon }}" width="100%">
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative;overflow: hidden;">
+            <div class="img-wrapper ratio1_1">
+                <img src="{{ item.icon }}" width="100%">
+            </div>
+
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative;overflow: hidden;">
+            <div class="img-wrapper ratio1_1">
+                <img src="{{ item.icon }}" width="100%">
+            </div>
+
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        * {margin: 0;padding:0}
+        img {
+            position: absolute;
+            top:0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+<img src="img.jpg" alt="" width="100" id="pic"/>
+</body>
+</html>
+<script src="../my.js"></script>
+<script>
+    // leader = leader + (target - leader ) / 10;
+    var pic = document.getElementById("pic");
+    var timer = null,leaderx = 0, leadery = 0,targetx = 0,targety = 0;
+    document.onclick = function(event) {
+        var event = event || window.event;
+        var pagex = event.pageX || event.clientX + scroll().left;
+        var pagey = event.pageY || event.clientY + scroll().top;
+        targetx = pagex - pic.offsetWidth /2;
+        targety = pagey - pic.offsetHeight /2;
+        clearInterval(timer);
+        timer = setInterval(function() {
+            var stepx = (targetx - leaderx) / 10;
+            stepx = stepx > 0 ? Math.ceil(stepx) : Math.floor(stepx);
+            leaderx = leaderx + stepx;
+            var stepy = (targety - leadery) / 10;
+            stepy = stepy > 0 ? Math.ceil(stepy) : Math.floor(stepy);
+            leadery = leadery + stepy;
+            pic.style.left = leaderx + "px";
+            pic.style.top = leadery + "px";
+        } ,10)
+    }
+</script>

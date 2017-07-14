@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    <div class="col-12">
+        <section class="pad-top-15 clear">
+            <div>
+                <span>我的频道</span>
+                <span class="pull-right" id="js-edit">编辑</span>
+            </div>
+            <div id="js-my-channels">
+                {% include "channel_list.html" with channels=mine custom_class="js-sortable" %}
+            </div>
+        </section>
+
+        <section class="pad-top-15">
+            <div>
+                频道推荐
+            </div>
+            <div id="js-recommended-channels">
+                {% include "channel_list.html" with channels=recommended custom_class="js-addable" %}
+            </div>
+        </section>
+    </div>
+
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript" src="{% static 'js/Sortable.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/channel.js' %}"></script>
+{% endblock %}

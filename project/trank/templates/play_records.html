@@ -1,0 +1,15 @@
+{% extends "playlist.html" %}
+{% load staticfiles %}
+
+{% block playlist %}
+{% endblock %}
+
+{% block other_scripts %}
+    <script type="text/javascript" src="{% static 'js/play_records.js' %}"></script>
+    <script type="text/javascript">
+        $(function () {
+            window.play_records && play_records.init("{{ action }}", 10);
+        });
+    </script>
+{% endblock %}
+

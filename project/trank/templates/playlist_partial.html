@@ -1,0 +1,9 @@
+{% for i in data %}
+    {% if one_column %}
+        {% include 'item_play_record.html' with item=i %}
+    {% elif is_rect %}
+        {% include 'item_rect.html' with item=i %}
+    {% else %}
+        {% include 'item_ws.html' with item=i %}
+    {% endif %}
+{% endfor %}

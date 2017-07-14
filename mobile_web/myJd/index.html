@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--移动h5开发第一句
+      <meta name="viewport" content="width=device-width,//设备宽度
+                 user-scalable=no,//是否支持缩放
+                 initial-scale=1.0,//默认缩放比例
+                 maximum-scale=1.0,//最大缩放比例
+                 minimum-scale=1.0">
+    -->
+    <meta name="viewport"
+          content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>移动Web开发</title>
+    <!--引入公共样式文件-->
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!--引入js文件-->
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+<!--最外层的容器盒子-->
+<div class="jd_container">
+    <!--顶部header-->
+    <div class="jd_header">
+        <a href="javascript:void(0)" class="header_logo"></a>
+        <span class="header_glass"></span>
+        <input type="search" class="header_search" placeholder="请输入搜索内容" >
+        <a href="javascript:void(0)" class="header_login">登录</a>
+    </div>
+    <!--广告轮播banner-->
+    <div class="jd_banner">
+        <ul class="banner_images clearfix"><!--多个样式-->
+            <li><a href="#"><img src="images/l8.jpg" alt=""></a> </li>
+            <li><a href="#"><img src="images/l1.jpg" alt=""></a> </li>
+            <li><a href="#"><img src="images/l2.jpg" alt=""></a> </li>
+            <li><a href="#"><img src="images/l3.jpg" alt=""></a> </li>
+            <li><a href="#"><img src="images/l4.jpg" alt=""></a> </li>
+            <li><a href="#"><img src="images/l5.jpg" alt=""></a> </li>
+            <li><a href="#"><img src="images/l6.jpg" alt=""></a> </li>
+            <li><a href="#"><img src="images/l7.jpg" alt=""></a> </li>
+            <li><a href="#"><img src="images/l8.jpg" alt=""></a> </li>
+            <li><a href="#"><img src="images/l1.jpg" alt=""></a> </li>
+        </ul>
+        <!--广告指示器 8个小圆点-->
+        <ul class="banner_pointer clearfix">
+            <li class="current"></li>
+            <li ></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!--导航栏-->
+    <!--快速语法,tab建生成-->
+    <!--div.jd_nav>ul.clearfix>li*8>a[href='#']>img[src='images/nav$.png']+p{分类查询}-->
+    <div class="jd_nav">
+        <ul class="clearfix">
+            <li><a href="list.html"><img src="images/nav0.png" alt="">
+                <p>分类查询</p>
+            </a></li>
+            <li><a href="#"><img src="images/nav1.png" alt="">
+                <p>分类查询</p>
+            </a></li>
+            <li><a href="#"><img src="images/nav2.png" alt="">
+                <p>分类查询</p>
+            </a></li>
+            <li><a href="#"><img src="images/nav3.png" alt="">
+                <p>分类查询</p>
+            </a></li>
+            <li><a href="#"><img src="images/nav4.png" alt="">
+                <p>分类查询</p>
+            </a></li>
+            <li><a href="#"><img src="images/nav5.png" alt="">
+                <p>分类查询</p>
+            </a></li>
+            <li><a href="#"><img src="images/nav6.png" alt="">
+                <p>分类查询</p>
+            </a></li>
+            <li><a href="#"><img src="images/nav7.png" alt="">
+                <p>分类查询</p>
+            </a></li>
+
+        </ul>
+    </div>
+    
+    <!--内容 html文件,也是先搭建主要框架,在往框架里面填内容-->
+    <div class="jd_main">
+        <!--第一个元素不一样-->
+        <div class="main_content">
+            <div class="content_top clearfix">
+                <span></span>
+                <p>账上秒杀</p>
+                <!--ul框架左浮动,li浮动了,所以要清楚浮动。所以class为float_left clearfix-->
+                <ul class="float_left clearfix">
+                    <li>0</li>
+                    <li>1</li>
+                    <li>:</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>:</li>
+                    <li>6</li>
+                    <li>7</li>
+                </ul>
+                <a href="#">更多&gt;</a>
+            </div>
+            <div class="content_bottom">
+                <ul class=" clearfix">
+                    <li><a href="#"><img src="images/detail01.jpg" alt=""></a>
+                        <p>110.00</p>
+                        <p>180.00</p>
+                    </li>
+                    <li><a href="#"><img src="images/detail02.jpg" alt=""></a>
+                        <p>210.00</p>
+                        <p>250.00</p>
+                    </li>
+                    <li><a href="#"><img src="images/detail01.jpg" alt=""></a>
+                        <p>30.00</p>
+                        <p>310.00</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="content_top clearfix">
+                <span class="float_left">京东超市</span>
+            </div>
+            <div class="content_bottom">
+                <ul class="clearfix">
+                    <li class="float_left border_r"><a href="#"><img src="images/cp1.jpg" alt=""></a></li>
+                    <li class="float_right border_b"><a href="#"><img src="images/cp2.jpg" alt=""></a></li>
+                    <li class="float_right"><a href="#"><img src="images/cp3.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="content_top clearfix">
+                <span class="float_left">京东超市</span>
+            </div>
+            <div class="content_bottom">
+                <ul class="clearfix">
+                    <li class="float_right border_l"><a href="#"><img src="images/cp1.jpg" alt=""></a></li>
+                    <li class="float_left border_b"><a href="#"><img src="images/cp2.jpg" alt=""></a></li>
+                    <li class="float_left"><a href="#"><img src="images/cp3.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="content_top clearfix">
+                <span class="float_left">京东超市</span>
+            </div>
+            <div class="content_bottom">
+                <ul class="clearfix">
+                    <li class="float_right border_l"><a href="#"><img src="images/cp1.jpg" alt=""></a></li>
+                    <li class="float_left border_b"><a href="#"><img src="images/cp2.jpg" alt=""></a></li>
+                    <li class="float_left"><a href="#"><img src="images/cp3.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+</body>
+</html>

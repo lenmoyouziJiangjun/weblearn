@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript">
+        function fetchTest() {
+            fetch("https://www.baidu.com").then(function (response) {
+                console.log(response);
+            }
+        )
+        }
+    </script>
+</head>
+<body>
+    <button onclick="fetchTest()">
+        点击我啊
+    </button>
+</body>
+</html>

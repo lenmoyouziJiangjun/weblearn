@@ -1,0 +1,19 @@
+<div class="play-item col-6" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+    <div class="item-content">
+        <div style="position: relative">
+            <img src="{{ item.icon }}" width="100%">
+            <div class="caption">
+                <span style="float:left"></span>
+                <span style="float: right">{{ item.count }}</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="one-line">{{ item.title }}</div>
+            <div class="gray smaller">
+                <span>{{ item.player.name }}</span>
+            </div>
+        </div>
+    </div>
+
+</div>

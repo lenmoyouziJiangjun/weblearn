@@ -1,0 +1,192 @@
+body{
+    background-color: #f4f5f6 !important;
+}
+
+.play-item-wf{
+    padding: 0;
+    margin: 0;
+    font-size: small;
+    width: 50%;
+}
+
+.white-bg{
+    background-color: white;
+}
+
+.gray-bg{
+    background-color: #fafafa;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #eee;
+}
+
+.play-item .info{
+    padding: 0 5px;
+}
+
+.small{
+    font-size: small;
+}
+
+.smaller{
+    font-size: smaller;
+}
+
+.pull-right{
+    float: right;
+}
+
+.pull-left{
+    float: left;
+}
+
+.round-border-5 {
+    border: solid gray 1px;
+    border-radius: 5px;
+}
+
+.item-content{
+    background-color: white;
+    margin: 5px;
+}
+
+.play-item .caption{
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    bottom: 0;
+    color: #fcfcfc;
+    font-size: x-small;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.gray{
+    color:#bbb;
+}
+
+.dark{
+    color: #333;
+}
+
+.one-line{
+    text-overflow: ellipsis ;
+    word-break:keep-all;/* 不换行 */
+    white-space:nowrap;/* 不换行 */
+    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+}
+
+.loading-prompt{
+    text-align: center;
+    color: #333;
+    padding: 10px 0;
+    margin-bottom: 0 !important;
+}
+
+a[title='站长统计']{
+    display: none;
+}
+
+.play-item-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: solid 1px #eee;
+    background-color: white;
+}
+
+.margin-top-5{
+    margin-top: 5px;
+}
+
+.media {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.media:first-child {
+  margin-top: 0;
+}
+.media,
+.media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+.media-body {
+  width: 10000px;
+}
+.media-object {
+  display: block;
+}
+.media-object.img-thumbnail {
+  max-width: none;
+}
+.media-right,
+.media > .pull-right {
+  padding-left: 10px;
+}
+.media-left,
+.media > .pull-left {
+  padding-right: 10px;
+}
+.media-left,
+.media-right,
+.media-body {
+  display: table-cell;
+  vertical-align: top;
+}
+.media-middle {
+  vertical-align: middle;
+}
+.media-bottom {
+  vertical-align: bottom;
+}
+.media-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.media-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.ghost {
+    opacity: .5;
+}
+.ghost>*{
+    background-color: red;
+}
+
+.js-sortable{
+    position: relative;
+}
+
+.ratio1_1:before{
+    padding-top: 100%; 	/* initial ratio of 1:1*/
+}
+
+.ratio2_1:before{
+	padding-top: 50%;
+}
+.ratio1_2:before{
+	padding-top: 200%;
+}
+.ratio4_3:before{
+	padding-top: 75%;
+}
+.ratio16_9:before{
+	padding-top: 56.25%;
+}
+
+.img-wrapper:before{
+    content: "";
+	display: block;
+    overflow: hidden;
+}
+
+.img-wrapper>img{
+    position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}

@@ -1,0 +1,42 @@
+offsetHeight:   元素高，height+border+padding
+offsetWidth:    元素宽，width+border+padding
+offsetTop:      上边距离带有定位的父盒子的距离（重要）
+offsetLeft:	左边距离带有定位的父盒子的距离（重要）
+offsetParent:	最近的带有定位的父盒子
+
+
+scrollHeight:   内容高，不含border
+scrollWidth:    内容宽，不含border
+scrollTop:  	document.documentELement.scrollTop || document.body.scrollTop; （重要）window.pageXOffset;
+			浏览器页面被卷去的头部
+	    	元素调用.必须具有滚动条的盒子调用。盒子本身遮挡住的子盒子内容。
+			子盒子被遮挡住的头部
+scrollLeft: 	document.documentELement.scrollLeft:  || document.body.scrollLeft: ; （重要）window.pageYOffset;
+			浏览器页面被卷去的左侧
+	    	元素调用.必须具有滚动条的盒子调用。盒子本身遮挡住的子盒子内容。
+			子盒子被遮挡住的左侧
+
+
+clientHeight:   元素高，height+padding;   	
+		window.innerHeight;	document.body.clientHeight     可视区域的高
+clientWidth:    元素宽，width+padding;	  	
+		window.innerWidth;	document.documentElementWidth; 可视区域的宽
+clientTop:   	元素的上border宽
+clientLeft:    	元素的左border宽
+clientY		调用者：event.clientY(event)（重要）
+		作用：鼠标距离浏览器可视区域的距离，上
+clientX		调用者：event.clientX(event)（重要）
+		作用：鼠标距离浏览器可视区域的距离，左			
+
+
+
+
+
+
+
+
+
+
+
+
+

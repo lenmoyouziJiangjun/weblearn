@@ -1,0 +1,12 @@
+<div class="media play-item-1" onclick="window.play && window.play('{{ item.url }}', '{{ item.id }}');">
+
+    <div class="media-left media-middle">
+        <img class="media-object" height="50px" src="{{ item.icon }}">
+    </div>
+    <div class="media-body">
+        <div class="dark">{{ item.title }}</div>
+        <div class="gray smaller">
+            <span class="player-name">{{ item.player.name }}</span>
+        </div>
+    </div>
+</div>

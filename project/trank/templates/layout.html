@@ -1,0 +1,32 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+
+<div>
+    {% block content %}
+
+    {% endblock %}
+
+{% csrf_token %}
+</div>
+
+<script type="text/javascript" src="{% static 'js/zepto.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/zepto.csrf.js' %}"></script>
+<script type="text/javascript" src="http://app.etlong.cn/static/js/cordova.js"></script>
+<script type="text/javascript" src="{% static 'js/util.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+<script type="text/javascript" src="https://s11.cnzz.com/z_stat.php?id=1260982520&web_id=1260982520"></script>
+<script type="text/javascript" src="{% static 'js/cnzz.js' %}"></script>
+{% block scripts %}
+{% endblock %}
+</body>
+</html>

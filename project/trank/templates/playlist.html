@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    <div id="js-play-list">
+        {% block playlist %}
+            {% include 'playlist_partial.html' %}
+        {% endblock %}
+    </div>
+
+    <div id="js-loading" style="clear:both;">
+        <p class="loading-prompt">加载更多...</p>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript" src="{% static 'js/playlist.js' %}"></script>
+    <script type="text/javascript">
+        window.playlist && playlist.init("{{ partial_url }}", "{{ c }}", 10);
+    </script>
+    {% block other_scripts %}
+    {% endblock %}
+{% endblock %}

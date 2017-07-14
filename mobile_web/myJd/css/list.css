@@ -1,0 +1,154 @@
+body {
+    overflow: hidden;
+    width: 100%;
+    background-color: #eee;
+}
+
+.list_container {
+    width: 100%;
+    height: 100%;
+}
+
+.list_container .header {
+    width: 100%;
+    height: 45px;
+    /*设置背景*/
+    background-image: url("../images/header-bg.png");
+    background-size: 1px 45px;
+    background-repeat: repeat-x;
+
+    position: relative;
+    padding-left: 40px;
+    padding-right: 50px;
+
+    z-index: 10000; /*设置层级,越大越前面*/
+}
+
+/*第一个a标签*/
+.header a:nth-child(1) {
+    line-height: 45px;
+    color: gray;
+    font-size: 25px;
+    position: absolute;
+    left: 10px;
+}
+
+.header input {
+    width: 100%;
+    height: 31px;
+    margin-top: 7px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    padding-left: 5px;
+}
+
+/*第二个a标签*/
+.header a:nth-child(3) {
+    background-image: url('../images/sprites.png');
+    background-size: 200px 200px;
+    background-position: -60px 0;
+    width: 40px;
+    height: 44px;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+
+    /* 将内容 压缩到 20*20 */
+    padding: 12px 10px;
+
+    /* 设置 背景图 开始的位置 */
+    background-origin: content-box;
+    /* 设置背景图 保留的区域 */
+    background-clip: content-box;
+}
+
+/*main样式*/
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.main .main_left {
+    width: 90px;
+    height: 100%;
+    background-color: #eee;
+}
+
+.main .main_left ul {
+    width: 100%;
+    /*height: 100%; 不能设置为100%,100%的话,就跟父盒子一样大小,就没有滚动了*/
+}
+
+.main .main_left ul li {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+}
+
+.main .main_left ul li a {
+    color: black;
+    /* 为了 让 a标签的点击范围 正大 避免 出现用户 点击li标签的情况 */
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+
+.main .main_left ul li.current {
+    border-right: none;
+    background-color: #eee;
+}
+
+.main .main_left ul li.current a {
+    color: rgb(201, 21, 35);
+}
+
+
+
+/*设置右边*/
+.main .main_right{
+    overflow: hidden;
+    /* 顶部 左右 底部为0 */
+    padding: 10px 10px 0;
+}
+/* a标签 不要设置 宽度 自适应 */
+.main .main_right .right_banner{
+    display: block;
+    width: 100%;
+}
+.main .main_right .right_banner img {
+    display: block;
+    width: 100%;
+}
+
+.main .main_right h3{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+/* 右边区域的 列表部分 */
+.main .main_right ul{
+    width: 100%;
+    padding-top: 10px;
+}
+.main .main_right ul li{
+    width: 33.3333%;
+    float: left;
+}
+.main .main_right ul li a{
+    display: block;
+    width: 100%;
+}
+.main .main_right ul li a img{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+.main .main_right ul li a p{
+    text-align: center;
+    color: black;
+    padding: 4px 0;
+    font-size: 13px;
+}

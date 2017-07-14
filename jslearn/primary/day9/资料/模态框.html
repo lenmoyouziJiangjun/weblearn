@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .mask {
+            background: rgba(0, 0, 0, .7);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+        .logan {
+            width: 400px;
+            height: 300px;
+            margin: 200px auto;
+            background-color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+<a href="#">注册</a>
+<a href="#">登录</a>
+<div class="mask">
+    <div class="logan"></div>
+</div>
+
+<script>
+    var aArr = document.getElementsByTagName("a");
+    var mask = document.getElementsByClassName("mask")[0];
+    var logan = document.getElementsByClassName("logan")[0];
+
+    aArr[1].onclick = function () {
+        mask.style.display = "block";
+        if(event && event.stopPropagation){
+            event.stopPropagation();
+        }else{
+            event.cancelBubble = true;
+        }
+    }
+    document.onclick = function (event) {
+        if(event.target.className != "logan"){
+            mask.style.display = "none";
+        }
+    }
+
+
+</script>
+
+</body>
+</html>
