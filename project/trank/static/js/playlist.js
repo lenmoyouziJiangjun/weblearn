@@ -28,7 +28,7 @@ playlist.init = function (url, category, num) {
                 if ($(html).length + 1 < 2 * num) {
                     has_more = false;
                     $("#js-loading").remove();
-                    //$(".loading-prompt").html("没有更多了...");
+                    //$(".loading-prompt").zhtml("没有更多了...");
                     //$("#js-loading").removeAttr("id");
                 }
             }

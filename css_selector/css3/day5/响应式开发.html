@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>响应式开发</title>
+
+
+    <!--响应式开发,主要是CSS3后出现的,根据不同屏幕采用不同CSS实现。
+        基于CSS3的媒体查询: 类似与C++的条件预编译
+        基本语法
+        @media not|only mediatype and (expressions) {
+               CSS-Code;
+        }
+
+        //引用多媒体的CSS文件
+        <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css">
+    -->
+    <style type="text/css">
+
+
+        /*
+         表示320以上尺寸使用这个样式 "@media screen and ("注意之间的空格,没有空格不起作用
+        */
+        @media screen and (min-width: 300px) {
+            body {
+                background-color: lightgray;
+            }
+        }
+
+        /**
+           480到720之间
+        */
+        @media screen and (min-width: 480px) and (max-width: 720px) {
+            body {
+                background-color: greenyellow;
+            }
+        }
+
+        /*
+        * 800以上使用这个样式
+        */
+        @media screen and (min-width: 800px) {
+            body {
+                background-color: skyblue;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+</body>
+</html>
