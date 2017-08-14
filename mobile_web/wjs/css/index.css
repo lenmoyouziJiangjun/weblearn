@@ -1,0 +1,151 @@
+body {
+    background-color: #f7f7f7;
+}
+
+/*顶部*/
+
+.header .row > div {
+    height: 40px;
+    border: 1px solid gray;
+    text-align: center; /*元素居中对齐*/
+    line-height: 40px;
+}
+
+.header .row > div > a {
+    color: gray;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/*div 大于3的孩子的a 标签*/
+.header .row > div:nth-child(n+3) a {
+    margin-left: 10px;
+}
+
+.header .container-fluid .row :nth-child(1) a img {
+    display: none; /*默认隐藏*/
+    position: absolute;
+    top: 25px;
+    left: -18px;
+}
+
+/*鼠标移动到a标签上面显示image*/
+.header .container-fluid .row :nth-child(1) a:hover img {
+    display: block; /*默认隐藏*/
+}
+
+/***********************导航栏*******************/
+
+.wjs-default {
+    background-color: #e7e7e7;
+    min-height: 80px;
+    margin-bottom: 0px;
+}
+
+.wjs-default .navbar-brand {
+    color: #777;
+    height: 80px;
+    line-height: 50px;
+}
+
+.wjs-default .navbar-brand .wjsfont-logo {
+    color: red;
+    font-size: 50px;
+    transform: translateY(-15px);
+}
+
+.wjs-default .navbar-brand .wjsfont-name {
+    color: black;
+    font-size: 70px;
+    transform: translateY(-5px);
+}
+
+.wjs-default .navbar-brand:hover,
+.wjs-default .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+
+.wjs-default .navbar-text {
+    color: #777;
+}
+
+.wjs-default .navbar-nav > li > a {
+    color: #777;
+    height: 80px;
+    line-height: 50px;
+}
+
+.wjs-default .navbar-nav > li > a:hover,
+.wjs-default .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+    border-bottom: 3px solid red;
+}
+
+.wjs-default .navbar-nav > .active > a,
+.wjs-default .navbar-nav > .active > a:hover,
+.wjs-default .navbar-nav > .active > a:focus {
+    color: #555;
+    /* background-color: #e7e7e7; */
+    height: 80px;
+    line-height: 50px;
+    /* border-bottom: 3px solid red; */
+}
+
+.wjs-default .navbar-nav > .disabled > a,
+.wjs-default .navbar-nav > .disabled > a:hover,
+.wjs-default .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+
+
+@media (max-width: 767px) {
+    .wjs-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .wjs-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .wjs-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .wjs-default .navbar-nav .open .dropdown-menu > .active > a,
+    .wjs-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .wjs-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+    .wjs-default .navbar-nav .open .dropdown-menu > .disabled > a,
+    .wjs-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .wjs-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+
+
+/*轮播图样式*/
+
+.banner .banner_a {
+    height: 410px;
+    display: block;/* 不写这句显示不出来,*/
+    /*中间内容保留,多余的部分被自动切割*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*class之间不空格,表示两个class都有*/
+.banner .banner_a.image_1{
+    background-image: url('../images/slide_01_2000x410.jpg');
+}
+.banner .banner_a.image_2{
+    background-image: url('../images/slide_02_2000x410.jpg');
+}
+.banner .banner_a.image_3{
+    background-image: url('../images/slide_03_2000x410.jpg');
+}
+.banner .banner_a.image_4{
+    background-image: url('../images/slide_04_2000x410.jpg');
+}

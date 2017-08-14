@@ -6,6 +6,7 @@
     <script src="https://cdn.rawgit.com/icons8/titanic/master/dist/js/titanic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.5.9/bodymovin.min.js"></script>
     <script type="application/javascript">
+        //参考网站:https://github.com/icons8/titanic
         var titanic = new Titanic({
             hover: true, // auto animated on hover (default true)
             click: true  // auto animated on click/tap (default false)
@@ -13,7 +14,8 @@
     </script>
 </head>
 <body>
-<div class='titanic titanic-checkbox'></div>
-<button onclick="titanic.on(getElementById('checkbox').value)">On</button>
+<div class='titanic titanic-checkbox'>
+    <button onclick="titanic.on(getElementById('checkbox').value)">On</button>
+</div>
 </body>
 </html>

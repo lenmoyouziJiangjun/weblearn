@@ -1,0 +1,98 @@
+/*css3 中字体的使用:http://www.w3cplus.com/content/css3-font-face
+
+   自己封装一个字体
+*/
+
+@font-face {
+    font-family: "wjs-font";/*指定字体名字*/
+    src: url("../fonts/MiFie-Web-Font.eot"); /*字体存放路径 ie9*/
+    src: url('../fonts/MiFie-Web-Font.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/MiFie-Web-Font.woff') format('woff'), /* Modern Browsers */ url('../fonts/MiFie-Web-Font.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/MiFie-Web-Font.svg#glyphicon_halflingsregular') format('svg'); /* Legacy iOS */
+}
+
+.wjsfont {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'wjs-font';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*伪元素 ":"和"::"都可以*/
+.wjs-E900::before{
+    content:'\e900';
+}
+
+.wjsfont-logo::before{
+    content: '\e920';
+}
+.wjsfont-name::before{
+    content: '\e921';
+}
+
+.wjsfont-e903::before{
+    content: '\e903';
+}
+.wjsfont-e901::before{
+    content: '\e901';
+}
+.wjsfont-e904::before{
+    content: '\e904';
+}
+.wjsfont-e905::before{
+    content: '\e905';
+}
+.wjsfont-e902::before{
+    content: '\e902';
+}
+
+/* 添加 产品列表的 文字样式 */
+.wjsfont-e915::before{
+    content:'\e915';
+}
+
+.wjsfont-new01::before{
+    content: "\e90e";
+}
+.wjsfont-new02::before{
+    content: "\e90f";
+}
+.wjsfont-new03::before{
+    content: "\e910";
+}
+.wjsfont-new04::before{
+    content: "\e911";
+}
+
+/* 网页 最下方的 合作单位 */
+.wjsfont-partner01::before{
+    content:"\e946";
+}
+.wjsfont-partner02::before{
+    content: "\e92f";
+}
+.wjsfont-partner03::before{
+    content: "\e92e";
+}
+.wjsfont-partner04::before{
+    content: "\e92a";
+}
+.wjsfont-partner05::before{
+    content: "\e929";
+}
+.wjsfont-partner06::before{
+    content: "\e931";
+}
+.wjsfont-partner07::before{
+    content: "\e92c";
+}
+.wjsfont-partner08::before{
+    content: "\e92b";
+}
+.wjsfont-partner09::before{
+    content: "\e92d";
+}
