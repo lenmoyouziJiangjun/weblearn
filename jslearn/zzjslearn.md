@@ -1,6 +1,9 @@
 #jslearn
 ##datastructure 数据结构和常用算法
 ##designpatterns 设计模式
+                 *1、参考网站:
+                     1、https://segmentfault.com/a/1190000007899742
+
 ##opensource   优秀开源的项目
 ##primary   js基础语法学习
 ##senior    js高级应用,一些优秀算法的js实现等等

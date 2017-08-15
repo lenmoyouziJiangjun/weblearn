@@ -100,22 +100,24 @@ body {
     background-color: transparent;
 }
 
-
 @media (max-width: 767px) {
     .wjs-default .navbar-nav .open .dropdown-menu > li > a {
         color: #777;
     }
+
     .wjs-default .navbar-nav .open .dropdown-menu > li > a:hover,
     .wjs-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #333;
         background-color: transparent;
     }
+
     .wjs-default .navbar-nav .open .dropdown-menu > .active > a,
     .wjs-default .navbar-nav .open .dropdown-menu > .active > a:hover,
     .wjs-default .navbar-nav .open .dropdown-menu > .active > a:focus {
         color: #555;
         background-color: #e7e7e7;
     }
+
     .wjs-default .navbar-nav .open .dropdown-menu > .disabled > a,
     .wjs-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
     .wjs-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -124,12 +126,11 @@ body {
     }
 }
 
-
 /*轮播图样式*/
 
 .banner .banner_a {
     height: 410px;
-    display: block;/* 不写这句显示不出来,*/
+    display: block; /* 不写这句显示不出来,*/
     /*中间内容保留,多余的部分被自动切割*/
     background-size: cover;
     background-position: center;
@@ -137,15 +138,56 @@ body {
 }
 
 /*class之间不空格,表示两个class都有*/
-.banner .banner_a.image_1{
+.banner .banner_a.image_1 {
     background-image: url('../images/slide_01_2000x410.jpg');
 }
-.banner .banner_a.image_2{
+
+.banner .banner_a.image_2 {
     background-image: url('../images/slide_02_2000x410.jpg');
 }
-.banner .banner_a.image_3{
+
+.banner .banner_a.image_3 {
     background-image: url('../images/slide_03_2000x410.jpg');
 }
-.banner .banner_a.image_4{
+
+.banner .banner_a.image_4 {
     background-image: url('../images/slide_04_2000x410.jpg');
 }
+
+/*专为移动端设计的css*/
+.banner .mobile_a {
+    display: block;
+    width: 100%;
+}
+
+.banner .mobile_a > img { /*没有设置高度,由子元素自动填充*/
+    display: block;
+    width: 100%;
+}
+
+.info{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #00b0e7;
+}
+.info .container{
+    max-width: 910px;
+}
+.info .container .row{}
+.info .container .row .item{
+    margin-top: 20px;
+}
+.info .container .row .item a{
+    color: gray;
+}
+.info .container .row .item a:hover{
+    color: red;
+}
+/* 字体图标 */
+.info .container .row .item a .wjsfont{
+    font-size: 40px;
+    /* transform: translateY(-4px); */
+}
+

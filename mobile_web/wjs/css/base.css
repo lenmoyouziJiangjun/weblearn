@@ -23,7 +23,7 @@
 }
 
 /*伪元素 ":"和"::"都可以*/
-.wjs-E900::before{
+.wjsfont-E900::before{
     content:'\e900';
 }
 
