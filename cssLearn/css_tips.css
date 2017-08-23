@@ -1,0 +1,24 @@
+
+body {
+
+}
+
+/*清除浮动*/
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+/*兼容ie浏览器*/
+.clearfix {
+    zoom: 1;
+}
+
+/*水平居中*/
+.centerHorizontal{
+    margin: 0 auto;
+}

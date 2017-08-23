@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+
+		/*
+		* float 主要是讲块元素,布局成行元素。主要有两个方向:left,right
+
+		   1、浮动后,脱离了标准的文档流(自上而下,从左向下),同时不占据原来的位置
+           2、行内元素(例如span),浮动后转为行内块; 不推荐使用,转行内元素,最好用display:inline-block
+		    3、文字跟浮动元素不覆盖。
+		*/
+
+		.header,.main,.footer{
+			width:600px;
+
+		}
+		.header{
+			height: 100px;
+			background: #000;
+		}
+		.main{
+			height: 300px;
+			background: #eee;
+			margin: 10px 0;
+		}
+		.content{
+			width: 300px;
+			height: 300px;
+			background: orange;
+			float: left;
+		}
+		.sidebar{
+			width: 190px;
+			height: 300px;
+			background: green;
+			float: right;
+		}
+
+
+		.footer .left_div{
+			float: left;
+			width: 100px;
+			height: 200px;
+			background: black;
+			/*display: inline-block;*/
+		}
+		.footer .center_div{
+			width: 100px;
+			height: 200px;
+			display: inline-block;
+			/*background-color: #00b0e0;*/
+		}
+
+		.footer .right_div{
+			float: right;
+			width: 100px;
+			height: 200px;
+			/*display: inline-block;*/
+			background: red;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="header"></div>
+	<div class="main">
+		<div class="content"></div>
+		<div class="sidebar"></div>
+	</div>
+	<div class="footer">
+		<div class="left_div"></div>
+		<div class="center_div"></div>
+		<div class="right_div"></div>
+	</div>
+</body>
+</html>

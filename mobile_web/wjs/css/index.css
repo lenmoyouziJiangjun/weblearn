@@ -1,5 +1,7 @@
 body {
     background-color: #f7f7f7;
+
+    padding-bottom: 60px;
 }
 
 /*顶部*/
@@ -165,29 +167,106 @@ body {
     width: 100%;
 }
 
-.info{
+.info {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #00b0e7;
 }
-.info .container{
+
+.info .container {
     max-width: 910px;
 }
-.info .container .row{}
-.info .container .row .item{
+
+.info .container .row {
+}
+
+.info .container .row .item {
     margin-top: 20px;
 }
-.info .container .row .item a{
+
+.info .container .row .item a {
     color: gray;
 }
-.info .container .row .item a:hover{
+
+.info .container .row .item a:hover {
     color: red;
 }
+
 /* 字体图标 */
-.info .container .row .item a .wjsfont{
+.info .container .row .item a .wjsfont {
     font-size: 40px;
     /* transform: translateY(-4px); */
 }
+
+.book {
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    padding: 20px;
+}
+
+.book .container {
+    max-width: 910px; /*最大宽度*/
+}
+
+.book .container .bookNow {
+    color: red;
+    border-bottom: 1px dashed red;
+    text-decoration: none;
+}
+
+.book .container .movie {
+    color: gray;
+}
+
+.book .container .movie:hover {
+    color: red;
+}
+
+/*产品列表*/
+.wjs_products {
+    padding: 0px 15px 30px;
+}
+
+.wjs_products .wjs-tabs {
+    border-bottom: 1px solid #ddd;
+    padding: 0 15px;
+}
+
+.wjs_products .wjs-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.wjs_products .wjs-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    /*   border: 1px solid transparent; */
+    border-radius: 4px 4px 0 0;
+    color: gray;
+}
+
+.wjs_products .wjs-tabs > li > a:hover {
+    border-color: #eee #eee #ddd;
+}
+
+.wjs_products .wjs-tabs > li.active > a,
+.wjs_products .wjs-tabs > li.active > a:hover,
+.wjs_products .wjs-tabs > li.active > a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    /*   border: 1px solid #ddd; */
+    border-bottom: 3px solid red;
+    /*   border-bottom-color: transparent; */
+}
+
+
+
+
+
+
+
+
+
 

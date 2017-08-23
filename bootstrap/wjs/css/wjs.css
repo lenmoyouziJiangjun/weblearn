@@ -1,0 +1,669 @@
+body{
+  background-color: #f7f7f7;
+}
+/* 顶部 */
+.header{
+	height: 40px;
+	border: 1px solid gray;
+}
+.header .container-fluid{
+	height: 100%;
+}
+.header .container-fluid .row{
+	height: 100%;
+}
+.header .container-fluid .row>div{
+	height: 100%;
+	line-height: 40px;
+	border-right: 1px solid gray;
+	text-align: center;
+}
+/* 顶部 栅格1 */
+.header .container-fluid .row .first{}
+.header .container-fluid .row .first a{
+	font-size: 12px;
+	color: gray;
+	text-decoration: none;
+	position: relative;
+}
+.header .container-fluid .row .first a img{
+	display: none;
+	position: absolute;
+	top: 25px;
+	left: -18px;
+}
+.header .container-fluid .row .first a:hover img{
+	display: block;
+}
+
+/* 栅格  的第二个*/
+.header .container-fluid .row .second{}
+.header .container-fluid .row .second a{
+	color: gray;
+	font-size: 12px;
+}
+
+/* 栅格的 第三个 */
+.header .container-fluid .row .third{}
+.header .container-fluid .row .third a{
+	color: gray;
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+/* 栅格的 最后一个 */
+.header .container-fluid .row .fourth{}
+.header .container-fluid .row .fourth a{
+	font-size: 12px;
+	color: gray;
+	margin: 0px 15px;
+}
+.header .container-fluid .row .fourth a:first-child{
+	color: white;
+	padding: 3px 13px;
+}
+
+
+/*  这里写的是 nav的 样式 自定义的 样式 */
+.wjs-default {
+  border-color: #e7e7e7;
+  min-height: 80px;
+  margin-bottom: 0px;
+}
+/* 左侧的 图标 */
+.wjs-default .navbar-brand {
+  color: #777;
+  height: 80px;
+  line-height: 50px;
+}
+
+/* 为自定义的 字体图标添加样式 */
+.wjs-default .navbar-brand .wjsfont-logo{
+  color: red;
+  font-size: 50px;
+  transform: translateY(-15px);
+}
+.wjs-default .navbar-brand .wjsfont-name{
+color: black;
+font-size: 70px;
+transform: translateY(-5px);
+}
+
+.wjs-default .navbar-brand:hover,
+.wjs-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.wjs-default .navbar-text {
+  color: #777;
+}
+.wjs-default .navbar-nav > li > a {
+  color: #777;
+  height: 80px;
+  line-height: 50px;
+}
+.wjs-default .navbar-nav > li > a:hover,
+.wjs-default .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+    border-bottom: 3px solid red;
+}
+.wjs-default .navbar-nav > .active > a,
+.wjs-default .navbar-nav > .active > a:hover,
+.wjs-default .navbar-nav > .active > a:focus {
+  color: #555;
+  /* background-color: #e7e7e7; */
+  height: 80px;
+  line-height: 50px;
+  /* border-bottom: 3px solid red; */
+}
+.wjs-default .navbar-nav > .disabled > a,
+.wjs-default .navbar-nav > .disabled > a:hover,
+.wjs-default .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.wjs-default .navbar-toggle {
+  border-color: #ddd;
+  margin-top: 25px;
+}
+.wjs-default .navbar-toggle:hover,
+.wjs-default .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.wjs-default .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.wjs-default .navbar-collapse,
+.wjs-default .navbar-form {
+  border-color: #e7e7e7;
+}
+.wjs-default .navbar-nav > .open > a,
+.wjs-default .navbar-nav > .open > a:hover,
+.wjs-default .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .wjs-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .wjs-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .wjs-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .wjs-default .navbar-nav .open .dropdown-menu > .active > a,
+  .wjs-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .wjs-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .wjs-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .wjs-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .wjs-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.wjs-default .navbar-link {
+  color: #777;
+}
+.wjs-default .navbar-link:hover {
+  color: #333;
+}
+.wjs-default .btn-link {
+  color: #777;
+}
+.wjs-default .btn-link:hover,
+.wjs-default .btn-link:focus {
+  color: #333;
+}
+.wjs-default .btn-link[disabled]:hover,
+fieldset[disabled] .wjs-default .btn-link:hover,
+.wjs-default .btn-link[disabled]:focus,
+fieldset[disabled] .wjs-default .btn-link:focus {
+  color: #ccc;
+}
+
+
+/* 微金所 轮播图 样式 */
+/* 桌面端的 轮播图片样式 */
+.carousel-inner{}
+.carousel-inner .item{}
+.carousel-inner .item .move-image{
+  height: 410px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* 背景图 跟着 父盒子 缩放 */
+  background-size: cover;
+}
+.carousel-inner .item .move-image.img01{
+  background-image: url(../images/slide_01_2000x410.jpg);
+}
+.carousel-inner .item .move-image.img02{
+  background-image: url(../images/slide_02_2000x410.jpg);
+}
+.carousel-inner .item .move-image.img03{
+  background-image: url(../images/slide_03_2000x410.jpg);
+}
+.carousel-inner .item .move-image.img04{
+  background-image: url(../images/slide_04_2000x410.jpg);
+}
+
+
+/* 移动端 */
+
+.carousel-inner .item a{
+  display: block;
+  width: 100%;
+}
+.carousel-inner .item a img{
+  display: block;
+  width: 100%;
+}
+
+
+/* 微金所 信息  */
+.info{
+  padding: 50px;
+}
+.info .container{
+  max-width: 910px;
+}
+.info .container .row{}
+.info .container .row .item{
+  margin-top: 20px;
+}
+.info .container .row .item a{
+  color: gray;
+}
+.info .container .row .item a:hover{
+  color: red;
+}
+/* 字体图标 */
+.info .container .row .item a .wjsfont{
+  font-size: 40px;
+  /* transform: translateY(-4px); */
+}
+
+
+/* 微金所 预约信息 */
+.book{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 20px;
+}
+/* 添加最大宽度 */
+.book .container{
+  max-width: 910px;
+}
+.book .container  .bookNow{
+  color: red;
+  border-bottom: 1px dashed red;
+  text-decoration: none;
+}
+
+.book .container .movie{
+  color: gray;
+}
+.book .container .movie:hover{
+  color: red;
+}
+
+
+/* 下方 产品列表的 样式 */
+/* 最外层盒子 */
+.wjs_products{
+    padding: 0px 15px 30px;
+}
+.wjs-tabs {
+  border-bottom: 1px solid #ddd;
+  padding: 0 15px;
+}
+.wjs-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.wjs-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+/*   border: 1px solid transparent; */
+  border-radius: 4px 4px 0 0;
+  color: gray;
+}
+.wjs-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+}
+.wjs-tabs > li.active > a,
+.wjs-tabs > li.active > a:hover,
+.wjs-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+/*   border: 1px solid #ddd; */
+border-bottom: 3px solid red;
+/*   border-bottom-color: transparent; */
+}
+.wjs-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.wjs-tabs.nav-justified > li {
+  float: none;
+}
+.wjs-tabs.nav-justified > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.wjs-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .wjs-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .wjs-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+.wjs-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.wjs-tabs.nav-justified > .active > a,
+.wjs-tabs.nav-justified > .active > a:hover,
+.wjs-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
+  .wjs-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .wjs-tabs.nav-justified > .active > a,
+  .wjs-tabs.nav-justified > .active > a:hover,
+  .wjs-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}
+
+/* 产品标签页 */
+.items{}
+.items .item{
+  /* border: 1px solid #0094ff; */
+}
+
+
+/* 产品标签页 内容中 的 a标签们 */
+.product_box{
+  margin-top: 20px;
+  display: block;
+  box-shadow: 2px 2px  3px gray;
+  height: 150px;
+  width: 100%;
+  /* 禁用 下划线 */
+  text-decoration: none;
+}
+.product_box:hover{
+   text-decoration: none;
+}
+.product_box.active{
+    background-color: red;
+}
+
+/* 产品标签页 内部的 左右两个 小盒子 */
+.product_box .box_left{
+overflow: hidden;
+}
+.product_box .box_right{
+  float: right;
+  height: 100%;
+  width: 108px;
+}
+
+/* 产品 标签页 左边盒子的 内容样式 */
+/* active 特殊样式 */
+.product_box.active .box_left h3{
+    color: white;
+}
+.product_box .box_left h3{
+  color: gray;
+  text-align: center;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "微软雅黑";
+  height: 16px;
+  overflow: hidden;
+  font-weight: 900;
+}
+.product_box.active .box_left p{
+color: white;
+}
+.product_box .box_left p{
+  color: gray;
+  font-size: 12px;
+  margin: 0px;
+  padding: 3px;
+  height: 20px;
+  overflow: hidden;
+    font-weight: 900;
+    font-family: '微软雅黑';
+}
+
+.product_box .box_left .col-xs-6{
+  margin-bottom: 5px;
+}
+.product_box .box_left .col-xs-6.left_col{
+  text-align: left;
+}
+.product_box .box_left .col-xs-6.right_col{
+  text-align: right;
+}
+
+/* 右边的盒子 */
+.product_box.active .box_right{
+    border-left: 1px dashed white;
+}
+.product_box .box_right{
+  padding-top: 30px;
+  border-left: 1px dashed gray;
+  position: relative;
+}
+.product_box.active .box_right p{
+  color: white;
+}
+.product_box .box_right p{
+  text-align: center;
+  color: gray;
+  font-family: "微软雅黑";
+  font-weight: 900;
+}
+.product_box .box_right .percent{
+font-size: 35px;
+font-weight: 900;
+}
+.product_box .box_right .percent span{
+  font-size: 12px;
+}
+
+/* 右边盒子 通过伪元素   实现 上下的 圆角效果*/
+.product_box .box_right::before{
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  top: -10px;
+  left: -10px;
+  box-shadow: 0px 1px 0px gray;
+}
+.product_box .box_right::after{
+    content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  bottom: -10px;
+  left: -10px;
+    box-shadow: 0px -1px 0px gray;
+}
+
+/* 产品盒子 的 伪元素 */
+.product_box::before{
+  font-size: 40px;
+  color: white;
+  position: absolute;
+}
+
+/* 为 a标签 内部的 右边的 盒子 中的 弹框 div 写样式 */
+.product_box .popinfo_box{
+  text-align: center;
+}
+.product_box .popinfo_box span:first-child{
+color: green;
+border: 1px solid green;
+}
+/* 找到 此种 类型的 最后一个 */
+.product_box .popinfo_box span:last-of-type{
+color: red;
+border: 1px solid red;
+}
+
+/* wsj-新闻的 样式 */
+.wjs_news{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background-color: white;
+}
+.wjs_news .row{}
+
+.wjs_news .row>div{
+  /* border: 1px solid #0094ff; */
+}
+
+/* h3标签的 新闻 */
+.wjs_news .row .col-md-offset-2 h3{
+  text-align: center;
+  line-height: 40px;
+  height: 50px;
+  border-bottom: 1px solid gray;
+  position: relative;
+}
+
+.wjs_news .row .col-md-offset-2 h3::before{
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  bottom: -4px;
+  right: -8px;
+}
+
+
+/* 新闻列表 下方的 标签页 样式 */
+.wjs-news-tabs {
+  border-bottom: 1px solid #ddd;
+  margin-top: 20px;
+}
+.wjs-news-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+  width: 100%;
+}
+
+/* 添加媒体 查询的 代码 让 li标签 在指定的 屏幕宽度下 为25%的宽度 即可 */
+@media screen and (max-width: 768px){
+          .wjs-news-tabs > li {
+          width: 25%;
+        }
+}
+
+.wjs-news-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  margin-bottom: 60px;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #ccc;
+  font-size: 40px;
+  color: white;
+}
+
+/* 为 最后一个 li标签 下放的 a标签 取出 margin-bottom */
+.wjs-news-tabs > li:last-child > a{
+  margin-bottom: 0px;
+}
+
+.wjs-news-tabs > li > a:hover {
+  /* border-color: #eee #eee #ddd; */
+  background-color: red;
+}
+.wjs-news-tabs > li.active > a,
+.wjs-news-tabs > li.active > a:hover,
+.wjs-news-tabs > li.active > a:focus {
+  cursor: default;
+  background-color: red;
+  color: white;
+}
+.wjs-news-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.wjs-news-tabs.nav-justified > li {
+  float: none;
+}
+.wjs-news-tabs.nav-justified > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.wjs-news-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .wjs-news-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .wjs-news-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+.wjs-news-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.wjs-news-tabs.nav-justified > .active > a,
+.wjs-news-tabs.nav-justified > .active > a:hover,
+.wjs-news-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
+  .wjs-news-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .wjs-news-tabs.nav-justified > .active > a,
+  .wjs-news-tabs.nav-justified > .active > a:hover,
+  .wjs-news-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}
+
+/* 新闻列表 栅格2 下面的 线段 */
+.wjs_news .col-md-2{
+  overflow: hidden;
+}
+.wjs_news .tab_line{
+  height: 100%;
+  width: 1px;
+  border-left: 1px dashed gray;
+  position: absolute;
+  top: 22px;
+  left: 50px;
+}
+
+/* 新闻列表 栅格3 下面的 ul标签样式 */
+.wjs_news .col-md-6{}
+.wjs_news .col-md-6 ul{
+  list-style: none;
+  margin-top: 20px;
+}
+.wjs_news .col-md-6 ul li{
+  padding: 10px 0;
+}
+.wjs_news .col-md-6 ul li a{
+  color: gray;
+}
+
+/* 微金所 最下方 合作单位的 */
+.friend_company{
+  text-align: center;
+}
+.friend_company h3{
+  text-align: center;
+}
+.friend_company ul{
+  list-style: none;
+  display: inline-block;
+}
+.friend_company ul li{
+  float: left;
+  padding: 0 20px;
+}
+.friend_company ul li a{
+  font-size: 70px;
+  color: gray;
+  text-decoration: none;
+}

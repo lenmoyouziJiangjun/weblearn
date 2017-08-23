@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+
+        body, ul, li { /* 并集  表示  body, ul, li 三个元素有同一个样式*/
+            margin: 0;
+            padding: 0;
+        }
+
+        ul, li {
+            list-style: none; /*去掉li前面的指示器*/
+        }
+
+        ul {
+            height: 279px;
+            width: 210px;
+            margin-left: 10px;
+            padding: 0 15px;
+            background-color: #fff;
+        }
+
+        li{
+           height: 30px;
+            border-bottom: 1px dashed #666;
+            line-height: 30px;
+            padding-left: 16px;
+            background: url("../05-练习/tb.gif") no-repeat left center;/*背景,不平铺 左边,居中*/
+        }
+        li a{
+           text-decoration: none;/*a 标签不要下划线*/
+        }
+
+
+        .box {
+            width: 260px;
+            height: 327px;
+            border: 1px solid #009900; /*边框*/
+            background: url("../05-练习/bg.gif");
+            margin: 10px auto; /*水平居中*/
+        }
+
+        .box .title {
+            border-left: 3px solid #7AB800;
+            height: 23px;
+            margin: 10px 0 5px 10px;
+            font: 16px/23px "微软雅黑"; /**/
+            color: #fff;
+            padding-left: 11px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="title">爱宠知识</div>
+    <ul>
+        <li><a href="#">养狗比养猫更健康</a></li>
+        <li><a href="#">养狗比养猫更健康</a></li>
+        <li><a href="#">养狗比养猫更健康</a></li>
+        <li><a href="#">养狗比养猫更健康</a></li>
+        <li><a href="#">养狗比养猫更健康</a></li>
+        <li><a href="#">养狗比养猫更健康</a></li>
+        <li><a href="#">养狗比养猫更健康</a></li>
+        <li><a href="#">养狗比养猫更健康</a></li>
+        <li><a href="#">养狗比养猫更健康</a></li>
+    </ul>
+
+</div>
+</body>
+</html>

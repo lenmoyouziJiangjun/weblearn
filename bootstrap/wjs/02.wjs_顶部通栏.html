@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- 网站的语言 是中文 -->
+<html lang="zh-CN">
+
+<head>
+        <!-- 编码格式是 utf-8 -->
+        <meta charset="utf-8">
+        <!-- 使用 最新式 ie 内核渲染 
+	国内某些 所谓的 双核浏览器 或者是 直接 使用webkit去渲染
+    -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 视口属性
+	没有设置 禁用 用户缩放, 如果有需求可以添加
+     -->
+        <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+        <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+        <title>bootstrap的模板页</title>
+        <!-- Bootstrap -->
+        <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+        <!-- 
+	media queries 媒体查询
+ -->
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!-- hack写法 当lt less than 小于 ie9的时候  -->
+
+        <!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script> 
+     	<script src="lib/js/respond.js"></script>
+    <![endif]-->
+
+    <!-- 导入自己的css -->
+    <link rel="stylesheet" type="text/css" href="css/wjs.css">
+</head>
+
+<body>
+       <div class="header hidden-md hidden-sm  hidden-xs ">
+       <!-- 通栏的 栅格 -->
+            <div class="container-fluid">
+                <div class="row">
+                <!-- 第一个单元格 -->
+                    <div class="col-md-2 first">
+                        <a href="javascript:void(0)" class=''><span class='glyphicon glyphicon-phone'></span>手机微金所<span class='glyphicon glyphicon-menu-down'></span>
+                        <img src="images/code.jpg" alt="">
+                          </a>
+
+                    </div>
+                    <!-- 第二个单元格 -->
+                    <div class="col-md-5 second">
+                            <a href='#' class='glyphicon glyphicon-phone-alt'>4006-89-4006（服务时间：9:00-21:00)</a>
+                    </div>
+                    <!-- 第三个单元格 -->
+                    <div class="col-md-2 third">
+                        <a href="#">常见问题</a>
+                        <a href="#">财富登陆</a>
+                    </div>
+                    <div class="col-md-3 fourth">
+                        <a href="" class='btn btn-danger btn-xs'>免费注册</a>
+                        <a href="" class='login'>
+                            登陆
+                        </a>
+                    </div>
+                </div>
+            </div>
+       </div>
+</body>
+
+</html>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) bootstrap是基于jq的-->
+<script src="lib/js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed 导入boot的一些js -->
+<script src="lib/js/bootstrap.min.js"></script>
