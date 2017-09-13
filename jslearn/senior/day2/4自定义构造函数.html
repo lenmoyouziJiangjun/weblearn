@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script>
+        //特殊几个样式的构造函数
+        var o =[];//构造函数为Array
+        var b = {};//构造函数为Object
+
+        //js中提供了两个方法来调用其他对象的方法
+        // 1、call
+        // 2、apply
+        // 3\
+//
+//        var typeStr=Object.prototype.toString().call(o);
+//       console.log(typeStr);
+
+        function Animal(name,type,backWay) {
+            this.name = name;
+            this.type = type;
+            this.back = backWay;
+        }
+
+        //注意:如果想使用正常函数一样使用构造函数,那么构造函数的this将不再指向新创建出来的对象(因为根本就没有创建对象)
+        // 构造函数的this这个时候指向的就是window全局对象,
+        //通过this给对象添加成员的时候,全部添加到window上。
+        Animal("","",function () {
+            console.log("案件的垃圾点开链接啊风灵")
+        })
+        window.back();//示例:back 添加到了window上。
+
+
+        /**
+         * 定义一个学生构造函数
+         * @param name
+         * @constructor
+         */
+        function Student(name) {
+            this.name = name;
+            this.study= function () {
+                console.log(this.name+"----------Good Good study");
+            }
+        }
+        var st1 = new Student("往往");//如果构造函数没有参数,可以不用小括号,但是那都不专业。最好写上
+        st1.study();
+
+
+
+        //构造函数中定义函数,那么每次创建对象,都会重新创建改函数
+        //但是函数内部代码完全相同,就造成了资源浪费。
+        //解决办法为,定义一个全局函数,将全局函数赋值给构造函数内的方法。
+
+        // 定义一个全局函数
+        function study(name) {
+            console.log(name+"-----------good good study");
+        }
+        function study2() {
+            //这里的this:谁调用,我就是谁
+            console.log(this.name+"-----------good good study");
+        }
+
+        function Student2(name) {
+            this.name = name;
+            this.learn = study;//将全局函数赋值给方法。
+            this.learn2= study2;
+        }
+        var st2 = new Student2("码子");
+        st2.learn(st2.name);
+        st2.learn2();
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

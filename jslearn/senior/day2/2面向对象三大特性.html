@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>面向对象</title>
+
+    <script>
+        //封装,疯转成对象
+        var Person={
+            name:'你好,我是你爸爸',
+            age:12,
+            sayHello:function () {
+
+                console.log("------23232---");
+            }
+        }
+
+        var Teacher={
+
+        }
+
+        //继承
+        //1、混入式继承: for in
+        for(var k in Person){
+            //k 可以获取到对象的每一个属性
+            // Person[k] 可以获取到对象每一个属性的值
+            //这是使用K给对象动态添加属性的时候,不可以使用点语法
+            //Teacher.k = Person.k; Person.k表示获取Person的key 属性,
+            Teacher[k] = Person[k];
+        }
+        console.log(Teacher.name+"-------");
+        Teacher.sayHello();
+
+        //多态
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

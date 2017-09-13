@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        function Person(name,age,gender) {
+            this.name = name;
+            this.age = age;
+            this.gender = gender;
+        }
+        //原型作用一:解决构造函数里面定义函数的问题。
+        //构造函数的原型对象中的成员,可以被该构造函数创建出来所有对象访问。
+        //而且,所有对象共享改对象,
+        //所以我们可以将构造函数需要创建的函数,放到原型对象中存储。这样就解决了定义全局函数带来的全局变量污染。
+        Person.prototype.sayHello = function () {
+            if(this.gender==0){
+                console.log("hello -----我是"+this.name+"------我是一个丑女");
+            }else{
+                console.log("hello -----我是"+this.name+"------我是一个丑男");
+            }
+        }
+        var p1  =new Person("张三",12,0);
+        var p2 = new Person("王二麻子",13,1);
+        p1.sayHello();
+        p2.sayHello();
+
+        //原型属性也可以采用下面方式定义
+        Person.prototype["sing"] = function () {
+            console.log(this.name+"------------我在唱歌")
+        }
+        p1.sing();
+        p2.sing();
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

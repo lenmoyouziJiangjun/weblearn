@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //定义一个json数据
+        var jsonStr={name:'hehe',age:12}
+
+        function createPerson(name,age) {
+            var Person= new Object();
+            Person.name =name;
+            Person.age = age;
+            return Person;
+        }
+        var Person1 = createPerson("赵四儿",23)
+
+        console.log(Person1.toJSONString());
+    </script>
+</head>
+<body>
+
+</body>
+</html>

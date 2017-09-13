@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script>
+        //对象创建方式一:对象字面量。缺点,只能创建一个对象,代码复用性差。
+        var Person={
+            name :'张三'
+        }
+
+        //2、对象创建方式二:使用内置构造函数
+        var Teacher= new Object();
+        Teacher.name ="Wangwu";
+        Teacher.age = 12;
+
+        //3、对象创建方式三:使用工厂模式
+        function createPerson(name,age) {
+            var Person= new Object();
+            Person.name =name;
+            Person.age = age;
+            return Person;//返回对象
+        }
+        var Person1 = createPerson("赵四儿",23)
+         console.log(Person1.name+"------"+Person1.age);
+
+        //4、对象创建方式四:自定义构造函数
+        // new 是用来创建对象,构造函数用来初始化对象
+        function Student(name,age) {//首字母大写,跟普通韩式区别,注意没有返回值
+            this.name = name;// this 是 new创建出来的对象。
+            this.age = age;
+            this.sayHello=function () {
+             console.log("name---------"+name+"----------age--"+age);
+            }
+        }
+        var student = new Student("张麻子",12);
+        student.sayHello();
+
+        for(var s in student){
+            console.log("---------"+student[s]+"-----------"+student.s);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
