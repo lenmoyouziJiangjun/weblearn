@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js基础复习</title>
+
+    <script type="application/javascript">
+
+
+        /**
+        in 关键字复习
+         1、最常见的是用在for循环遍历。注意是数组的索引
+         2、判断属性是否存在对象中。 使用in关键字的时候,属性名称为字符串类型,需要引号引起来
+        */
+        var arr = [1,2,3,4];
+        for(var ab in arr){
+           console.log(ab);//0,1,2,3;
+        }
+        console.log(0 in arr);//true,注意0表示:数组的索引为0
+        console.log("0" in arr);// true,这里会做一个隐式的类型转换。
+    </script>
+</head>
+<body>
+
+</body>
+</html>

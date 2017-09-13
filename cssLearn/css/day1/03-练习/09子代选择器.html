@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<style type="text/css">
-	div>span{
-			color:red;
-			font-size:40px;
-		}
-    p>span{
-    	color:green;
-    	font-size:60px;
-    }
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
 
-	</style>
+        .test > span { /* 子元素选择器。只是儿子级别的元素 */
+           color: red;
+            font-size: 40px;
+        }
+
+        .p1 > span {
+            color: green;
+            font-size: 60px;
+        }
+
+        .test2 span { /*后代选择器,表示所有后代,*/
+            color: orange;
+            font-size: 40px;
+        }
+
+        /*.test2 > p > span {*/
+            /*color: green;*/
+            /*font-size: 60px;*/
+        /*}*/
+
+    </style>
 </head>
 <body>
-	<div>
-		<p><span>14期威武</span></p>
-		<span>14期霸气</span>
+<div class="test">
+    <p class="p1"><span>14期威武</span></p>
+    <span>14期霸气</span>
 
-	</div>
+</div>
+<div class="test2">
+    <p><span>14期威武2</span></p>
+    <span>14期霸气2</span>
+
+</div>
 </body>
 </html>

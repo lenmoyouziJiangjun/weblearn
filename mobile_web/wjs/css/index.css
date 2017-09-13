@@ -225,7 +225,7 @@ body {
 
 /*产品列表*/
 .wjs_products {
-    padding: 0px 15px 30px;
+    padding: 0px 10px 30px;
 }
 
 .wjs_products .wjs-tabs {
@@ -235,15 +235,18 @@ body {
 
 .wjs_products .wjs-tabs > li {
     float: left;
+    width: 25%;
+    overflow: hidden;
     margin-bottom: -1px;
 }
 
 .wjs_products .wjs-tabs > li > a {
-    margin-right: 2px;
     line-height: 1.42857143;
     /*   border: 1px solid transparent; */
     border-radius: 4px 4px 0 0;
     color: gray;
+    size:  14px;
+    text-align: center;
 }
 
 .wjs_products .wjs-tabs > li > a:hover {
@@ -260,6 +263,315 @@ body {
     border-bottom: 3px solid red;
     /*   border-bottom-color: transparent; */
 }
+
+/*******************产品标签页********************/
+.items {
+}
+
+.items .item {
+    /*border: 1px solid #0094ff;*/
+}
+
+.product_box {
+    margin-top: 20px;
+    display: block;
+    box-shadow: 2px 2px 3px gray;
+    height: 150px;
+    width: 100%;
+    /* 禁用 下划线 */
+    text-decoration: none;
+}
+
+.product_box:hover {
+    text-decoration: none;
+}
+
+.product_box.active {
+    background-color: red;
+}
+
+/* 产品标签页 内部的 左右两个 小盒子 */
+.product_box .box_left {
+    overflow: hidden;
+}
+
+.product_box .box_right {
+    float: right;
+    height: 100%;
+    width: 108px;
+}
+
+/* 产品 标签页 左边盒子的 内容样式 */
+/* active 特殊样式 */
+.product_box.active .box_left h3 {
+    color: white;
+}
+
+.product_box .box_left h3 {
+    color: gray;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "微软雅黑";
+    height: 16px;
+    overflow: hidden;
+    font-weight: 900;
+}
+
+.product_box.active .box_left p {
+    color: white;
+}
+
+.product_box .box_left p {
+    color: gray;
+    font-size: 12px;
+    margin: 0px;
+    padding: 3px;
+    height: 20px;
+    overflow: hidden;
+    font-weight: 900;
+    font-family: '微软雅黑';
+}
+
+.product_box .box_left .col-xs-6 {
+    margin-bottom: 5px;
+}
+
+.product_box .box_left .col-xs-6.left_col {
+    text-align: left;
+}
+
+.product_box .box_left .col-xs-6.right_col {
+    text-align: right;
+}
+
+/*盒子右边样式*/
+.product_box.active .box_right {
+    border-left: 1px dashed white;
+}
+
+.product_box .box_right {
+    padding-top: 30px;
+    border-left: 1px dashed gray;
+    position: relative;
+}
+
+.product_box.active .box_right p {
+    color: white;
+}
+
+.product_box .box_right p {
+    text-align: center;
+    color: gray;
+    font-family: "微软雅黑";
+    font-weight: 900;
+}
+
+.product_box .box_right .percent {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.product_box .box_right .percent span {
+    font-size: 12px;
+}
+
+/*通过伪元素实现圆角效果*/
+.product_box .box_right:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    top: -10px;
+    left: -10px;
+    box-shadow: 0px 1px 0px gray;
+}
+
+.product_box .box_right:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    bottom: -10px;
+    left: -10px;
+    box-shadow: 0px -1px 0px gray;
+}
+
+/* 产品盒子 的 伪元素 */
+.product_box:before {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+}
+
+/*为 a标签 内部的 右边的 盒子 中的 弹框 div 写样式 */
+.product_box .popinfo_box {
+    text-align: center;
+}
+
+/* 找到 此种 类型的 最后一个 */
+.product_box .popinfo_box span:first-child {
+    color: green;
+    border: 1px solid green;
+}
+
+/* 找到 此种 类型的 最后一个 */
+.product_box .popinfo_box span:last-of-type {
+    color: red;
+    border: 1px solid red;
+}
+
+/**********************新闻样式***********************/
+.wjs_news {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.wjs_news .row {
+}
+
+.wjs_news .row > div {
+    /*border: 1px solid #0094ff;*/
+}
+
+/* h3标签的 新闻 */
+.wjs_news .row .col-md-offset-2 h3 {
+    text-align: center;
+    line-height: 40px;
+    height: 50px;
+    border-bottom: 1px solid gray;
+    position: relative;
+}
+
+.wjs_news .row .col-md-offset-2 h3::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    bottom: -4px;
+    right: -8px;
+}
+
+/*新闻列表 下方的 标签页 样式*/
+.wjs-news-tabs {
+    border-bottom: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.wjs-news-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+    width: 100%;
+}
+
+/*多媒体查询, 让 li标签 在指定的 屏幕宽度下 为25%的宽度 即可*/
+@media screen and (max-width: 768px) {
+    .wjs-news-tabs > li {
+        width: 25%;
+    }
+}
+
+.wjs-news-tabs > li > a {
+    margin-right: 2px;
+    margin-bottom: 60px;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ccc;
+    font-size: 40px;
+    color: white;
+}
+/* 为 最后一个 li标签 下放的 a标签 取出 margin-bottom */
+.wjs-news-tabs > li:last-child > a{
+    margin-bottom: 0px;
+}
+
+
+.wjs-news-tabs > li > a:hover {
+    background-color: red;
+    color: white;
+}
+
+.wjs-news-tabs > li.active > a,
+.wjs-news-tabs > li.active > a:hover,
+.wjs-news-tabs > li.active > a:focus {
+    cursor: default;
+    background-color: red;
+    color: white;
+}
+
+
+/* 新闻列表 栅格2 下面的 线段 */
+.wjs_news .col-md-2{
+    overflow: hidden;
+}
+.wjs_news .tab_line{
+    height: 100%;
+    width: 1px;
+    border-left: 1px dashed gray;
+    position: absolute;
+    top: 22px;
+    left: 50px;
+}
+
+/* 新闻列表 栅格3 下面的 ul标签样式 */
+.wjs_news .col-md-6{}
+.wjs_news .col-md-6 ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.wjs_news .col-md-6 ul li{
+    padding: 10px 0;
+}
+.wjs_news .col-md-6 ul li a{
+    color: gray;
+}
+
+/* 微金所 最下方 合作单位的 */
+.friend_company{
+    text-align: center;
+}
+.friend_company h3{
+    text-align: center;
+}
+.friend_company ul{
+    list-style: none;
+    display: inline-block;
+}
+.friend_company ul li{
+    float: left;
+    padding: 0 20px;
+}
+.friend_company ul li a{
+    font-size: 70px;
+    color: gray;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
