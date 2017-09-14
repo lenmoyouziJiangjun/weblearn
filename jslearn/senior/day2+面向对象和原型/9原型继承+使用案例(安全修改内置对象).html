@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原型继承</title>
+    <script>
+        //原型继承
+
+        var arr = [1,2,3];
+        //通过原型对象,给arr增加一个sayHello方法。
+        Array.prototype.sayHello = function () {
+            console.log("hajahkdakj");
+        }
+        arr.sayHello();
+        //Array是js内置对象,给内置对象添加属性,就是扩展内置对象。开发中不建议这么使用
+
+
+
+        //安全的扩展内置对象
+        //1、步骤一:创建一个对象
+        function MyArray() {
+
+        }
+        var arr = new Array();//创建一个Array 对象
+        MyArray.prototype = arr;//2、步骤二:继承一个内置对象
+        var myArr = new MyArray();//这样,maArr就继承自arr;
+
+        myArr.push(1);//数组添加元素;
+        myArr.push("王五");
+        console.log(myArr);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

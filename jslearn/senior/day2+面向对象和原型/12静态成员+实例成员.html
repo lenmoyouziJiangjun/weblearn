@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function Person(name) {
+            this.name=name;//实例成员
+            this.run = function () {//实例成员
+                console.log("泡泡跑");
+            }
+        }
+
+        //静态成员:
+           // 指构造函数的属性和方法
+           //工具方法,作为静态成员
+        console.log(Person.name+"------------"+Person.PName);//Person------------undefined
+
+
+        var p = new Person("李好嘛");
+        console.log(p.name);
+        //实例成员:
+           //指实例对象的属性和方法。
+           //跟对象相关的,作为实例成员
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

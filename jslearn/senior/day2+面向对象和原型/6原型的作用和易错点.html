@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        function Person(name,age,gender) {
+            this.name = name;
+            this.age = age;
+            this.gender = gender;
+        }
+        //原型作用一:解决构造函数里面定义函数的问题。
+        //构造函数的原型对象中的成员,可以被该构造函数创建出来所有对象访问。
+        //而且,所有对象共享改对象,
+        //所以我们可以将构造函数需要创建的函数,放到原型对象中存储。这样就解决了定义全局函数带来的全局变量污染。
+        Person.prototype.sayHello = function () {
+            if(this.gender==0){
+                console.log("hello -----我是"+this.name+"------我是一个丑女");
+            }else{
+                console.log("hello -----我是"+this.name+"------我是一个丑男");
+            }
+        }
+        var p1  =new Person("张三",12,0);
+        var p2 = new Person("王二麻子",13,1);
+        p1.sayHello();
+        p2.sayHello();
+
+        //原型属性也可以采用下面方式定义
+        Person.prototype["sing"] = function () {
+            console.log(this.name+"------------我在唱歌")
+        }
+        p1.sing();
+        p2.sing();
+
+
+
+        //原型使用注意事项.易错点1
+        //替换了原型对象。之前原型对象定义的属性就没有了,
+        //这种方式使用原型会出现这个问题:
+        //在替换原型之前创建的对象的原型 和 在替换原型对象之后创建的对象的原型不是同一个。(首先,原型对象是什么时候创建的?构造函数调用的时候就创建了。)
+        Person.prototype={
+            msg:"hahahaha"
+        }
+        var p3 =  new Person("赵四儿",14,0);
+        p1.sing();//可以正确运行
+        //p3.sing();//报错?why?
+        console.log(p1.msg+"-------------"+p3.msg);//输出"undefined-------------hahahaha"。why? p1的原型对象和p3的原型对象不是同一个
+        //对象访问原型。
+        console.log(p1.__proto__);//p1对象的原型:{sayHello: ƒ, sing: ƒ, constructor: ƒ}
+        console.log(p3.__proto__);//p3对象的原型:{msg: "hahahaha"}
+
+
+
+
+
+
+        //易错点2:
+        //使用对象访问属性的时候,如果在本身内找不到就去原型中找。
+        //但是使用"."语法的时候,并不会去原型中查找。
+        //使用"."语法赋值的时候,如果对象中不存在该属性,就会给该对象新增属性
+        function Teacher() {//定义一个空构造函数
+
+        }
+        Teacher.prototype.name = "张三";
+        Teacher.prototype.age =18;
+
+        var t = new Teacher();
+        console.log(t.name);//张三
+
+        t.name="赵四";
+        console.log(t.name);//赵四,表示跟t对象增加了属性,name.
+
+
+        var t1 = new Teacher();
+        console.log(t1.name);//张三
+        //通过对象访问原型"__proto"
+        //console.log(t1.__proto__);
+
+
+
+
+        //测试3: 原型的属性是引用类型,那么所有的对象共享该属性。如果一个对象修改了该属性,那么全部都修改了。类似Java的static变量
+        var car ={
+            brand:'奥迪',
+            type:'垃圾车'
+        }
+        Teacher.prototype.car = car;//跟Teacher的原型添加一个car属性
+        var t2 = new Teacher();
+        console.log(t2.car.brand);//奥迪
+
+        t2.car.brand="奔驰";
+
+        var t3 = new Teacher();
+        console.log(t3.car.brand);//奔驰,跟上面的效果不一样,why?  t2,t3原型的car属性指向了同一个 car对象,
+
+
+
+        //总结:
+        //1、一般情况下不会将属性放在原型对象上。原型对象一般放需要共享的方法。
+        //2、不允许通过对象去修改原型对象属性
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

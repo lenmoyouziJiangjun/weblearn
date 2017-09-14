@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原型继承</title>
+    <script>
+        //原型继承
+
+        function Person(name,age) {
+            this.name = name;
+            this.age = age;
+        }
+
+
+        //方式一:给原型对象中添加成员(利用原型中的成员可以被和其相关的对象共享这一特性,实现继承)
+        Person.prototype.sayHello = function () {
+            console.log(this.name+" 我爱你,刘亦菲菲");
+        }
+        var p = new Person("冯巩",50);
+        p.sayHello();//这里的ip对象就继承原型对象。(p可以访问原型对象)
+
+
+        //方式二:直接替换原型对象。定义一个对象,然后将对象赋值给原型对象。
+        //使用替换有一个问题。原型对象原有的属性就会丢失。
+        var Parent={
+            sayHello:function () {
+                console.log(this.name+"你好啊");
+            }
+        }
+        Person.prototype  = Parent;//赋值给原型对象
+        var p2 = new Person("赵本山",60);
+        p2.sayHello();
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        //eval 函数可以用来将字符串转换成javascript代码运行
+
+        //1、示例
+        var str = "var n =10 ";
+        eval(str);
+        console.log(n);
+
+        //示例二:eval解析json字符串
+        var jsonData = '{"name":"你好","age":12}';
+        //使用eval解析json字符串的时候,会将{}解析为代码,而不是字符串。
+        //所以在解析字符串的时候,我们需要在前面拼接
+        eval("var obj = "+jsonData);
+        console.log(obj.name+"-----------"+obj.age);
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

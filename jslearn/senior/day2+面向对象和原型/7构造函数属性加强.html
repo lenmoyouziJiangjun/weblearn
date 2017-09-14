@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        function Person(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+        var p = new Person("王麻子", 12);
+
+
+        //输出构造函数
+        console.log(Person.prototype.constructor);
+        /* 输出
+         Person(name, age) {
+         this.name = name;
+         this.age = age;
+         }
+        */
+
+        Person.prototype={//替换掉原型对象
+            car:{
+                brand:'奥迪'
+            }
+        }
+        var p= new Person("age",12);
+        console.log(p.name+"------"+p.age);//
+
+        console.log(Person.prototype.constructor);
+        /* 输出
+         *
+         *Object() { [native code] }
+         */
+
+
+        Person.prototype={//替换原型对象
+            constructor:Person //手动添加constructor属性。
+        }
+        console.log(Person.prototype.constructor);
+        /* 输出
+         Person(name, age) {
+         this.name = name;
+         this.age = age;
+         }
+         */
+
+
+
+        //总结
+        //在使用新的对象替换掉默认的原型对象之后,
+        //原型对象中的constructor属性会变成object;
+        //为了保证整个 构造函数---原型---对象 之间的关系的合理性
+        //应做如下操作:
+        //在替换掉原型对象的时候,在新的原型对象中手动添加constructor属性。
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

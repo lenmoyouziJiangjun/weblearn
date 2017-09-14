@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        //object的原型对象的属性
+        console.log(Object.prototype);
+
+
+        //1、toString和toLocalString
+        var o={}
+        console.log(o.toString());
+        console.log(o.toLocaleString());
+        var date = new Date();//创建一个时间对象
+        console.log(date.toString());//Thu Sep 14 2017 16:27:24 GMT+0800 (CST)
+        console.log(date.toLocaleString());//2017/9/14 下午4:27:24
+
+
+        //2、valueOf 获取当前值
+        function Person() {
+            this.valueOf = function () {
+                return 1;
+            }
+        }
+        var p = new Person();
+        //在对象参与运算的时候
+        //1、默认的会先去调用对象的ValueOf方法,
+        //2、 如果valueOf取到的值无法参与运算,就会去调用toString方法,最终做字符串拼接工作
+        console.log(""+(p+1))
+    </script>
+</head>
+<body>
+
+</body>
+</html>

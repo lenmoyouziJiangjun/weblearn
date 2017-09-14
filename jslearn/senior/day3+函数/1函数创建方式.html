@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //函数创建的方式
+        //1、方式一
+        function funcName (/**参数列表*/) {
+           //函数体
+        }
+        //2、方式二
+        var funcName2 = function (/*参数列表*/) {
+            //函数体
+        }
+
+        //3、方式三、new Function(arg1,arg2,....argN);
+        //   1、Function所有的参数都是字符串,
+        //   2、只传一个参数,那么这个函数必然是函数体
+        //   3、如果传多个参数,那么最后一个参数表示函数体。前面的表示函数参数
+        //   4、如果不传参数,表示一个空函数
+        var funcName3 = new Function();//定义空函数
+        //示例
+        var f = new Function("a","b","return a + b ;");//定义有两个参数的函数
+        console.log(f(12,13));
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
