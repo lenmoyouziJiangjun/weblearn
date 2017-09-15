@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        /**
+         * 定义一个构造函数
+         * @constructor
+         */
+        function SongManager() {
+            this.songArray = [ // 方法里面用"="赋值,为什么放在这里面,因为每个对象单独一份,相互独立
+//                {
+//                    songName: '情书',
+//                    singer: '张学友'
+//                },
+//                {
+//                    songName: '演员',
+//                    singer: '薛之谦'
+//                },
+//                {
+//                    songName: '礼拜',
+//                    singer: '李荣浩'
+//                },
+//                {
+//                    songName: '山丘',
+//                    singer: '宗盛大爷'
+//                }
+            ];
+        }
+        /**
+         * 构造函数的方法都放在原型中,这样才不至于出现方法创建多次
+         * @type {{addSong: SongManager.addSong.addSong, removeSong: SongManager.addSong.removeSong, updateSong: SongManager.addSong.updateSong, searchSong: SongManager.addSong.searchSong}}
+         */
+        SongManager.prototype = {//创建对象,key:value方式赋值
+
+            init: function (songList) {//初始化数据
+//                this.songArray.splice(0,this.songArray.length);//清空数据
+
+                if (songList != null) {
+                    //this.songArray = songList;//这种赋值还是全局变量
+                    //this.songArray.push(songList) 不能这种操作,会将对象直接添加到数组里面
+//                    for( var song in songList){//方式一:
+//                        this.songArray.push(songList[song]);
+//                    }
+                    this.songArray=this.songArray.concat(songList);
+                }
+            },
+
+            /**
+             *
+             * @param song
+             */
+            addSong: function (song) {
+                this.songArray.push(song);
+            },
+            /**
+             *
+             * @param songName
+             */
+            removeSong: function (songName) {
+                //会循环遍历两遍,不建议这么使用
+//                var song = searchSong(songName);
+//                var index = songArray.indexOf(song);
+//                if (index > -1) {
+//                    songArray.splice(index, 1);
+//                }
+                //删除数组元素 splice;
+                for (var i = 0; i < this.songArray.length; i++) {//for快捷键:itar
+                    var obj = this.songArray[i];
+                    if (obj.songName == songName) {
+                        //splice(起始索引,删几个);
+                        this.songArray.splice(i, 1);
+                    }
+                }
+            },
+
+            /**
+             *
+             * @param songName
+             * @param singer
+             */
+            updateSong: function (songName, singer) {
+                var song = this.searchSong(songName);// 在当前对象的方法,调用当前对象的其它方法
+                if (song != null) {
+                    song.singer = singer;
+                } else {
+                    throw "您删除的歌曲不存在";
+                }
+            },
+
+            /**
+             *
+             * @param songName
+             * @returns {*}
+             */
+            searchSong: function (songName) {
+                //修改。找到元素,修改
+                for (var i = 0; i < this.songArray.length; i++) {//for快捷键:itar
+                    var obj = this.songArray[i];
+                    if (obj.songName == songName) {
+                        return obj;
+                    }
+                }
+                return null;
+            }
+        }
+
+
+//        测试
+        var songManager = new SongManager();
+
+        songManager.addSong({
+            songName: '老子吃火锅',
+            singer: '你吃火锅底料'
+        })
+        console.log(songManager.songArray);
+
+        songManager.updateSong('老子吃火锅', "孙子也吃火锅")
+        console.log(songManager.songArray);
+
+
+        var testArray = [ // 方法里面用"="赋值
+            {
+                songName: '情书1',
+                singer: '张学友1'
+            },
+            {
+                songName: '演员1',
+                singer: '薛之谦1'
+            },
+            {
+                songName: '礼拜1',
+                singer: '李荣浩1'
+            },
+            {
+                songName: '山丘1',
+                singer: '宗盛大爷1'
+            }
+        ];
+
+        var songManager2 = new SongManager();
+        songManager2.init(testArray);
+        songManager2.addSong({
+            songName: '同桌的你',
+            singer: '宗盛大爷1'
+        })
+        console.log("songManager2.songArray-----------"+songManager2.songArray.length);
+        console.log(songManager2.songArray);
+
+
+        var songManager3 = new SongManager();
+        songManager3.init(testArray);
+        songManager3.addSong({
+            songName: '爱的代价',
+            singer: '宗盛大爷1'
+        })
+        console.log("songManager3.songArray-----------");
+        console.log(songManager3.songArray);
+
+        console.log("testArray-----------");
+        console.log(testArray);
+
+
+        var songManager4 = new SongManager();
+        songManager4.init(testArray);
+        console.log("songManager4-----------");
+        console.log(songManager4.songArray);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

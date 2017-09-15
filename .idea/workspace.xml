@@ -2,31 +2,849 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f61b57e-a7ca-4325-94a9-603cdfa16f3f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/10原型链.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/11Object.prototype的成员.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/12静态成员+实例成员.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/6原型的作用和易错点.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/7构造函数属性加强.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/8原型继承.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/9原型继承+使用案例(安全修改内置对象).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day3+函数/1函数创建方式.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day3+函数/2arguments对象.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day3+函数/3eval函数.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day3+函数/4JSON.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/senior/day2/6原型的作用.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/senior/day1/delete.html" afterPath="$PROJECT_DIR$/jslearn/senior/day1+基础复习/delete.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/senior/day1/js基础复习.html" afterPath="$PROJECT_DIR$/jslearn/senior/day1+基础复习/js基础复习.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/senior/day1/值类型和引用类型.html" afterPath="$PROJECT_DIR$/jslearn/senior/day1+基础复习/值类型和引用类型.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/senior/day1/引用类型和值在函数中的使用.html" afterPath="$PROJECT_DIR$/jslearn/senior/day1+基础复习/引用类型和值在函数中的使用.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/senior/day2/1对象的创建方式.html" afterPath="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/1对象的创建方式.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/senior/day2/2面向对象三大特性.html" afterPath="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/2面向对象三大特性.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/senior/day2/3对象和json之间的相互转换.html" afterPath="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/3对象和json之间的相互转换.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/senior/day2/4自定义构造函数.html" afterPath="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/4自定义构造函数.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/senior/day2/5原型.html" afterPath="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/5原型.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/image/1-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/image/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/image/2-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/image/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/image/3-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/image/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/image/4-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/image/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/image/jd1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/image/jd2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/image/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/资料/image2/1-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/资料/image2/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/资料/image2/2-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/资料/image2/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/资料/image2/3-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/资料/image2/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/资料/image2/4-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/资料/image2/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/资料/image2/jd1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/资料/image2/jd2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/资料/image2/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/资料/笔记.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/images/1-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/images/2-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/images/3-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/images/4-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/images/456.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/images/5-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/images/bgs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/images/left.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/images/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/images/right.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/images/search.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/images/1-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/images/2-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/images/3-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/images/4-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/images/456.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/images/5-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/images/bgs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/images/left.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/images/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/images/right.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/images/search.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/笔记.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/0f000PC3L7v5WMl_8bcCX6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/bpic_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/content.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/content_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/lb1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/lb2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/lb3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/lb4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/lb5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/mm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/taobao.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/tianshi.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/tip1_c.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/tip1_f.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/tip1_h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/xiaoniao.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/百度换肤.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/image/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/image/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/image/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/image/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/image/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/image/mm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/笔记.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/0f000PC3L7v5WMl_8bcCX6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/75_avatar_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/89_avatar_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/bpic_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/content.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/content_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/lb1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/lb2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/lb3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/lb4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/lb5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/mm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/mu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/noavatar_small.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/small.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/taobao.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/tianshi.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/tip1_c.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/tip1_f.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/tip1_h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/xiaoniao.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/百度换肤.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/0f000PC3L7v5WMl_8bcCX6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/75_avatar_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/89_avatar_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/bpic_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/cloud.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/content.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/content_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/lb1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/lb2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/lb3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/lb4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/lb5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/main.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/mm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/mu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/noavatar_small.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/rss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/small.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/taobao.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/tianshi.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/tip1_c.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/tip1_f.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/tip1_h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/xiaoniao.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/images/百度换肤.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/笔记.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/06-筋斗云/images/cloud.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/06-筋斗云/images/wifi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/12-固定导航栏/images/main.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/12-固定导航栏/images/top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/05 筋斗云效果/images/cloud.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/05 筋斗云效果/images/wifi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/12 固定导航栏/images/main.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/12 固定导航栏/images/top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/01-体验事件.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/02-事件的拓展.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/03-onload事件.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/04-关闭京东广告栏.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/05-京东狗.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/06-dom概述.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/07-节点的访问关系和操作.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/08-节点的属性.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/09-图片切换.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/10-显示和隐藏盒子.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/11-美女相册.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/12-value和innerHTML和inerText.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/资料/07 切换图片 (1).html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/资料/07 切换图片.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/资料/08 显示和隐藏盒子.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/资料/09 美女相册.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/01-隐藏显示二维码.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/02-禁用文本框.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/03-文本框获取焦点.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/04-用户注册高亮显示.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/05-设置水果.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/06-for循环为文本框赋值和取值.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/07-全选反选-html.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/08-属性的方法操作（getsetremoveAttribut）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/09-tab栏切换（css）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/10-点亮盒子.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/11-弹出盒子的索引值.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/12-tab栏切换（js）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/12-tab栏切换（复杂版）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/13-tab栏切换（精简版）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/14-访问关系.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/15-nodeType和nodeName和nodeValue.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/16-隔行变色.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/01 隐藏显示二维码-html.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/06 全选反选-html.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day2/资料/09 TAB蓝.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/01-访问关系封装.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/02-菜单练习(利用封装方法).html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/03-style属性演示.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/04-改变盒子的大小和透明度.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/05-文本框获取焦点高亮显示.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/06-高级隔行变色.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/07-百度皮肤.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/08-隐藏盒子.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/09-定位和层级.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/10-dom元素的创建.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/11-元素的操作.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/12-创建列表高亮显示美女.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/14 祝愿墙.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/15-选择水果.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/tools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/06 高级隔行变色.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/07 百度皮肤.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/12 选水果.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/14 祝愿墙.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/01-选择水果（简单版）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/02-选择水果（封装版）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/03-水果排序（终极版）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/04-在线用户.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/05-祝愿墙.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/06-模拟百度搜索.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/07-判断字符串以某个字符串为开头.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/08-表格操作.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/09-window对象.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/10-BOM的内置方法内置对象体验.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/11-体验定时器.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/12-定时器的高级.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/13-5秒钟后关闭广告.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/14-模拟京东关闭广告栏.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/03 在线用户.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/04 祝愿墙.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/05 搜索文本框.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day4+歌曲管理(面向对象总结)/1歌曲管理+数组增删遍历.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day4+歌曲管理(面向对象总结)/2歌曲管理+方法抽取.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day4+歌曲管理(面向对象总结)/3歌曲管理+面向对象抽取.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day5+递归闭包/1递归.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day5+递归闭包/2变量函数提升.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day5+递归闭包/3变量作用域+面试.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day5+递归闭包/4闭包.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/senior/day5+递归闭包/5闭包联系.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/.idea/案例.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/.idea/案例.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/.idea/案例.iml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/01-体验javascript.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/01-体验javascript.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/02-变量命名.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/02-变量命名.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/03-变量交换.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/03-变量交换.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/04-数据类型.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/04-数据类型.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/05-数据类型转换.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/05-数据类型转换.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/06-操作符优先级.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/06-操作符优先级.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/07-判断语句.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/07-判断语句.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/08-判断语句案例.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/08-判断语句案例.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/09-for循环.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/09-for循环.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/10-for循环案例（上）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/10-for循环案例（上）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/11-for循环案例（下）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/11-for循环案例（下）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/12-打印正方形和三角形.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/12-打印正方形和三角形.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/13-99乘法表.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/13-99乘法表.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/doc/01-JavaScript语言基础.pptx" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/doc/01-JavaScript语言基础.pptx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/doc/笔记.doc" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/doc/笔记.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/tool.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/tool.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/1表单验证/完整版表单验证.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/1表单验证/完整版表单验证.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/1表单验证/密码强度.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/1表单验证/密码强度.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/css/css.css" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/css/css.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/demo.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/images/Thumbs.db" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/images/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/images/next.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/images/next.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/images/next_1.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/images/next_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/images/prev.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/images/prev.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/images/prev_1.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/images/prev_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/images/slidepic1.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/images/slidepic1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/images/slidepic2.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/images/slidepic2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/images/slidepic3.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/images/slidepic3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/images/slidepic4.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/images/slidepic4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/images/slidepic5.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/images/slidepic5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/images/slidepic6.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/images/slidepic6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/images/slidepic7.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/images/slidepic7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/images/slidepic8.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/images/slidepic8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/images/slidepic9.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/images/slidepic9.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/js/0my.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/js/0my.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（旋转木马）/js/animate.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（旋转木马）/js/animate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/.idea/.name" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/.idea/.name" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/.idea/misc.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/.idea/modules.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/.idea/vcs.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/.idea/workspace.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/.idea/瀑布流布局.iml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/.idea/瀑布流布局.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_000.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_000.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_001.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_001.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_002.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_002.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_003.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_003.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_004.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_004.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_005.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_005.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_006.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_006.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_007.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_007.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_008.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_008.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_009.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_009.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_010.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_010.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_011.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_011.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_012.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_012.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_013.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_013.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_014.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_014.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_015.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_015.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_016.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_016.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_017.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_017.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_018.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_018.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/images/P_019.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/images/P_019.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/2网页特效（瀑布流布局）/完整简洁版.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/2网页特效（瀑布流布局）/完整简洁版.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/3小游戏（flappyBird）/.idea/.name" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/3小游戏（flappyBird）/.idea/.name" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/3小游戏（flappyBird）/.idea/FlappyBall.iml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/3小游戏（flappyBird）/.idea/FlappyBall.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/3小游戏（flappyBird）/.idea/misc.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/3小游戏（flappyBird）/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/3小游戏（flappyBird）/.idea/modules.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/3小游戏（flappyBird）/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/3小游戏（flappyBird）/.idea/vcs.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/3小游戏（flappyBird）/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/3小游戏（flappyBird）/.idea/workspace.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/3小游戏（flappyBird）/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/3小游戏（flappyBird）/FlappyBall.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/3小游戏（flappyBird）/FlappyBall.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/3小游戏（flappyBird）/images/birds.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/3小游戏（flappyBird）/images/birds.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/3小游戏（flappyBird）/images/pipe1.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/3小游戏（flappyBird）/images/pipe1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/3小游戏（flappyBird）/images/pipe2.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/3小游戏（flappyBird）/images/pipe2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day1/效果/3小游戏（flappyBird）/images/sky.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day1/效果/3小游戏（flappyBird）/images/sky.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/JavaScript 第15天（上）.ppt" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/JavaScript 第15天（上）.ppt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/Javascript 第15天（下正则）.ppt" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/Javascript 第15天（下正则）.ppt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/.idea/.name" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/.idea/.name" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/.idea/encodings.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/.idea/encodings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/.idea/misc.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/.idea/modules.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/.idea/vcs.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/.idea/workspace.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/.idea/案例.iml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/.idea/案例.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/01-缓动框架封装（回调函数）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/01-缓动框架封装（回调函数）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/02-缓动框架封装（透明度）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/02-缓动框架封装（透明度）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/03-缓动框架封装（层级）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/03-缓动框架封装（层级）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/css/css.css" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/css/css.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/demo.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/images/Thumbs.db" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/images/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/images/next.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/images/next.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/images/next_1.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/images/next_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/images/prev.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/images/prev.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/images/prev_1.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/images/prev_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/images/slidepic1.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/images/slidepic1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/images/slidepic2.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/images/slidepic2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/images/slidepic3.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/images/slidepic3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/images/slidepic4.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/images/slidepic4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/images/slidepic5.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/images/slidepic5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/images/slidepic6.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/images/slidepic6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/images/slidepic7.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/images/slidepic7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/images/slidepic8.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/images/slidepic8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/images/slidepic9.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/images/slidepic9.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/js/index.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/js/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/js/jquery1.0.0.1.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/js/jquery1.0.0.1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/js/js.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/js/js.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/04-旋转轮播图/json.txt" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/04-旋转轮播图/json.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/05-正则概述.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/05-正则概述.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/06-五大内部类（使用方法之一）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/06-五大内部类（使用方法之一）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/07-正则边界（使用方法之二）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/07-正则边界（使用方法之二）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/08-量词（使用方法之三）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/08-量词（使用方法之三）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/09-验证固定电话号.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/09-验证固定电话号.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/10-验证中文名字.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/10-验证中文名字.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/11-三个方法.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/11-三个方法.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/11-验证表单案例/images/error.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/11-验证表单案例/images/error.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/11-验证表单案例/images/onLoad.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/11-验证表单案例/images/onLoad.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/11-验证表单案例/images/right.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/11-验证表单案例/images/right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/11-验证表单案例/images/strong.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/11-验证表单案例/images/strong.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/11-验证表单案例/表单验证css模版.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/11-验证表单案例/表单验证css模版.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/12-trim封装.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/12-trim封装.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/demo.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/案例/demo2.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/demo2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/笔记.doc" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/笔记.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/css/css.css" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/css/css.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/demo.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/images/Thumbs.db" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/images/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/images/next.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/images/next.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/images/next_1.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/images/next_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/images/prev.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/images/prev.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/images/prev_1.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/images/prev_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/images/slidepic1.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/images/slidepic1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/images/slidepic2.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/images/slidepic2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/images/slidepic3.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/images/slidepic3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/images/slidepic4.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/images/slidepic4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/images/slidepic5.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/images/slidepic5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/images/slidepic6.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/images/slidepic6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/images/slidepic7.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/images/slidepic7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/images/slidepic8.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/images/slidepic8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/images/slidepic9.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/images/slidepic9.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/js/animate.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/js/animate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/js/my.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/js/my.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/00 旋转轮播图/json.txt" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/00 旋转轮播图/json.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/01验证表单案例/images/error.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/01验证表单案例/images/error.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/01验证表单案例/images/onLoad.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/01验证表单案例/images/onLoad.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/01验证表单案例/images/right.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/01验证表单案例/images/right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/01验证表单案例/images/strong.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/01验证表单案例/images/strong.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/01验证表单案例/表单验证css模版.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/01验证表单案例/表单验证css模版.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/01验证表单案例/表单验证js模版.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/01验证表单案例/表单验证js模版.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/jQuery1.8.0-api.chm" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/jQuery1.8.0-api.chm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/jQuery基础 第一天【选择器】.pptx" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/jQuery基础 第一天【选择器】.pptx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/unicode部分中文编码表.txt" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/unicode部分中文编码表.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/学习笔记.txt" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/学习笔记.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day10/资料/笔记.doc" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/资料/笔记.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/总结.txt" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/总结.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/.idea/.name" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/.idea/.name" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/.idea/misc.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/.idea/modules.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/.idea/vcs.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/.idea/workspace.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/.idea/源码.iml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/.idea/源码.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/01-99乘法表.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/01-99乘法表.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/02-for循环案例.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/02-for循环案例.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/03-break和continue.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/03-break和continue.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/04-while和dowhile.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/04-while和dowhile.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/05-死循环案例.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/05-死循环案例.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/06-数组的概念和定义.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/06-数组的概念和定义.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/07-数组的操作.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/07-数组的操作.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/08-数组的遍历.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/08-数组的遍历.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/09-数组小案例.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/09-数组小案例.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/10-数组大案例（上）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/10-数组大案例（上）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/11-冒泡排序（简单版）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/11-冒泡排序（简单版）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/12-冒泡排序（中级版）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/12-冒泡排序（中级版）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/13-冒泡排序（最终版）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/13-冒泡排序（最终版）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/源码/14-demo.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/源码/14-demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day2/笔记.doc" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day2/笔记.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/02-面向对象介绍和内置对象.pptx" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/02-面向对象介绍和内置对象.pptx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/.idea/.name" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/.idea/.name" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/.idea/misc.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/.idea/modules.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/.idea/vcs.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/.idea/workspace.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/.idea/源码.iml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/.idea/源码.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/01-函数的定义和使用.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/01-函数的定义和使用.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/02-参数.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/02-参数.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/03-参数个数问题.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/03-参数个数问题.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/04-返回值.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/04-返回值.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/05-返回值练习（上）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/05-返回值练习（上）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/06-返回值练习（中）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/06-返回值练习（中）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/07-返回值练习（下）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/07-返回值练习（下）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/08-函数名、函数体和函数加载.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/08-函数名、函数体和函数加载.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/09-函数的定义.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/09-函数的定义.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/10-变量和作用域.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/10-变量和作用域.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/11-变量声明提升和预解析.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/11-变量声明提升和预解析.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/源码/12-面试题.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/源码/12-面试题.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day3/笔记.doc" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day3/笔记.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/.idea/.name" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/.idea/.name" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/.idea/misc.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/.idea/modules.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/.idea/vcs.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/.idea/workspace.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/.idea/源码.iml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/.idea/源码.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/01-封装函数求斐波那契数列第n项.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/01-封装函数求斐波那契数列第n项.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/02-输出某年某月某日的天数.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/02-输出某年某月某日的天数.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/03-输出某年某月某日的天数（精简）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/03-输出某年某月某日的天数（精简）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/04-匿名函数.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/04-匿名函数.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/05-函数是一种类型.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/05-函数是一种类型.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/06-递归.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/06-递归.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/07-递归案例.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/07-递归案例.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/08-回调函数.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/08-回调函数.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/09-回调函数案例.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/09-回调函数案例.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/10-学习对象的好处.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/10-学习对象的好处.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/11-什么是对象.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/11-什么是对象.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/12-自定义对象（单个对象）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/12-自定义对象（单个对象）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/13-自定义对象（多个对象）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/13-自定义对象（多个对象）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/14-new和this.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/14-new和this.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/15-自定义对象（构造函数）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/15-自定义对象（构造函数）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/16-属性绑定.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/16-属性绑定.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/17-进制转换.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/17-进制转换.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/源码/demo.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/02-面向对象介绍和内置对象.pptx" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/02-面向对象介绍和内置对象.pptx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/.gitignore" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/.idea/.name" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/.idea/.name" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/.idea/Swiper-3.3.1.iml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/.idea/Swiper-3.3.1.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/.idea/misc.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/.idea/modules.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/.idea/vcs.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/.jshintrc" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/.jshintrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/.travis.yml" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/CHANGELOG.md" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/LICENSE" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/README.md" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/bower.json" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/component.json" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/component.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/01-default.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/01-default.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/02-responsive.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/02-responsive.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/03-vertical.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/03-vertical.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/04-space-between.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/04-space-between.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/05-slides-per-view.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/05-slides-per-view.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/06-slides-per-view-auto.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/06-slides-per-view-auto.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/07-centered.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/07-centered.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/08-centered-auto.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/08-centered-auto.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/09-freemode.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/09-freemode.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/10-slides-per-column.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/10-slides-per-column.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/11-nested.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/11-nested.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/12-grab-cursor.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/12-grab-cursor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/13-scrollbar.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/13-scrollbar.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/14-nav-arrows.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/14-nav-arrows.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/15-infinite-loop.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/15-infinite-loop.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/16-effect-fade.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/16-effect-fade.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/17-effect-cube.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/17-effect-cube.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/18-effect-coverflow.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/18-effect-coverflow.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/19-keyboard-control.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/19-keyboard-control.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/20-mousewheel-control.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/20-mousewheel-control.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/21-autoplay.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/21-autoplay.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/22-dynamic-slides.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/22-dynamic-slides.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/23-thumbs-gallery-loop.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/23-thumbs-gallery-loop.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/23-thumbs-gallery.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/23-thumbs-gallery.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/24-multiple-swipers.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/24-multiple-swipers.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/25-hash-navigation.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/25-hash-navigation.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/26-rtl.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/26-rtl.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/27-jquery.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/27-jquery.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/28-parallax.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/28-parallax.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/29-custom-pagination.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/29-custom-pagination.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/30-lazy-load-images.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/30-lazy-load-images.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/31-custom-plugin.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/31-custom-plugin.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/32-scroll-container.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/32-scroll-container.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/33-responsive-breakpoints.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/33-responsive-breakpoints.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/34-autoheight.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/34-autoheight.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/35-effect-flip.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/35-effect-flip.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/36-pagination-fraction.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/36-pagination-fraction.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/demos/37-pagination-progress.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/demos/37-pagination-progress.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/dist/css/swiper.css" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/dist/css/swiper.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/dist/css/swiper.min.css" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/dist/css/swiper.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/dist/js/maps/swiper.jquery.min.js.map" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/dist/js/maps/swiper.jquery.min.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/dist/js/maps/swiper.jquery.umd.min.js.map" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/dist/js/maps/swiper.jquery.umd.min.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/dist/js/maps/swiper.min.js.map" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/dist/js/maps/swiper.min.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/dist/js/swiper.jquery.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/dist/js/swiper.jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/dist/js/swiper.jquery.min.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/dist/js/swiper.jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/dist/js/swiper.jquery.umd.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/dist/js/swiper.jquery.umd.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/dist/js/swiper.jquery.umd.min.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/dist/js/swiper.jquery.umd.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/dist/js/swiper.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/dist/js/swiper.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/dist/js/swiper.min.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/dist/js/swiper.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/gulpfile.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/gulpfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/package.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/package.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/package.json" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/playground/index.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/playground/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/a11y.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/a11y.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/amd.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/amd.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/controller.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/controller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/core.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/core.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/dom-plugins.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/dom-plugins.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/dom.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/dom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/effects.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/effects.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/emitter.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/emitter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/get-dom-lib.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/get-dom-lib.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/get-jquery.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/get-jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/hashnav.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/hashnav.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/init.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/init.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/keyboard.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/keyboard.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/lazy-load.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/lazy-load.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/mousewheel.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/mousewheel.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/parallax.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/parallax.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/plugins.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/plugins.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/scrollbar.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/scrollbar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/swiper-intro-f7.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/swiper-intro-f7.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/swiper-intro.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/swiper-intro.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/swiper-outro.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/swiper-outro.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/swiper-proto.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/swiper-proto.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/wrap-end-umd.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/wrap-end-umd.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/wrap-end.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/wrap-end.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/wrap-start-umd.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/wrap-start-umd.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/js/wrap-start.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/js/wrap-start.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/less/core.less" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/less/core.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/less/effects.less" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/less/effects.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/less/mixins.less" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/less/mixins.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/less/navigation-f7.less" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/less/navigation-f7.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/less/navigation.less" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/less/navigation.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/less/preloader-f7.less" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/less/preloader-f7.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/less/preloader.less" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/less/preloader.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/less/scrollbar.less" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/less/scrollbar.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/Swiper-3.3.1/src/less/swiper.less" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/src/less/swiper.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day4/资料/笔记.doc" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/笔记.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/.idea/.name" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/.idea/.name" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/.idea/misc.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/.idea/modules.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/.idea/vcs.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/.idea/workspace.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/.idea/源码.iml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/.idea/源码.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/01-对象字面量.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/01-对象字面量.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/02-JSON.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/02-JSON.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/03-for循环in遍历.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/03-for循环in遍历.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/04-类.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/04-类.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/05-简单和复杂数据类型存储和传递问题.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/05-简单和复杂数据类型存储和传递问题.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/06-内置对象.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/06-内置对象.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/07-复习数组和简单api.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/07-复习数组和简单api.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/08-为数组和arguments.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/08-为数组和arguments.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/09-数组的添加和删除.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/09-数组的添加和删除.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/10-数组的反转和排序.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/10-数组的反转和排序.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/11-数组的链接截取和替换.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/11-数组的链接截取和替换.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/12-给元素查索引.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/12-给元素查索引.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/13-数组的API方法遍历.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/13-数组的API方法遍历.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/14-清空数组.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/14-清空数组.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/15-练习.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/15-练习.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/16-构造函数原理.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/16-构造函数原理.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/源码/demo.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day5/笔记.doc" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/笔记.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/JavaScript 第11天.ppt" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/JavaScript 第11天.ppt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/.idea/.name" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/.idea/.name" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/.idea/misc.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/.idea/modules.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/.idea/vcs.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/.idea/workspace.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/.idea/案例.iml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/.idea/案例.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/01-offsetWidth和offsetHeight.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/01-offsetWidth和offsetHeight.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/02-offsetLeft和offsetTop.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/02-offsetLeft和offsetTop.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/03-offsetParent属性.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/03-offsetParent属性.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/04-offsetLeft和style.left的区别.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/04-offsetLeft和style.left的区别.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/05-体验动画.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/05-体验动画.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/06-动画封装.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/06-动画封装.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/07-动画封装(去除bug版).html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/07-动画封装(去除bug版).html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/08-动画封装(简单版).html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/08-动画封装(简单版).html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/09-动画封装(最终版).html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/09-动画封装(最终版).html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/10-滑动焦点图/demecss.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/10-滑动焦点图/demecss.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/10-滑动焦点图/demejs.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/10-滑动焦点图/demejs.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/10-滑动焦点图/images/01.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/10-滑动焦点图/images/01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/10-滑动焦点图/images/02.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/10-滑动焦点图/images/02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/10-滑动焦点图/images/03.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/10-滑动焦点图/images/03.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/10-滑动焦点图/images/04.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/10-滑动焦点图/images/04.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/10-滑动焦点图/images/05.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/10-滑动焦点图/images/05.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/11-左右焦点图/images/1.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/11-左右焦点图/images/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/11-左右焦点图/images/2.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/11-左右焦点图/images/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/11-左右焦点图/images/3.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/11-左右焦点图/images/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/11-左右焦点图/images/4.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/11-左右焦点图/images/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/11-左右焦点图/images/5.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/11-左右焦点图/images/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/11-左右焦点图/左右焦点图.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/11-左右焦点图/左右焦点图.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/12-带有定时器的无缝轮播图/00简单焦点图css.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/12-带有定时器的无缝轮播图/00简单焦点图css.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/12-带有定时器的无缝轮播图/01简单焦点图js.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/12-带有定时器的无缝轮播图/01简单焦点图js.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/12-带有定时器的无缝轮播图/02简单焦点图js.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/12-带有定时器的无缝轮播图/02简单焦点图js.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/12-带有定时器的无缝轮播图/03简单焦点图js.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/12-带有定时器的无缝轮播图/03简单焦点图js.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/12-带有定时器的无缝轮播图/images/1.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/12-带有定时器的无缝轮播图/images/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/12-带有定时器的无缝轮播图/images/2.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/12-带有定时器的无缝轮播图/images/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/12-带有定时器的无缝轮播图/images/3.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/12-带有定时器的无缝轮播图/images/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/12-带有定时器的无缝轮播图/images/4.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/12-带有定时器的无缝轮播图/images/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/12-带有定时器的无缝轮播图/images/5.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/12-带有定时器的无缝轮播图/images/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/案例/demo.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/笔记.doc" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/笔记.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/01 动画体验/01闪现动画.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/01 动画体验/01闪现动画.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/01 动画体验/02匀速动画.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/01 动画体验/02匀速动画.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/01 动画体验/03缓动动画.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/01 动画体验/03缓动动画.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/02 滑动轮播图/demo css.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/02 滑动轮播图/demo css.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/02 滑动轮播图/demo js.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/02 滑动轮播图/demo js.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/02 滑动轮播图/images/01.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/02 滑动轮播图/images/01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/02 滑动轮播图/images/02.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/02 滑动轮播图/images/02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/02 滑动轮播图/images/03.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/02 滑动轮播图/images/03.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/02 滑动轮播图/images/04.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/02 滑动轮播图/images/04.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/02 滑动轮播图/images/05.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/02 滑动轮播图/images/05.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/03 左右焦点图/images/1.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/03 左右焦点图/images/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/03 左右焦点图/images/2.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/03 左右焦点图/images/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/03 左右焦点图/images/3.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/03 左右焦点图/images/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/03 左右焦点图/images/4.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/03 左右焦点图/images/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/03 左右焦点图/images/5.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/03 左右焦点图/images/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/03 左右焦点图/左右焦点图.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/03 左右焦点图/左右焦点图.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/04 带有定时器的轮播图/.idea/.name" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/04 带有定时器的轮播图/.idea/.name" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/04 带有定时器的轮播图/.idea/04 带有定时器的轮播图.iml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/04 带有定时器的轮播图/.idea/04 带有定时器的轮播图.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/04 带有定时器的轮播图/.idea/misc.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/04 带有定时器的轮播图/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/04 带有定时器的轮播图/.idea/modules.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/04 带有定时器的轮播图/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/04 带有定时器的轮播图/.idea/vcs.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/04 带有定时器的轮播图/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/04 带有定时器的轮播图/.idea/workspace.xml" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/04 带有定时器的轮播图/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/04 带有定时器的轮播图/images/1.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/04 带有定时器的轮播图/images/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/04 带有定时器的轮播图/images/2.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/04 带有定时器的轮播图/images/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/04 带有定时器的轮播图/images/3.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/04 带有定时器的轮播图/images/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/04 带有定时器的轮播图/images/4.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/04 带有定时器的轮播图/images/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/04 带有定时器的轮播图/images/5.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/04 带有定时器的轮播图/images/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/04 带有定时器的轮播图/简单焦点图css.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/04 带有定时器的轮播图/简单焦点图css.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/资料/04 带有定时器的轮播图/简单焦点图js.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/资料/04 带有定时器的轮播图/简单焦点图js.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day6/问题.txt" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/问题.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/JavaScript 第12天.ppt" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/JavaScript 第12天.ppt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/01-三个函数.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/01-三个函数.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/02-缓动动画体验.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/02-缓动动画体验.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/03-缓动动画(简单封装).html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/03-缓动动画(简单封装).html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/04-offsetLeft取值问题.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/04-offsetLeft取值问题.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/05-缓动动画(完整封装).html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/05-缓动动画(完整封装).html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/06-滚动事件.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/06-滚动事件.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/06-筋斗云/democss.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/06-筋斗云/democss.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/06-筋斗云/demojs.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/06-筋斗云/demojs.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/06-筋斗云/images/cloud.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/cloud.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/06-筋斗云/images/wifi.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/rss.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/07-scroll家族中的scrollWidth和scrollHeight.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/07-scroll家族中的scrollWidth和scrollHeight.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/08-scrollLeft和sceollTop.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/08-scrollLeft和sceollTop.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/09-scrollTop的兼容问题.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/09-scrollTop的兼容问题.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/10-json回顾和conpatMode属性问题.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/10-json回顾和conpatMode属性问题.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/11-scroll()的封装.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/11-scroll()的封装.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/12-固定导航栏/demo css部分.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/12-固定导航栏/demo css部分.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/12-固定导航栏/images/main.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/main.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/12-固定导航栏/images/nav.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/12-固定导航栏/images/nav.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/12-固定导航栏/images/top.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/top.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/12-固定导航栏/my.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/12-固定导航栏/my.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/13-两侧跟随的广告/animate.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/13-两侧跟随的广告/animate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/13-两侧跟随的广告/demo css.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/13-两侧跟随的广告/demo css.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/13-两侧跟随的广告/images/aside.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/13-两侧跟随的广告/images/aside.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/14-返回头部小火箭/animate.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/14-返回头部小火箭/animate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/14-返回头部小火箭/demo.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/14-返回头部小火箭/demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/14-返回头部小火箭/images/Top.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/14-返回头部小火箭/images/Top.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/案例/dtd.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/dtd.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/笔记.doc" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/笔记.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/05 筋斗云效果/demo css.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/05 筋斗云效果/demo css.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/05 筋斗云效果/demo js.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/05 筋斗云效果/demo js.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/05 筋斗云效果/images/cloud.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/cloud.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/05 筋斗云效果/images/wifi.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/rss.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/12 固定导航栏/demo css部分.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/12 固定导航栏/demo css部分.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/12 固定导航栏/images/main.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/main.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/12 固定导航栏/images/nav.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/12 固定导航栏/images/nav.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/12 固定导航栏/images/top.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/images/top.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/12 固定导航栏/my.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/12 固定导航栏/my.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/13 两侧跟随的广告/demo css.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/13 两侧跟随的广告/demo css.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/13 两侧跟随的广告/images/aside.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/13 两侧跟随的广告/images/aside.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/13 两侧跟随的广告/my.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/13 两侧跟随的广告/my.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/14 返回头部/demo.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/14 返回头部/demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/14 返回头部/images/Thumbs.db" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/14 返回头部/images/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/14 返回头部/images/Top.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/14 返回头部/images/Top.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/14 返回头部/my.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/14 返回头部/my.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/JavaScript 第13天.ppt" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/JavaScript 第13天.ppt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/作业/选做/images/20150717215921.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/作业/选做/images/20150717215921.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/作业/选做/images/box.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/作业/选做/images/box.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/作业/选做/images/r1.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/作业/选做/images/r1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/作业/选做/images/r1_c1.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/作业/选做/images/r1_c1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/作业/选做/images/r2_c1.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/作业/选做/images/r2_c1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/作业/选做/images/r2_c2.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/作业/选做/images/r2_c2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/作业/选做/index.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/作业/选做/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/作业/选做/my.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/作业/选做/my.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/笔记.doc" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/笔记.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/自我介绍/1.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/自我介绍/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/自我介绍/2.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/自我介绍/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/自我介绍/3.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/自我介绍/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/自我介绍/4.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/自我介绍/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/自我介绍/5.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/自我介绍/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/自我介绍/qin.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/自我介绍/qin.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/自我介绍/tu.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/自我介绍/tu.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/自我介绍/www.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/自我介绍/www.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/自我介绍/yao.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/自我介绍/yao.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day7/资料/自我介绍/介绍.pptx" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/资料/自我介绍/介绍.pptx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/JavaScript 第13天.ppt" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/JavaScript 第13天.ppt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/01-楼层跳跃.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/案例/01-楼层跳跃.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/02-事件对象体验.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/案例/02-事件对象体验.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/03-pageY和screenY和clientY.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/案例/03-pageY和screenY和clientY.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/04-鼠标跟随.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/案例/04-鼠标跟随.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/05-鼠标在盒子中的坐标.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/案例/05-鼠标在盒子中的坐标.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/06-放大镜/animate.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/案例/06-放大镜/animate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/06-放大镜/demo css.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/案例/06-放大镜/demo css.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/06-放大镜/demojs.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/案例/06-放大镜/demojs.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/06-放大镜/images/0001.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/案例/06-放大镜/images/0001.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/06-放大镜/images/001.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/案例/06-放大镜/images/001.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/07-拖拽案例.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/案例/07-拖拽案例.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/08-模拟滚动条.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/案例/08-模拟滚动条.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/animate.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/案例/animate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/案例/images/img.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/案例/images/img.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/笔记.doc" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/笔记.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/资料/01  屏幕滑动效果.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/资料/01  屏幕滑动效果.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/资料/05 鼠标跟随/demo.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/资料/05 鼠标跟随/demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/资料/05 鼠标跟随/img.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/资料/05 鼠标跟随/img.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/资料/07 放大镜/demo css.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/资料/07 放大镜/demo css.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/资料/07 放大镜/demo js.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/资料/07 放大镜/demo js.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/资料/07 放大镜/images/0001.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/资料/07 放大镜/images/0001.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/资料/07 放大镜/images/001.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/资料/07 放大镜/images/001.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/资料/07 放大镜/my.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/资料/07 放大镜/my.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/资料/08 拖拽案例.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/资料/08 拖拽案例.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/资料/10 模拟滚动条js1.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/资料/10 模拟滚动条js1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/资料/JavaScript 第14天.ppt" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/资料/JavaScript 第14天.ppt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/资料/my.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/资料/my.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/资料/未命名.bmp" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/资料/未命名.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day8/资料/笔记.doc" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/资料/笔记.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/JavaScript 第14天.ppt" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/JavaScript 第14天.ppt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/01-client家族概述.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/01-client家族概述.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/02-三大家族的区别.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/02-三大家族的区别.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/03-浏览器可视区域宽高.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/03-浏览器可视区域宽高.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/04-根据浏览器可视宽度上色.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/04-根据浏览器可视宽度上色.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/05-检测屏幕宽度.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/05-检测屏幕宽度.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/06-冒泡体验.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/06-冒泡体验.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/07-取消冒泡.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/07-取消冒泡.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/08-隐藏模态框.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/08-隐藏模态框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/09-事件委托.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/09-事件委托.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/10-缓动动画回顾.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/10-缓动动画回顾.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/11-获取内嵌式和外链式的属性值.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/11-获取内嵌式和外链式的属性值.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/12-缓动框架封装（单个属性）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/12-缓动框架封装（单个属性）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/13-缓动框架封装（多个属性）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/13-缓动框架封装（多个属性）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/14-缓动框架封装（清除定时器）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/14-缓动框架封装（清除定时器）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/15-缓动框架封装（回调函数）.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/15-缓动框架封装（回调函数）.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/16-手风琴效果/demo.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/16-手风琴效果/demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/16-手风琴效果/images/1.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/16-手风琴效果/images/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/16-手风琴效果/images/2.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/16-手风琴效果/images/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/16-手风琴效果/images/3.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/16-手风琴效果/images/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/16-手风琴效果/images/4.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/16-手风琴效果/images/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/16-手风琴效果/images/5.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/16-手风琴效果/images/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/17-仿360 开机效果/demo css部分.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/17-仿360 开机效果/demo css部分.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/17-仿360 开机效果/images/b.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/17-仿360 开机效果/images/b.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/17-仿360 开机效果/images/t.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/17-仿360 开机效果/images/t.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/demo.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/demo1.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/demo1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/案例/jquery1.0.0.1.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/jquery1.0.0.1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/笔记.doc" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/笔记.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/20 手风琴效果/animate.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/20 手风琴效果/animate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/20 手风琴效果/demo.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/20 手风琴效果/demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/20 手风琴效果/images/1.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/20 手风琴效果/images/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/20 手风琴效果/images/2.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/20 手风琴效果/images/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/20 手风琴效果/images/3.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/20 手风琴效果/images/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/20 手风琴效果/images/4.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/20 手风琴效果/images/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/20 手风琴效果/images/5.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/20 手风琴效果/images/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/21 仿360 开机效果/demo css部分.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/21 仿360 开机效果/demo css部分.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/21 仿360 开机效果/demo js部分.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/21 仿360 开机效果/demo js部分.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/21 仿360 开机效果/images/b.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/21 仿360 开机效果/images/b.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/21 仿360 开机效果/images/t.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/21 仿360 开机效果/images/t.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/JavaScript 第15天（上）.ppt" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/JavaScript 第15天（上）.ppt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/Javascript 第15天（下正则）.ppt" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/Javascript 第15天（下正则）.ppt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/三大家族.txt" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/三大家族.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/模态框.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/模态框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/永不言弃.flv" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/永不言弃.flv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/day9/资料/笔记.doc" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/资料/笔记.doc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/640" afterPath="$PROJECT_DIR$/project/640" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/assets/js/customize.min.js" afterPath="$PROJECT_DIR$/bootstrap/assets/js/customize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/assets/js/raw-files.min.js" afterPath="$PROJECT_DIR$/bootstrap/assets/js/raw-files.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/assets/js/vendor/autoprefixer.js" afterPath="$PROJECT_DIR$/bootstrap/assets/js/vendor/autoprefixer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/wjs/lib/js/bootstrap.js" afterPath="$PROJECT_DIR$/bootstrap/wjs/lib/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/2面向对象三大特性.html" afterPath="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/2面向对象三大特性.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile_web/jd_m/js/list.js" afterPath="$PROJECT_DIR$/mobile_web/jd_m/js/list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile_web/wjs/lib/js/bootstrap.js" afterPath="$PROJECT_DIR$/mobile_web/wjs/lib/js/bootstrap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/640/css/index.less" afterPath="$PROJECT_DIR$/project/640/css/index.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/640/index.html" afterPath="$PROJECT_DIR$/project/640/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/trank/static/boost/js/bootstrap.js" afterPath="$PROJECT_DIR$/project/trank/static/boost/js/bootstrap.js" />
     </list>
     <ignored path="css_learn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,61 +865,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="11Object.prototype的成员.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/11Object.prototype的成员.html">
+      <file leaf-file-name="5闭包联系.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jslearn/senior/day5+递归闭包/5闭包联系.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1函数创建方式.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jslearn/senior/day3+函数/1函数创建方式.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2arguments对象.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jslearn/senior/day3+函数/2arguments对象.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3eval函数.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jslearn/senior/day3+函数/3eval函数.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="12静态成员+实例成员.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/12静态成员+实例成员.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4JSON.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jslearn/senior/day3+函数/4JSON.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="75">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -124,20 +892,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bootstrap/zExample/signin/index.html" />
-        <option value="$PROJECT_DIR$/bootstrap/zExample/starter-template/index.html" />
-        <option value="$PROJECT_DIR$/bootstrap/zExample/sticky-footer/index.html" />
-        <option value="$PROJECT_DIR$/bootstrap/zExample/sticky-footer-navbar/index.html" />
-        <option value="$PROJECT_DIR$/bootstrap/zExample/theme/index.html" />
-        <option value="$PROJECT_DIR$/bootstrap/zExample/tooltip-viewport/index.html" />
-        <option value="$PROJECT_DIR$/cssLearn/css/day4-定位浮动/test/xm.html" />
-        <option value="$PROJECT_DIR$/jslearn/designpatterns/readme.md" />
-        <option value="$PROJECT_DIR$/jslearn/algorithm/readmd.md" />
-        <option value="$PROJECT_DIR$/jslearn/primary/day2/源码/13-冒泡排序（最终版）.html" />
-        <option value="$PROJECT_DIR$/jslearn/algorithm/BubbleSort.js" />
-        <option value="$PROJECT_DIR$/jslearn/algorithm/AlgorithmLearn.html" />
-        <option value="$PROJECT_DIR$/jslearn/primary/readme.md" />
-        <option value="$PROJECT_DIR$/jslearn/senior/day1/js基础复习.html" />
         <option value="$PROJECT_DIR$/jslearn/senior/day1/值类型和引用类型.html" />
         <option value="$PROJECT_DIR$/jslearn/senior/day1/引用类型和值在函数中的使用.html" />
         <option value="$PROJECT_DIR$/jslearn/senior/day1/delete.html" />
@@ -175,6 +929,20 @@
         <option value="$PROJECT_DIR$/jslearn/senior/day3+函数/4JSON.html" />
         <option value="$PROJECT_DIR$/jslearn/senior/day3+函数/3eval函数.html" />
         <option value="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/12静态成员+实例成员.html" />
+        <option value="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/2面向对象三大特性.html" />
+        <option value="$PROJECT_DIR$/jslearn/senior/day4+歌曲管理(面向对象总结)/1歌曲管理.html" />
+        <option value="$PROJECT_DIR$/jslearn/senior/day4+歌曲管理(面向对象总结)/1歌曲管理+数组增删改查.html" />
+        <option value="$PROJECT_DIR$/jslearn/senior/day4+歌曲管理(面向对象总结)/2歌曲管理+面向对象.html" />
+        <option value="$PROJECT_DIR$/jslearn/senior/day4+歌曲管理(面向对象总结)/2歌曲管理+方法抽取.html" />
+        <option value="$PROJECT_DIR$/jslearn/senior/day5+递归闭包/递归.html" />
+        <option value="$PROJECT_DIR$/jslearn/senior/day4+歌曲管理(面向对象总结)/3歌曲管理+面向对象抽取.html" />
+        <option value="$PROJECT_DIR$/jslearn/senior/day5+递归闭包/1递归.html" />
+        <option value="$PROJECT_DIR$/jslearn/senior/day5+递归闭包/3变量作用域.html" />
+        <option value="$PROJECT_DIR$/jslearn/senior/day5+递归闭包/2变量函数提升.html" />
+        <option value="$PROJECT_DIR$/jslearn/senior/day5+递归闭包/3变量作用域+面试.html" />
+        <option value="$PROJECT_DIR$/jslearn/senior/day5+递归闭包/4、闭包.html" />
+        <option value="$PROJECT_DIR$/jslearn/senior/day5+递归闭包/4闭包.html" />
+        <option value="$PROJECT_DIR$/jslearn/senior/day5+递归闭包/5闭包联系.html" />
       </list>
     </option>
   </component>
@@ -185,8 +953,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="397" />
-    <option name="y" value="37" />
+    <option name="x" value="347" />
+    <option name="y" value="150" />
     <option name="width" value="1280" />
     <option name="height" value="725" />
   </component>
@@ -299,29 +1067,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="day3+函数" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weblearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weblearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jslearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="senior" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="day2+面向对象和原型" />
+              <option name="myItemId" value="day5+递归闭包" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,18 +1091,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型" />
-      <recent name="$PROJECT_DIR$/bootstrap" />
-      <recent name="$PROJECT_DIR$/mobile_web/wjs/fonts" />
-      <recent name="$PROJECT_DIR$/mobile_web/wjs/images" />
-      <recent name="$PROJECT_DIR$/mobile_web/wjs/lib" />
+      <recent name="$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料" />
+      <recent name="$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码" />
+      <recent name="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料" />
+      <recent name="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码" />
+      <recent name="$PROJECT_DIR$/jslearn/primary/jsDom/day3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jslearn/primary/jsEnhance" />
+      <recent name="$PROJECT_DIR$/jslearn/primary/js基础" />
       <recent name="$PROJECT_DIR$/jslearn" />
       <recent name="$PROJECT_DIR$/jslearn/opensource" />
       <recent name="$PROJECT_DIR$/jslearn/primary" />
-      <recent name="$PROJECT_DIR$/mobile_web/myJd" />
-      <recent name="$PROJECT_DIR$/mobile_web/test" />
     </key>
   </component>
   <component name="RunManager">
@@ -455,24 +1201,25 @@
       <workItem from="1502433230181" duration="33086000" />
       <workItem from="1502980363099" duration="23172000" />
       <workItem from="1504749693839" duration="10033000" />
-      <workItem from="1505129895124" duration="51521000" />
+      <workItem from="1505129895124" duration="73347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253532000" />
+    <option name="totallyTimeSpent" value="275358000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="397" y="37" width="1280" height="725" extended-state="0" />
+    <frame x="347" y="150" width="1280" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23828435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1898332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6069182" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27244094" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -480,7 +1227,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -508,186 +1254,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bootstrap/wjs/css/wjs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="502" column="1" selection-start-line="502" selection-start-column="1" selection-end-line="502" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/wjs/05.wjs_产品列表.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="310" column="78" selection-start-line="310" selection-start-column="78" selection-end-line="310" selection-end-column="78" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#1;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#a#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../学习视频/hbird/js/移动web开发/36-移动web开发-第四天/其他资料/2-其他资料/预习代码/wjs/05.wjs_产品列表.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="393" column="65" selection-start-line="393" selection-start-column="65" selection-end-line="393" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cssLearn/css_tips.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cssLearn/css/day1/03-练习/08后代选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cssLearn/css/day1/03-练习/09子代选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cssLearn/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../学习视频/hbird/js/移动web开发/36-移动web开发-第四天/其他资料/2-其他资料/预习代码/wjs/06.wjs_完成新闻列表.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="405" column="87" selection-start-line="405" selection-start-column="87" selection-end-line="405" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../学习视频/hbird/js/移动web开发/36-移动web开发-第四天/其他资料/2-其他资料/预习代码/wjs/css/wjs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="641" column="1" selection-start-line="641" selection-start-column="1" selection-end-line="641" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile_web/wjs/lib/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2302">
-          <caret line="1972" column="11" selection-start-line="1972" selection-start-column="3" selection-end-line="1972" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile_web/wjs/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="568" column="0" selection-start-line="568" selection-start-column="0" selection-end-line="568" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile_web/wjs/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="237" column="65" selection-start-line="237" selection-start-column="57" selection-end-line="237" selection-end-column="65" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#1;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#4;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/senior/day1+基础复习/值类型和引用类型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/senior/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day3/源码/09-函数的定义.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day3/源码/10-变量和作用域.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day3/源码/11-变量声明提升和预解析.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day3/源码/12-面试题.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day4/源码/11-什么是对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day4/源码/12-自定义对象（单个对象）.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day4/源码/14-new和this.html">
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/14-new和this.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
@@ -695,7 +1262,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day5/源码/04-类.html">
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/04-类.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
@@ -703,7 +1270,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day5/源码/14-清空数组.html">
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/14-清空数组.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="16" />
@@ -711,7 +1278,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day5/源码/16-构造函数原理.html">
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day5/源码/16-构造函数原理.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -719,7 +1286,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day6/案例/10-滑动焦点图/demecss.html">
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/10-滑动焦点图/demecss.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-406">
           <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
@@ -727,7 +1294,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day6/案例/10-滑动焦点图/demejs.html">
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day6/案例/10-滑动焦点图/demejs.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
           <caret line="98" column="21" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="21" />
@@ -735,7 +1302,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day7/案例/07-scroll家族中的scrollWidth和scrollHeight.html">
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/07-scroll家族中的scrollWidth和scrollHeight.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="34" column="36" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="36" />
@@ -743,7 +1310,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day7/案例/10-json回顾和conpatMode属性问题.html">
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/10-json回顾和conpatMode属性问题.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
@@ -751,7 +1318,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day8/案例/01-楼层跳跃.html">
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day8/案例/01-楼层跳跃.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="108" column="33" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="33" />
@@ -759,7 +1326,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day9/案例/06-冒泡体验.html">
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/06-冒泡体验.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
@@ -767,7 +1334,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day9/案例/07-取消冒泡.html">
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/07-取消冒泡.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
@@ -775,7 +1342,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day9/案例/15-缓动框架封装（回调函数）.html">
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day9/案例/15-缓动框架封装（回调函数）.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
@@ -783,7 +1350,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/day7/案例/08-scrollLeft和sceollTop.html">
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day7/案例/08-scrollLeft和sceollTop.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -795,14 +1362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/2面向对象三大特性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -855,14 +1414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/8原型继承.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/9原型继承+使用案例(安全修改内置对象).html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
@@ -895,14 +1446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/senior/day3+函数/1函数创建方式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jslearn/senior/day3+函数/2arguments对象.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -919,6 +1462,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/12静态成员+实例成员.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jslearn/senior/day3+函数/3eval函数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -927,10 +1478,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/12静态成员+实例成员.html">
+    <entry file="file://$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/8原型继承.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/senior/day2+面向对象和原型/2面向对象三大特性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/senior/day3+函数/1函数创建方式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/senior/day4+歌曲管理(面向对象总结)/2歌曲管理+方法抽取.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/senior/day4+歌曲管理(面向对象总结)/1歌曲管理+数组增删遍历.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="348" column="0" selection-start-line="348" selection-start-column="0" selection-end-line="348" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/senior/day4+歌曲管理(面向对象总结)/3歌曲管理+面向对象抽取.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day1/源码/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/01-体验事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/senior/day5+递归闭包/1递归.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day2/源码/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/senior/day5+递归闭包/2变量函数提升.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/senior/day5+递归闭包/3变量作用域+面试.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/01-访问关系封装.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/06 高级隔行变色.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day1+事件基础/源码/02-事件的拓展.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day4/资料/03 在线用户.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/05-祝愿墙.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/01-选择水果（简单版）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day4/源码/03-水果排序（终极版）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day10/案例/01-缓动框架封装（回调函数）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/senior/day5+递归闭包/4闭包.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/senior/day5+递归闭包/5闭包联系.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>

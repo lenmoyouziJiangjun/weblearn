@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //闭包的原理就是作用域的访问原则
+        //上级作用域无法直接访问下级作用域中的变量
+
+
+        //1、闭包要解决的问题?
+        //   闭包内的数据不允许外界访问
+        //   要解决的问题就是间接访问该数据
+
+        // 2、闭包的基本模式
+        //在外部函数中创建内部函数,在这个内部函数中访问外部函数的数据
+        //将外部函数的返回值设置为内部函数
+        //在外部调用外部函数,就可以接受到内部函数的返回值
+        //使用这个内部函数,就可以对外部函数的变量进行修改
+
+        function outer() {//外部函数
+            var num = 123;
+            return function inner(dnum) {//一般为匿名函数
+                num=num+dnum;
+                console.log(num);
+            }
+        }
+        var outerF = outer();//调用外部函数,返回内部函数对象
+        outerF(1);//124,调用内部函数
+        var outerF2 = outer();
+        outerF2(10);//133
+        console.log(outerF2.num);
+
+
+        //函数回调
+        function outer2(func) {
+            var num=123;
+            if(num%2==1){
+                func(num+100);
+            }
+        }
+        function test2(num) {
+            console.log("---test2--"+num);
+        }
+        outer2(test2);//函数回调
+
+
+        //闭包使用二:返回多个函数
+        function person() {
+            var name="lishi";
+            var age =12;
+            return {
+                getName:function () {
+                    return name;
+                },
+                getAge:function () {
+                    return age;
+                }
+            }
+        }
+        var p1=person();
+        console.log(p1.getName()+"--------"+p1.getAge());
+
+
+
+        //总结,闭包的作用
+        //最基本的作用:可以通过闭包返回的函数或者方法,来修改函数内部的值
+        //创建一个私有的控件,保护数据
+        //外部访问数据,只能通过函数提供的方法。在方法中可以设置一些校验逻辑
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

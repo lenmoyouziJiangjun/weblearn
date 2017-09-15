@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        var songArray = [
+            {
+                songName: '情书',
+                singer: '张学友'
+            },
+            {
+                songName: '演员',
+                singer: '薛之谦'
+            },
+            {
+                songName: '礼拜',
+                singer: '李荣浩'
+            },
+            {
+                songName: '山丘',
+                singer: '宗盛大爷'
+            }
+        ];
+        //增加
+        function addSong(song) {
+            songArray.push(song);
+        }
+        console.log(songArray);
+
+
+        //删除
+        function removeSong(songName) {
+            //删除数组元素 splice;
+            for (var i = 0; i < songArray.length; i++) {//for快捷键:itar
+                var obj = songArray[i];
+                if (obj.songName == songName) {
+                    //splice(起始索引,删几个);
+                    songArray.splice(i,1);
+                }
+            }
+        }
+        console.log(songArray);
+
+
+        //修改
+        function updateSong(songName,singer) {
+            //修改。找到元素,修改
+            for (var i = 0; i < songArray.length; i++) {//for快捷键:itar
+                var obj = songArray[i];
+                if (obj.songName == songName) {
+                    obj.singer="singer";
+                }
+            }
+        }
+        console.log(songArray);
+
+
+        //查找元素
+        function searchSong(songName) {
+            //修改。找到元素,修改
+            for (var i = 0; i < songArray.length; i++) {//for快捷键:itar
+                var obj = songArray[i];
+                if (obj.songName == songName) {
+                    return obj;
+                }
+            }
+            return null;
+        }
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

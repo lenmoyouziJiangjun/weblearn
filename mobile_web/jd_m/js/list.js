@@ -125,7 +125,7 @@ function left_scroll() {
 					为每一个li 保存一个 索引属性
 						<body  data-index='1'>
 						点击li的时候 获取该属性的值即可
-						dom.dataSet['index'];
+						jsDom.dataSet['index'];
 
 	*/
 

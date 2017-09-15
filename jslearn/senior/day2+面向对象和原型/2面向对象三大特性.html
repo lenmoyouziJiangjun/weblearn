@@ -31,7 +31,24 @@
         console.log(Teacher.name+"-------");
         Teacher.sayHello();
 
-        //多态
+        //2、原型继承:定义一个对象赋值给原型对象
+        function Student(sid) {
+            this.sid =sid;
+        }
+        Student.prototype = Person;
+
+        var stu = new Student("12dews");
+        console.log(stu.name+"--------------"+stu.age+"-------"+stu.sid);
+
+        //3、经典继承:Object.create(对象);
+        //但是有 Object.create有浏览器适配
+        var parent={
+            name:'hahah'
+        }
+        var child = Object.create(parent);
+        console.log(child.name);
+
+
 
 
     </script>

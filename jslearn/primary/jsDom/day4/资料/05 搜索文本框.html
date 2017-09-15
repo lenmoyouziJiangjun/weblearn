@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 450px;
+            margin: 200px auto;
+        }
+        #txt {
+            width: 350px;
+        }
+        #pop {
+            width: 350px;
+            border: 1px solid red;
+        }
+        ul {
+            list-style: none;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="box" class="box">
+    <input type="text" id="txt"/>
+    <input type="button" value="搜索"/>
+    <!--<div id="pop">-->
+        <!--<ul>-->
+            <!--<li>aaaa</li>-->
+            <!--<li>aa</li>-->
+            <!--<li>aaaaaa</li>-->
+        <!--</ul>-->
+    <!--</div>-->
+</div>
+
+<script>
+
+    var txt = document.getElementById("txt");
+    var box = document.getElementById("box");
+    var arr1 = ["a","aa","aaa","aaaa","aaaaa","aaaaaa"];
+
+    //oninput
+    txt.onkeyup = function () {
+        var arr2 = [];
+        for(var i=0;i<arr1.length;i++){
+            if(arr1[i].indexOf(this.value) === 0){
+                arr2.push(arr1[i]);
+            }
+        }
+        var pop = document.getElementById("pop");
+
+        //问题2
+        if(this.value.length === 0){
+            if(pop){
+                console.log(pop);
+                console.log(box);
+                box.removeChild(pop);
+            }
+            return;
+        }
+
+
+        //问题1
+        if(pop){
+            box.removeChild(pop);
+        }
+
+
+        //问题3(问题1已经帮我们删除pop)
+        if(arr2.length === 0){
+            return;
+        }
+
+        var div = document.createElement("div");
+        div.id = "pop";
+        box.appendChild(div);
+
+        var ul = document.createElement("ul");
+        div.appendChild(ul);
+        for(var j=0;j<arr2.length;j++){
+            var li = document.createElement("li");
+            li.innerHTML = arr2[j];
+            ul.appendChild(li);
+        }
+
+
+    }
+
+
+</script>
+
+
+
+</body>
+</html>

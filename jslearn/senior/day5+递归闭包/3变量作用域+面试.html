@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //2、js中作用域是词法作用域
+          //代码写好后,变量的作用域就已经确定,这个就是词法作用域
+        // 3、js中没有块级作用域
+        // 4、js中只有寒暑假可以创建作用域
+        //5 、变量提升问题
+        //   在分析代码的时候,首先将以var声明的变量名和以function开头的函数进行提升
+        //   再去执行代码的具体执行过程
+
+
+        function Foo() {
+            getName = function (){alert(1);};
+            return this;
+        }
+
+        Foo.getName=function (){alert(2);};
+        Foo.prototype.getName = function () {
+            alert(3);
+        }
+        var getName = function(){alert(4);};
+        function getName() {
+            alert(5);
+        }
+        Foo().getName();
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        var songArray = [
+            {
+                songName: '情书',
+                singer: '张学友'
+            },
+            {
+                songName: '演员',
+                singer: '薛之谦'
+            },
+            {
+                songName: '礼拜',
+                singer: '李荣浩'
+            },
+            {
+                songName: '山丘',
+                singer: '宗盛大爷'
+            }
+        ];
+        //增加 push
+        songArray.push(
+                {
+                    songName: '同桌的你',
+                    singer: '宗盛大爷'
+                }
+        );
+        console.log(songArray);
+
+
+        //删除数组元素 splice;
+        for (var i = 0; i < songArray.length; i++) {//for快捷键:itar
+            var obj = songArray[i];
+            if (obj.songName == "礼拜") {
+                //splice(起始索引,删几个);
+                songArray.splice(i,1);
+            }
+        }
+        console.log(songArray);
+
+        //修改。找到元素,修改
+        for (var i = 0; i < songArray.length; i++) {//for快捷键:itar
+            var obj = songArray[i];
+            if (obj.songName == "演员") {
+                //splice(起始索引,删几个);
+                obj.singer="你大爷的";
+            }
+        }
+        console.log(songArray);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
