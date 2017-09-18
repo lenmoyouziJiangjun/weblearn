@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        div {
+            margin: 10px;
+            border: 2px solid red;
+            padding: 20px;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            var divs = document.getElementsByTagName("div");
+            for (var i = 0; i < divs.length; i++) {
+                var div = divs[i];
+
+//                div.onclick = function () {
+//                    alert("我是第" + i + "个 div");//bug代码 每次点击都是输出我是第10个div
+//                }
+                //bug修改:方式一
+//                function foo(j) {//定义一个函数闭包
+//                    return function () {
+//                        alert("我是第" + j + "个 div");
+//                    }
+//                }
+//                var f = foo(i);
+//                div.onclick = f;
+
+                //使用闭包
+                div.onclick = (function (j) {
+                    return function () {
+                        alert("我是第" + j + "个 div");
+                    }
+                })(i);
+            }
+        }
+
+    </script>
+</head>
+<body>
+<div>我是第1个div</div>
+<div>我是第2个div</div>
+<div>我是第3个div</div>
+<div>我是第4个div</div>
+<div>我是第5个div</div>
+<div>我是第6个div</div>
+<div>我是第7个div</div>
+<div>我是第8个div</div>
+<div>我是第9个div</div>
+<div>我是第10个div</div>
+</body>
+</html>

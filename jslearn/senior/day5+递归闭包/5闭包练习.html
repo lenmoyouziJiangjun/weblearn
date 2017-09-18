@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        //闭包优化数据
+
+        function createFib() {
+            var cache=[];//定义一个缓存
+            function  fib(n) {
+                //从cache中获取数据
+                if(cache[n]!==undefined){
+                    return cache[n];//缓存中有数据,直接返回
+                }
+                //缓存中没有
+                if(n<=2){
+                    cache[n]=1;
+                    return 1;
+                }
+                var temp = fib(n-1)+fib(n-2);
+                cache[n] = temp;
+                return temp;
+            }
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

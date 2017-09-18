@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <title></title>
     <script>
-        //给页面中所有的元素,添加一个边框 1px solid pink
+        //递归使用案例一: fib数列
+        // f(n)= f(n-1)+f(n-2);
+        var count =0;
+        function fib(n) {
+            count++;
+            if(n<=2){
+                return 1;
+            }
+            return fib(n-1)+fib(n-2);
+        }
 
-
+        //递归使用案例二:给页面中所有的元素,添加一个边框 1px solid pink
         window.onload = function () {
 
             //递归找到元素,

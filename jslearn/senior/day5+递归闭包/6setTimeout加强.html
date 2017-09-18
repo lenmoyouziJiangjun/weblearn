@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        //js 中,分了三个任务
+        // 1、渲染任务
+        // 2、js的代码执行任务
+        // 3、 事件处理任务
+
+        //js代码的执行顺序
+        //1、先把主任务(代码任务)执行完毕
+        //2、再去执行次要的任务(包括setTimeOut和setInterval中的回调函数中的逻辑)
+//        for (var j = 0; j < 10; j++) {
+//            setTimeout(function () {
+//                console.log(j);
+//            }, 0);//主任务执行完毕之后,才开始算时间
+//            console.log(j);
+//        }
+
+
+        //setTimeOut 至少在指定的时间后执行制定回调函数
+
+        /**
+         * 这段代码最后输出啥? 为什么? 怎么解决
+         *
+         * 输出10遍10;
+         *
+         * 因为要等主任务中的代码执行完毕之后,才会去检查,setTimeOut的回调函数,有没有到执行时间
+         *
+         */
+        for (var j = 0; j < 10; j++) {
+            setTimeout(function () {//for循环之后完后,才会执行setTimeOut.
+                console.log(j);
+            }, 0);//主任务执行完毕之后,才开始算时间
+        }
+
+        //bug修改
+        for (var j = 0; j < 10; j++) {
+            setTimeout((function (j) {
+                return function () {
+                    console.log("-----自调用函数实现--------" + j);
+                }
+            })(j), 100);//setTimeout的第一个参数,采用一个自调用函数返回一个函数
+        }
+
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>
