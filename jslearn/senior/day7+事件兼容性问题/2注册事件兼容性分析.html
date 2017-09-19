@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+            var div = document.getElementById("div1");
+
+            //三种不同点击事件的注册,
+            div.onclick = function (e) {
+                //this ===div;
+            }
+
+            div.addEventListener("click", function (e) {
+                //this ===div;
+            })
+
+            div.attachEvent("onclick", function () {//IE
+                // this ===window
+            })
+
+
+            /**
+             * 点击事件的回调
+             * @param e 点击的事件。
+             */
+            function huidiao(e) {
+                console.log(e + "就是当前的事件对象");
+                console.log(this + "就是当前你点击的对象");
+                alert("我是div的点击事件");
+            }
+            //都要调用同一个回调,就要兼容e
+            div.onclick = huidiao(e);
+            div.addEventListener("click", huidiao(e))
+            div.attachEvent("onclick", function () {//IE
+                huidiao.call(div,window.event);//
+            })
+        }
+    </script>
+</head>
+<body>
+<div id="div1"></div>
+</body>
+</html>

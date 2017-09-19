@@ -5,7 +5,33 @@
     <title>Title</title>
 
     <script>
-        //缓存 ,cache
+        //缓存 ,模拟一个cache集合
+        function createCache() {
+            var cacheSize=100;
+            //cache中以键值对方式存储我们的缓存数据
+            var cache={};//集合
+            //index 存储键,这个键是有顺序的,方便我们做出超出融了的处理
+            var index=[];//数组
+            return function (key,value) {
+                if(value!==undefined){//设置value
+                    cache[key] = value;//设置值
+                    index.push(key);//将键存储到index数组中
+
+                    if(index.length>=cacheSize){
+                        //超出了限制,删除第一个进入数组的数据
+                        var tempKey = index.shift();//shift获取并删除数组的第一个元素
+                        delete cache[tempKey];//删除集合中元素
+                    }
+                    return cache[key];
+                }else{//查询value
+                    return cache[key];
+                }
+            }
+        }
+
+        var eleCache = createCache();
+        eleCache("name","你阿妈");//设置值
+        eleCache("name");//获取值
     </script>
 </head>
 <body>

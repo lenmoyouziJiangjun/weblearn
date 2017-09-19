@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+
+        //js中上下文:
+        //context: 执行环境
+        // this :当前对象
+
+        //在上下文调用模式中,可以修改this的值,也就是修改函数的调用方式。
+        //使用如下两个方法,可以修改上下文,也就是this的变量的值。两个方法的区别在于参数传递方式不一样
+        //1、apply: 函数名.apply(对象,[函数需要的参数数组])
+        //2、call :函数名.apply(对象,[函数需要的参数列表])
+        var name = "测试一"
+        function sayHello(a,b) {
+            console.log(this.name+"--参数一===="+a+"-------参数儿==="+b);
+        }
+
+        var obj = {
+            name:"测试obj"
+        }
+
+        sayHello.apply(obj,["aaa","bbb"]);//输出:测试obj
+        sayHello.call(obj,"aaa","bbb");//输出:测试obj
+
+        //示例一、
+        var arr=[8,19,23,10,4,2,15];//求数组最大值
+        console.log(Math.max(arr));
+
+        //采用apply方式实现
+        var max = Math.max.apply(null,arr);//第一个参数为null,或者undifined,默认我window
+
+        //示例二,用"-"将参数链接打印出来
+        //参数为数组
+        var arr2=['a','12a','ed2','was2'];
+        function contract(arr) {
+            return arr.join("-");//将数组元素用"-"链接;
+        }
+        console.log(contract(arr2));
+
+
+        //使用伪数组,调用数组里面的方法
+        function contract2() {
+            //arguments:表示参数对象,
+            //["-"],表示参数数组
+           // return Array.prototype.join.apply(arguments,["-"]);
+            return [].prototype.join.apply(arguments,["-"]);//上面的简写
+
+        }
+        var con = contract2('a','12a','ed2','was2');
+        console.log("---------"+con);
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
