@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字体rem介绍</title>
+
+    <style>
+        /*
+           rem 是为了解决流式布局文件,高度固定宽度百分比,引起的屏幕适配。
+        */
+
+        html {/*定义一个参考标准*/
+            font-size: 40px;
+        }
+
+        .btn {
+            width: 6rem;
+            height: 3rem;
+            line-height: 3rem;
+            font-size: 1.2rem;
+            display: inline-block;
+            background: #06c;
+            color: #fff;
+            border-radius: .5rem;
+            text-decoration: none;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="div1">
+    <p>老夫聊发少年狂。 左牵黄，右擎苍，锦帽貂裘，千骑卷平冈</p>
+
+    <button class="btn">
+        确定
+    </button>
+</div>
+
+</body>
+</html>
