@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        li{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border: 1px solid red;
+            text-align:center;
+        }
+    </style>
+
+    <script>
+//        var div = document.getElementById("div1");
+//        //父节点
+//        div.parentNode;
+//
+//        //兄弟节点
+//        div.previousSibling
+//        div.previousElementSibling
+//        div.nextSibling
+//        div.nextElementSibling;
+//
+//        //子节点
+//        div.firstChild  //不带element的区别: 获取元素节点
+//        div.firstElementChild //带element的区别: 有可能获取的文本和属性节点
+//        div.lastChild
+//        div.lastElementChild
+//
+//        //所有子节点
+//        div.childNodes
+//        div.children;
+//
+//        //所有兄弟节点
+//        div.parentNode.childNodes;
+//
+//        function fn(ele) {
+//            var newArr=[];
+//            var arr = ele.parentNode.childNodes;
+//            for(var i=0;i<arr.length;i++){
+//                if(ele!==arr[i]) {
+//                    newArr.push(arr[i]);
+//                }
+//            }
+//            return newArr;
+//
+//        }
+
+
+
+    </script>
+</head>
+<body>
+<div id="div1" class="div1">
+    <ul>
+        <li>我是第1个li</li>
+        <li>我是第2个li</li>
+        <li id="box">我是第3个li</li>
+        <li>我是第4个li</li>
+        <li>我是第5个li</li>
+        <li>我是第6个li</li>
+        <li>我是第7个li</li>
+        <li>我是第8个li</li>
+        <li>我是第9个li</li>
+        <li>我是第10个li</li>
+    </ul>
+
+    <script src="../tools.js"></script>
+    <script>
+        var box = getElement("box");
+        box.style.backgroundColor = "red";
+        box.style.fontcolor="#fff";
+
+        getFirstChildNode(box.parent).style.backgroundColor="blue";
+
+    </script>
+</div>
+</body>
+</html>

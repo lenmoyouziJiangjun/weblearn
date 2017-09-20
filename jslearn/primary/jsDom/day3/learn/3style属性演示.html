@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .click {
+            background: red;
+            border: 1px solid orange;
+            width: 123px;
+            height: 123px;
+            text-align: center;
+        }
+        .box{
+            background: blue;
+            border: 1px solid orange;
+            width: 123px;
+            height: 123px;
+        }
+
+    </style>
+
+    <script>
+        //js动态修改样式
+        window.onload = function () {
+
+            var box = document.getElementsByTagName("div")[0];
+
+            //1、提前定义好classname,修改classname,
+            box.onclick = function () {
+                console.log(this.className);
+                if (this.className == "box") {
+                    this.className = "click";
+                }else{
+                    this.className = "";//清楚class
+                }
+            }
+
+            //2、只修改少数几个属性时,可以使用style
+            console.log(box.style.width);
+            //style 使用规范
+            //1、修改少数属性的时候使用
+            //2、style 是对象
+            //3、值是字符串,没有设置为""
+            //4、设置了类样式不能获取(只能行内交互,和内嵌和外链无关)
+            //5、
+        }
+    </script>
+</head>
+<body>
+<div class="box" style="">
+    测试文字
+</div>
+</body>
+</html>

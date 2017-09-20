@@ -1,0 +1,94 @@
+/********************/
+.goods-img {
+    width: 100%;
+    position: relative;
+}
+
+.goods-img a {
+    display: block;
+    width: 100%;
+}
+
+.goods-img a img {
+    display: block;
+    width: 100%;
+}
+
+.goods-price-msg {
+    padding: 10px 12px 12px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.bg-f {
+    background-color: #fff;
+}
+
+.goods-price-msg .del-price, .goods-price-msg .tuan-price {
+    display: inline-block;
+    margin-left: .125rem;
+
+}
+
+.tuan-price {
+    font-size: 16px;
+    color: #f33837;
+    font-family: Arial;
+}
+
+.tuan-price b {
+    font-size: 24px;
+}
+
+.tuan-price strong {
+    background-color: #f33837;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.goods-price-msg .del-price {
+    font-size: 15px;
+    display: inline-block;
+    margin-left: .3125rem;
+}
+
+.goods-price-msg .del-price span {
+    color: #666;
+}
+
+.goods-price-msg .tuan_number {
+    float: right;
+    color: #666;
+    margin-top: .1875rem;
+    line-height: 40px;
+    text-align: center;
+}
+
+.goods-price-msg .price-details-box {
+    margin-bottom: 12px;
+    line-height: 25px;
+    background-size: 12px 12px;
+}
+
+.goods-price-msg .price-details-box span {
+    color: #999;
+    padding-right: 1.9rem;
+    display: inline-block;
+    font-size: 12px;
+    background: url(http://a4.jmstatic.com/eefb9557825199a0/p-details.png) no-repeat right;
+
+}
+
+.goods-price-msg .surplus_time_pack{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    line-height: 14px;
+}
+
+.goods-price-msg .surplus_time_pack .refund_msg{
+    float: right;
+}

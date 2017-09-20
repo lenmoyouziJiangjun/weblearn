@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            height: 55px;
+            border-top: 1px solid #E1E1E1;
+            background: url("head_bg.jpg") repeat-x;
+            line-height: 55px;
+            margin-top: 30px;
+            padding-left: 300px;
+        }
+
+        ul li {
+            list-style: none;
+            float: left;
+            background: url("li_bg.png") no-repeat right top;
+        }
+
+        li a {
+            color: #000000;
+            font-size: 18px;
+            text-decoration: none;
+            font-family: "微软雅黑";
+            padding: 0 34px;
+            height: 55px;
+            display: inline-block;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            //需求:点击a链接,让a链接对应的li标签添加类
+            //方式一
+            var atag = document.getElementsByTagName("a");
+            for (var i = 0; i < atag.length; i++) {
+                var at = atag[i];
+                console.log(atag.length);
+                console.log(at);// 输出播客,相册,
+                at.onclick = function () {//bug代码
+                    console.log("onclick");
+                    console.log(at);//只输出:<a href="#">相册</a>
+                    //console.log(atag[i]);//报错 undefined
+                    this.parentNode.style.backgroundColor = "red";
+                    this.pre
+                }
+            }
+
+
+            //方式二:
+//            var ul = document.getElementById("list");
+//            var liArr = ul.children;
+//            console.log(ul.childNodes);//区别children 和childNodes?
+//            for (var i = 0; i < liArr.length; i++) {
+//                var a = liArr[i].children[0];//
+//                a.onclick = function () {
+//                    //alert(a.innerHTML);//注意这里的a.innerHTML是个bug
+//                    alert(this.innerHTML);
+//                }
+//            }
+
+
+        }
+    </script>
+</head>
+<body>
+<div id="menu">
+    <ul id="list">
+        <li class="current"><a href="#">首页</a></li>
+        <li class="current"><a href="#">播客</a></li>
+        <li class="current"><a href="#">博客</a></li>
+        <li class="current"><a href="#">相册</a></li>
+    </ul>
+</div>
+</body>
+</html>
