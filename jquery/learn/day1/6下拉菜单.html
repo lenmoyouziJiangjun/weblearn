@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #78ffcd;
+        }
+
+        li {
+            list-style: none;
+            background-image: url(img/libg.jpg);
+        }
+
+        .wrap {
+            width: 330px;
+            height: 30px;
+            margin: 100px auto 0;
+            padding-left: 10px;
+            background-image: url(img/bg.jpg);
+
+        }
+
+        .wrap > ul > li {
+            float: left;
+            margin-right: 10px;
+            position: relative;
+        }
+
+        .wrap a {
+            display: block;
+            height: 30px;
+            width: 100px;
+            text-decoration: none;
+            color: #000;
+            line-height: 30px;
+            text-align: center;
+        }
+
+        .wrap li ul {
+            position: absolute;
+            top: 30px;
+            display: none;
+        }
+
+    </style>
+
+    <script src="../jquery/jquery-3.2.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            var $nav = $(".nav");
+            $nav.mouseenter(function () {
+                console.log("over");
+                $(this).children("ul").show(300);
+            });
+            $nav.mouseleave(function () {
+                $(this).children("ul").hide(300);
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+<div class="wrap">
+    <ul>
+        <li class="nav">
+            <a href="javascript:void(0);">国内大事</a>
+            <ul>
+                <li class="nav2"><a href="javascript:void(0);">二级菜单</a></li>
+                <li class="nav2"><a href="javascript:void(0);">二级菜单</a></li>
+                <li class="nav2"><a href="javascript:void(0);">二级菜单</a></li>
+            </ul>
+        </li>
+        <li class="nav">
+            <a href="javascript:void(0);">热点新闻</a>
+            <ul>
+                <li class="nav2"><a href="javascript:void(0);">二级菜单</a></li>
+                <li class="nav2"><a href="javascript:void(0);">二级菜单</a></li>
+                <li class="nav2"><a href="javascript:void(0);">二级菜单</a></li>
+            </ul>
+        </li>
+        <li class="nav">
+            <a href="javascript:void(0);">社区新闻</a>
+            <ul>
+                <li class="nav2"><a href="javascript:void(0);">二级菜单</a></li>
+                <li class="nav2"><a href="javascript:void(0);">二级菜单</a></li>
+                <li class="nav2"><a href="javascript:void(0);">二级菜单</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</div>
+
+
+</body>
+</html>

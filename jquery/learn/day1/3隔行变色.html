@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        li {
+            list-style: none;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .red {
+            background-color: red;
+        }
+    </style>
+    <script src="../jquery/jquery-3.2.1.js"></script>
+    <script>
+
+
+        $(document).ready(function () {
+            var $liArray = $("li");
+            for (var i = 0; i < $liArray.length; i++) {
+                var li = $liArray[i];//出现问题了, $liArray[i]就转换成了js对象
+                console.log(li);
+                if (i % 2) {
+                    $(li).css("background-color","blue");//将 js对象转为 jquery对象 $(li);
+                } else {
+                    $(li).css("background-color","red");
+                }
+            }
+        });
+    </script>
+</head>
+<body>
+
+<ul>
+    <li class="item">老子今天特别帅</li>
+    <li class="item">老子今天特别帅</li>
+    <li class="item">老子今天特别帅</li>
+    <li class="item">老子今天特别帅</li>
+    <li class="item">老子今天特别帅</li>
+    <li class="item">老子今天特别帅</li>
+    <li class="item">老子今天特别帅</li>
+    <li class="item">老子今天特别帅</li>
+    <li class="item">老子今天特别帅</li>
+    <li class="item">老子今天特别帅</li>
+</ul>
+
+
+</body>
+</html>

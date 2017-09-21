@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .wrap {
+            width: 300px;
+            background: #00b0e0;
+            border: 1px solid #7AB800;
+        }
+
+        li {
+            list-style: none;
+            border-bottom: 1px solid #000000;
+        }
+
+        .content {
+            width: 100%;
+            height: 40px;
+            display: none;
+            background-color: #fff;
+        }
+
+    </style>
+    <script src="../jquery/jquery-3.2.1.js"></script>
+    <script>
+       $(document).ready(function () {
+          $("li").click(function () {
+              $(this).children("div").toggle();
+              $(this).siblings("li").children("div").hide();
+          });
+       });
+    </script>
+</head>
+<body>
+<div class="wrap">
+    <ul>
+        <li><span>标题1</span>
+            <div class="content">我是内容1</div>
+        </li>
+        <li><span>标题2</span>
+            <div class="content">我是内容2</div>
+        </li>
+        <li><span>标题3</span>
+            <div class="content">我是内容3</div>
+        </li>
+        <li><span>标题4</span>
+            <div class="content">我是内容4</div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

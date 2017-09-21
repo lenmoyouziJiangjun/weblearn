@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="../jquery/jquery-3.2.1.js"></script>
+    <style>
+        body {
+            /*background-color: orange;*/
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+
+            //jQuery过滤选择器:类似CSS的firstChild
+
+            //1、first
+            $("ul li").first();//返回ul 里面的一个li元素
+
+            //2 、last
+            $("ul li").first();//返回ul 里面的一个li元素
+
+            //3、选择偶数元素
+            var $liOdd = $("ul>li:odd");//基数元素
+            $liOdd.css("background", "red");
+            //4、奇数元素
+            var $liOdd = $("ul>li:even");//基数元素
+            $liOdd.css("background", "blue");
+
+            //5、filter规定一个标砖,不匹配的移除
+            $("li").filter(".item2").css("background", "orange");//选择类名为item2的所有元素
+
+            //6、not 跟filter相反
+            $("li").not("item2")
+
+
+        });
+    </script>
+</head>
+<body>
+<ul>
+    <li class="item">我是第1个理</li>
+    <li class="item" id="item2">我是第2个理</li>
+    <li class="item">我是第3个理</li>
+    <li class="item">我是第4个理</li>
+    <li class="item">我是第5个理</li>
+    <ol>
+        <li class="item">我是第6个理</li>
+        <li class="item">我是第7个理</li>
+        <li class="item">我是第8个理</li>
+        <li class="item">我是第9个理</li>
+        <li class="item">我是第10个理</li>
+    </ol>
+</ul>
+</body>
+</html>

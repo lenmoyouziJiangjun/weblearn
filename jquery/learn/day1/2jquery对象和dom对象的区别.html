@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+           background-color: blue;
+        }
+    </style>
+    <script src="../jquery/jquery-3.2.1.js"></script>
+    <script>
+        //1、jquery对象和dom对象
+
+        //2、jquery对象: 就是通过JQuery包装DOM对象后产生的对象。是一个数组对象
+
+
+        $(document).ready(function () {
+            //js方式获取元素
+            var box = document.getElementById("box");
+            var cbox = document.getElementsByClassName("box")[0];
+            var div = document.getElementsByTagName("div")[0];
+
+            //jQuery获取元素
+            var $Box = $("#box");//id获取元素
+            var $Cbox = $(".box");//class获取元素
+            var $div = $("div");// tag获取元素
+
+            console.log(box);
+            console.log($Box);
+
+            //1、jQuery对象不能使用DOM对象的方法,DOM对象不能使用JQuery对象的方法。
+            box.innerHTML='<h3>dom元素的innerHtml </h3>'
+            $Box.html('<h4>jquery元素的html方法</h4>')
+            //jquery对象的css方法
+            $Box.css({"width":300,"height":300,"background-color":"red"});
+
+
+            //2、JQuery对象转为DOM对象
+            var dbox = $Box[0];//方式一:jquery对象是一个数组对象,转为dom对象,获取数组第一个元素
+            var dbox2 = $Box.get(0);//方式二:
+            console.log(dbox);
+            console.log(dbox2);
+
+            //3、dom对象转为JQuery对象
+            var $box2 = $(box);
+            console.log($box2);
+        });
+
+
+    </script>
+
+</head>
+<body>
+   <div></div>
+   <div class="box"></div>
+   <div id ="box"></div>
+   <div class="box"></div>
+   <div ></div>
+</body>
+</html>

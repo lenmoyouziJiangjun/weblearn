@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-color: #000;
+        }
+
+        .wrap {
+            margin: 100px auto 0;
+            width: 630px;
+            height: 394px;
+            padding: 10px 0 0 10px;
+            background: #000;
+            overflow: hidden;
+            border: 1px solid #fff;
+        }
+
+        .wrap li {
+            float: left;
+            list-style: none;
+            margin: 0 10px 10px 0;
+        }
+
+        .wrap img {
+            display: block;
+            border: 0;
+        }
+    </style>
+
+
+    <script src="../jquery/jquery-3.2.1.js"></script>
+    <script>
+        $(window).ready(function () {//为什么不用document而是用window;document在文本节点加载完成后就开始执行,图片还没有加载
+            $("li").mouseenter(function () {
+                console.log($(this));
+                //siblings("li"):其它兄弟li节点;
+                //css("opacity",0.4):不透明度为0.4
+                $(this).css("opacity", 1).siblings("li").css("opacity", 0.4);
+            });
+            $(".wrap").mouseleave(function () {
+                $("li").css("opacity", 1);//数据还原
+            });
+        })
+    </script>
+</head>
+<body>
+<div class="wrap">
+    <ul>
+        <li><a href="#"><img src="img/01.jpg" alt=""/></a></li>
+        <li><a href="#"><img src="img/02.jpg" alt=""/></a></li>
+        <li><a href="#"><img src="img/03.jpg" alt=""/></a></li>
+        <li><a href="#"><img src="img/04.jpg" alt=""/></a></li>
+        <li><a href="#"><img src="img/05.jpg" alt=""/></a></li>
+        <li><a href="#"><img src="img/06.jpg" alt=""/></a></li>
+    </ul>
+</div>
+
+</body>
+</html>

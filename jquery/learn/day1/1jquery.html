@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery/jquery-3.2.1.js"></script>
+    <script>
+        //1、文档加载完成执行,图片不加载完成就可以执行
+        $(document).ready(function () {//入口函数,文档加载完成,图片不加载的时候执行
+            $("button").click(function () {
+                $("p").toggle(300,function () {//显示隐藏
+                    console.log(this.style.display);
+                });
+            });
+        });
+
+        //2、 第一种的简写。
+        $(function () {
+
+        });
+
+        // 3、window加载完成后执行,文档图片都加载完成后执行
+        $(window).ready=function () {
+
+        };
+
+        // 4、js入口函数。界面元素加载完成后再执行。
+        window.onload =function () {
+
+        }
+
+        //5 js入口函数和jQuery入口函数的区别
+            // 1、js入口函数只能出现一次,出现多次会存在时间覆盖的问题。jquery 的入口函数函数可以重复多次。不会出现事件覆盖
+            // 2、执行时间不同
+
+    </script>
+</head>
+<body>
+<h2>This is a heading</h2>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<button type="button">Click me</button>
+</body>
+</html>
