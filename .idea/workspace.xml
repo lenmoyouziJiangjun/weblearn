@@ -2,47 +2,435 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f61b57e-a7ca-4325-94a9-603cdfa16f3f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/QQ截图20121215110234.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/abg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/libg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/lili.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/冬裙.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/呢大衣.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/围巾.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/女包.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/女裤.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/女靴.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/棉服.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/毛衣.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/牛仔裤.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/男包.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/男棉服.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/男毛衣.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/男靴.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/登山鞋.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/皮带.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/皮衣.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/羽绒服.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/img/雪地靴.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/1jquery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/2jquery对象和dom对象的区别.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/3隔行变色.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/4层级选择器.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/5过滤选择器.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/6下拉菜单.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/7高亮效果.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/8搜索与展开.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/9taobao.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/learn/day1/9taobao2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/imgs/ad.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/imgs/h.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/资料/jQuery第二天-DOM操作.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/资料/03 防腾讯固定导航栏（scroll+scrollTop）/images/nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/资料/jQuery其他必备知识.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-icons_228ef1_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-icons_ef8c08_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-icons_ffd27a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/img/bmw_m1_hood.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/img/bmw_m1_side.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/img/bmw_m3_gt.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/img/corvette_pitstop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/img/grey.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/img/viper_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/img/viper_corner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/img/white.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/main.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/images/bg-line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/images/bliss.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/images/head.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/images/icon_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/images/icon_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/images/nav-line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/images/shadow-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/images/shadow-line.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/images/sites.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/images/sjbz_survey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/images/turn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/images/wallpaper.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/images/weixin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/act1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/arc1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/banner2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/best1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/best2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/best3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/img9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/log1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/log2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/log3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/log4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/new1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/new2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/new3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/new4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/new5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/photos/admin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/photos/use1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/photos/use2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/photos/use3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/photos/use4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/photos/use5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/pic1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/pic10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/pic2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/pic3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/pic4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/pic5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/pic6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/pic7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/pic8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/pic9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/plsw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/plsw2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/plsw3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/weibo1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/weibo2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/weibo3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/upload/weibo4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/h5/day1/03 表单/05表单上传文件.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/4元素遍历.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/17-表格添加数据（remove+   val）/checkDOM.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/17-表格添加数据（remove+   val）/checkDemo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/17-表格添加数据（remove+   val）/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/17-表格添加数据（remove+   val）/jquery-1.11.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/1css操作.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/2基础动画.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/3自定义动画.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/4网页右下角广告.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/5节点操作.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/6选择水果.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/7创建表格.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/8表格添加数据.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/资料/11-节点的操作之创建JQ对象.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/资料/12-节点的操作之添加节点.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/资料/13-节点的操作之删除和清空节点.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/资料/14-节点的操作之复制节点.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/01-jquery属性 操作.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/02-表格全选反选（prop+checkbox选择器+checked选择器）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/03-val()和text()和html().html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/04-动态输入案例（text）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/05-height()和width().html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/06-坐标值操作.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/07-事件绑定.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/08-事件解绑.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/09-事件触发.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/10-事件对象.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/11-回车换行.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/12-按键变色（event）.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/13-连式编程和隐式迭代.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/14-五角星案例.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/15-each修改透明度.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/16多库共存.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/17自定义插件.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/day3/资料/03 防腾讯固定导航栏（scroll+scrollTop）/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-1.11.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-1.8.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/.mailmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/AUTHORS.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.10.0/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.10.0/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.10.1/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.10.1/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.10.2/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.10.2/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.11.0/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.11.0/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.11.1/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.11.1/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.5.0/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.5.0/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.5.1/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.5.1/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.5.2/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.5.2/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.6.0/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.6.0/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.6.1/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.6.1/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.6.2/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.6.2/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.6.3/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.6.3/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.6.4/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.6.4/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.7.0/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.7.0/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.7.1/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.7.1/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.7.2/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.7.2/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.8.0/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.8.0/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.8.1/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.8.1/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.8.2/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.8.2/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.8.3/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.8.3/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.9.0/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.9.0/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.9.1/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-1.9.1/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-2.0.0/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-2.0.0/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-2.0.1/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-2.0.1/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-2.0.2/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-2.0.2/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-2.0.3/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-2.0.3/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-2.1.0/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-2.1.0/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-2.1.1/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/jquery-2.1.1/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/qunit/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/qunit/qunit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/external/qunit/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/jquery.color.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/jquery.color.svg-names.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/test/data/swarminject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/test/data/testinit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/test/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/test/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/test/unit/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/test/unit/color.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-my-3.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/external/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.structure.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.structure.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/CHANGELOG.textile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/disabled.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/enabled.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/enabled_ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/enabled_background.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/enabled_container.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/enabled_fadein.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/enabled_gazillion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/enabled_noscript.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/enabled_timeout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/enabled_wide.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/enabled_wide_container.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/jquery.lazyload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/jquery.lazyload.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/jquery.scrollstop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/jquery.scrollstop.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/lazyload.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/ajax/xmlhttprequest/1、jsAjax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jslearn/ajax/xmlhttprequest/jsHttpUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/article.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/article_1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/article_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/article_list_1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/css/article.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/css/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/css/init.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/css/register.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/css/waterfall.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/js/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/js/functions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/js/waterfall.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/waterfall_1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/waterfall_2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ailvxing/waterfall_3.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery/learn/day1/4层级选择器.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/1jquery.html" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/1jquery.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/2jquery对象和dom对象的区别.html" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/2jquery对象和dom对象的区别.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/3隔行变色.html" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/3隔行变色.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/5过滤选择器.html" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/5过滤选择器.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/6下拉菜单.html" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/6下拉菜单.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/7高亮效果.html" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/7高亮效果.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/8搜索与展开.html" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/8搜索与展开.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/9taobao.html" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/9taobao.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/9taobao2.html" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/9taobao2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/01.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/02.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/03.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/03.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/04.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/04.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/05.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/05.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/06.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/06.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/QQ截图20121215110234.png" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/QQ截图20121215110234.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/abg.gif" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/abg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/bg.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/libg.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/libg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/lili.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/lili.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/冬裙.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/冬裙.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/呢大衣.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/呢大衣.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/围巾.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/围巾.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/女包.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/女包.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/女裤.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/女裤.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/女靴.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/女靴.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/棉服.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/棉服.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/毛衣.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/毛衣.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/牛仔裤.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/牛仔裤.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/男包.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/男包.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/男棉服.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/男棉服.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/男毛衣.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/男毛衣.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/男靴.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/男靴.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/登山鞋.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/登山鞋.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/皮带.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/皮带.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/皮衣.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/皮衣.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/羽绒服.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/羽绒服.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/day1/img/雪地靴.jpg" afterPath="$PROJECT_DIR$/jquery/jquery/day1+选择器/img/雪地靴.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/learn/jquery/jquery-3.2.1.js" afterPath="$PROJECT_DIR$/jquery/jquery/jquery/jquery-3.2.1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/1访问关系封装.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/1访问关系封装.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/2菜单练习.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/2菜单练习.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/3style属性演示.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/3style属性演示.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/4高级隔行变色.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/4高级隔行变色.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/5百度皮肤.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/5百度皮肤.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/6祝愿墙.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/6祝愿墙.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/head_bg.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/head_bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/0f000PC3L7v5WMl_8bcCX6.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/0f000PC3L7v5WMl_8bcCX6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/1.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/1.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/1.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/2.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/2.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/2.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/3.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/4.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/5.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/75_avatar_small.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/75_avatar_small.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/89_avatar_small.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/89_avatar_small.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/arrow.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/arrow.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/bg.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/bg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/big.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/big.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/bpic_1.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/bpic_1.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/cloud.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/cloud.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/content.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/content.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/content_bg.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/content_bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/lb1.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/lb1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/lb2.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/lb2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/lb3.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/lb3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/lb4.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/lb4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/lb5.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/lb5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/main.png" afterPath="$PROJECT_DIR$/jquery/jquery/day3/资料/03 防腾讯固定导航栏（scroll+scrollTop）/images/main.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/mm.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/mm.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/mu.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/mu.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/nav.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/nav.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/noavatar_small.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/noavatar_small.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/placeholder.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/placeholder.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/rss.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/rss.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/small.webp" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/small.webp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/taobao.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/taobao.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/tianshi.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/tianshi.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/tip1_c.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/tip1_c.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/tip1_f.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/tip1_f.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/tip1_h.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/tip1_h.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/top.png" afterPath="$PROJECT_DIR$/jquery/jquery/day3/资料/03 防腾讯固定导航栏（scroll+scrollTop）/images/top.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/xiaoniao.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/xiaoniao.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/百度换肤.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/百度换肤.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/li_bg.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/li_bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/01-访问关系封装.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/01-访问关系封装.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/02-菜单练习(利用封装方法).html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/02-菜单练习(利用封装方法).html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/03-style属性演示.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/03-style属性演示.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/04-改变盒子的大小和透明度.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/04-改变盒子的大小和透明度.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/05-文本框获取焦点高亮显示.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/05-文本框获取焦点高亮显示.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/06-高级隔行变色.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/06-高级隔行变色.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/07-百度皮肤.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/07-百度皮肤.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/08-隐藏盒子.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/08-隐藏盒子.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/09-定位和层级.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/09-定位和层级.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/10-dom元素的创建.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/10-dom元素的创建.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/11-元素的操作.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/11-元素的操作.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/12-创建列表高亮显示美女.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/12-创建列表高亮显示美女.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/14 祝愿墙.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/14 祝愿墙.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/15-选择水果.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/15-选择水果.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/demo.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/0f000PC3L7v5WMl_8bcCX6.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/0f000PC3L7v5WMl_8bcCX6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/1.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/1.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/1.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/2.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/2.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/2.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/3.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/4.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/5.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/bg.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/bg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/bpic_1.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/bpic_1.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/cloud.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/cloud.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/content.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/content.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/content_bg.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/content_bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/lb1.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/lb1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/lb2.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/lb2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/lb3.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/lb3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/lb4.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/lb4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/lb5.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/lb5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/main.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/main.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/mm.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/mm.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/nav.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/nav.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/rss.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/rss.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/taobao.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/taobao.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/tianshi.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/tianshi.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/tip1_c.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/tip1_c.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/tip1_f.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/tip1_f.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/tip1_h.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/tip1_h.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/top.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/images/top.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/xiaoniao.gif" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/xiaoniao.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/image/百度换肤.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/image/百度换肤.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/tools.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/源码/tools.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/06 高级隔行变色.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/资料/06 高级隔行变色.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/07 百度皮肤.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/资料/07 百度皮肤.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/12 选水果.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/资料/12 选水果.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/14 祝愿墙.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/资料/14 祝愿墙.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/image/1.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/资料/image/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/image/2.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/资料/image/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/image/3.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/资料/image/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/image/4.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/资料/image/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/image/5.jpg" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/资料/image/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/image/mm.png" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/资料/image/mm.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/笔记.doc" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/资料/笔记.doc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/640" afterPath="$PROJECT_DIR$/project/640" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/02-输出某年某月某日的天数.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/源码/02-输出某年某月某日的天数.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/gulpfile.js" afterPath="$PROJECT_DIR$/jslearn/primary/jsBasic/day4/资料/Swiper-3.3.1/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day5+事件监听+字符串/源码/03-苹果发布会倒计时.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day5+事件监听+字符串/源码/03-苹果发布会倒计时.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jslearn/primary/jsDom/day5+事件监听+字符串/源码/09-特殊方法.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsDom/day5+事件监听+字符串/源码/09-特殊方法.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10+正则表达式/案例/11-三个方法.html" afterPath="$PROJECT_DIR$/jslearn/primary/jsEnhance/day10+正则表达式/案例/11-三个方法.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/640/css/index.less" afterPath="$PROJECT_DIR$/project/640/css/index.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/640/index.html" afterPath="$PROJECT_DIR$/project/640/index.html" />
     </list>
@@ -65,41 +453,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="7高亮效果.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jquery/learn/day1/7高亮效果.html">
+      <file leaf-file-name="05表单上传文件.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/h5/day1/03 表单/05表单上传文件.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="45" column="50" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="50" />
+            <state relative-caret-position="210">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="8搜索与展开.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jquery/learn/day1/8搜索与展开.html">
+      <file leaf-file-name="1、jsAjax.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jslearn/ajax/xmlhttprequest/1、jsAjax.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+            <state relative-caret-position="165">
+              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="9taobao.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jquery/learn/day1/9taobao.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/17-表格添加数据（remove+   val）/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-435">
-              <caret line="66" column="11" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
+            <state relative-caret-position="165">
+              <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="9taobao2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jquery/learn/day1/9taobao2.html">
+      <file leaf-file-name="checkDemo.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/17-表格添加数据（remove+   val）/checkDemo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="69" column="89" selection-start-line="69" selection-start-column="89" selection-end-line="69" selection-end-column="89" />
+            <state relative-caret-position="149">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -122,40 +510,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jslearn/senior/day5+递归闭包/5闭包练习2.html" />
-        <option value="$PROJECT_DIR$/jslearn/senior/day5+递归闭包/6setTimeout加强.html" />
-        <option value="$PROJECT_DIR$/jslearn/senior/day5+递归闭包/5闭包练习.html" />
-        <option value="$PROJECT_DIR$/jslearn/senior/day6+缓存/1缓存.html" />
-        <option value="$PROJECT_DIR$/jslearn/senior/day6+缓存/2沙箱.html" />
-        <option value="$PROJECT_DIR$/jslearn/senior/day6+缓存/3、this.html" />
-        <option value="$PROJECT_DIR$/jslearn/senior/day6+缓存/3上下文.html" />
-        <option value="$PROJECT_DIR$/jslearn/senior/day7+事件兼容性问题/1注册事件兼容性.html" />
-        <option value="$PROJECT_DIR$/jslearn/es6/readme.md" />
-        <option value="$PROJECT_DIR$/jslearn/senior/day7+事件兼容性问题/2注册事件兼容性分析.html" />
-        <option value="$PROJECT_DIR$/jslearn/senior/day7+事件兼容性问题/3歌曲管理.html" />
-        <option value="$PROJECT_DIR$/jslearn/primary/jsDom/day5+事件监听/资料/资料/04 带有定时器的轮播图/简单焦点图js.html" />
-        <option value="$PROJECT_DIR$/jslearn/primary/jsDom/day5+事件监听/资料/资料/02 滑动轮播图/demo js.html" />
-        <option value="$PROJECT_DIR$/jslearn/primary/jsDom/day5+事件监听/源码/03-苹果发布会倒计时.html" />
-        <option value="$PROJECT_DIR$/jslearn/primary/jsDom/day5+事件监听+字符串/learn/1String.html" />
-        <option value="$USER_HOME$/Desktop/99元团美国Elta MD氨基酸洁面乳207ml_files/guide_download.css" />
-        <option value="$PROJECT_DIR$/project/jumei/groupbuy/css/index.css" />
-        <option value="$PROJECT_DIR$/cssLearn/css_tips.css" />
-        <option value="$PROJECT_DIR$/cssLearn/css3/day4+字体/readme.md" />
-        <option value="$PROJECT_DIR$/cssLearn/css3/day4+字体/rem.html" />
-        <option value="$USER_HOME$/Desktop/99元团美国Elta MD氨基酸洁面乳207ml_files/tuanftsize.css" />
-        <option value="$USER_HOME$/Desktop/99元团美国Elta MD氨基酸洁面乳207ml_files/yiqituanv2.css" />
-        <option value="$USER_HOME$/Desktop/99元团美国Elta MD氨基酸洁面乳207ml_files/jumei.js" />
-        <option value="$PROJECT_DIR$/project/jumei/groupbuy/css/base.css" />
-        <option value="$PROJECT_DIR$/project/jumei/groupbuy/css/goods-box.css" />
-        <option value="$PROJECT_DIR$/jquery/readme.md" />
-        <option value="$PROJECT_DIR$/project/jumei/groupbuy/index.html" />
-        <option value="$PROJECT_DIR$/jslearn/primary/jsDom/readme.md" />
-        <option value="$PROJECT_DIR$/jslearn/primary/jsDom/day4+内置对象+定时器/learn/1访问关系封装.html" />
-        <option value="$PROJECT_DIR$/jslearn/primary/jsDom/day4+内置对象+定时器/tools.js" />
-        <option value="$PROJECT_DIR$/jslearn/primary/jsDom/day4+内置对象+定时器/learn/2菜单联系.html" />
-        <option value="$PROJECT_DIR$/cssLearn/css/day4-定位浮动/04-案例/上合导航案例/上合导航定位案例.html" />
-        <option value="$PROJECT_DIR$/jslearn/primary/jsDom/day4+内置对象+定时器/learn/2菜单练习.html" />
-        <option value="$PROJECT_DIR$/jslearn/primary/jsDom/day4+内置对象+定时器/learn/3style属性演示.html" />
         <option value="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/4高级隔行变色.html" />
         <option value="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/5百度换肤.html" />
         <option value="$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/07 百度皮肤.html" />
@@ -173,6 +527,40 @@
         <option value="$PROJECT_DIR$/jquery/learn/day1/8搜索与展开.html" />
         <option value="$PROJECT_DIR$/jquery/learn/day1/9taobao.html" />
         <option value="$PROJECT_DIR$/jquery/learn/day1/9taobao2.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day2+dom节点操作/1css操作.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day2+dom节点操作/2基础动画.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day2+dom节点操作/3自定义动画.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day2+dom节点操作/4网页右下角广告.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day2+dom节点操作+动画/5节点操作.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day2+dom节点操作+动画/6选择水果.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day2+dom节点操作+动画/7.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day2+dom节点操作+动画/7创建表格.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day2+dom节点操作+动画/17-表格添加数据（remove+   val）/checkDemo.css" />
+        <option value="$PROJECT_DIR$/jquery/learn/day1+选择器/4层级选择器.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day1+选择器/4元素遍历.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day2+dom节点操作+动画/17-表格添加数据（remove+   val）/index.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day2+dom节点操作+动画/8表格添加数据.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day3/01-jquery属性 操作.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day3/02-表格全选反选（prop+checkbox选择器+checked选择器）.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day3/03-val()和text()和html().html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day3/04-动态输入案例（text）.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day3/05-height()和width().html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day3/06-坐标值操作.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day3/08-事件解绑.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day3/09-事件触发.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day3/11-回车换行.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day3/12-按键变色（event）.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day3/14-五角星案例.html" />
+        <option value="$PROJECT_DIR$/jquery/learn/day3/15-each修改透明度.html" />
+        <option value="$PROJECT_DIR$/jquery/jquery/day3/13-连式编程和隐式迭代.html" />
+        <option value="$PROJECT_DIR$/jquery/jquery/day3/16多库共存.html" />
+        <option value="$PROJECT_DIR$/jquery/jquery/jquery/jquery-my-3.2.1.js" />
+        <option value="$PROJECT_DIR$/jquery/jquery/day3/17自定义插件.html" />
+        <option value="$PROJECT_DIR$/jslearn/ajax/xmlhttprequest/jsHttpUtils.js" />
+        <option value="$PROJECT_DIR$/jslearn/ajax/xmlhttprequest/1、jsAjax.html" />
+        <option value="$USER_HOME$/Desktop/99元团美国Elta MD氨基酸洁面乳207ml_files/h.js" />
+        <option value="$USER_HOME$/Desktop/99元团美国Elta MD氨基酸洁面乳207ml_files/ga.js" />
+        <option value="$PROJECT_DIR$/html/h5/day1/03 表单/05表单上传文件.html" />
       </list>
     </option>
   </component>
@@ -183,10 +571,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="23" />
+    <option name="x" value="-880" />
+    <option name="y" value="-150" />
     <option name="width" value="1280" />
-    <option name="height" value="730" />
+    <option name="height" value="729" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -272,15 +660,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
+              <option name="myItemId" value="jslearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weblearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weblearn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jumei" />
+              <option name="myItemId" value="jslearn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="groupbuy" />
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weblearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weblearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jslearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xmlhttprequest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,10 +732,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="jquery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -334,7 +750,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learn" />
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -352,7 +772,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learn" />
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day2+dom节点操作+动画" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weblearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weblearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day2+dom节点操作+动画" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="17-表格添加数据（remove+   val）" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weblearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weblearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weblearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weblearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -370,7 +856,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cssLearn" />
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03 表单" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weblearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weblearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,19 +904,19 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project" />
+      <recent name="$PROJECT_DIR$/jquery/jquery/jquery" />
+      <recent name="$PROJECT_DIR$/jquery/jquery/day3/资料" />
+      <recent name="$PROJECT_DIR$/jquery/learn/day3" />
+      <recent name="$PROJECT_DIR$/jquery/learn/day2+dom节点操作+动画" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jquery/jquery/day3/资料" />
       <recent name="$PROJECT_DIR$/jslearn/primary/jsDom/day3" />
       <recent name="$PROJECT_DIR$/cssLearn/css3/day3" />
       <recent name="$PROJECT_DIR$/cssLearn/css3/day4+字体" />
       <recent name="$PROJECT_DIR$/html/h5/day2" />
-      <recent name="$PROJECT_DIR$/jquery/learn/jquery" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jquery/learn/day1" />
-      <recent name="$PROJECT_DIR$/jquery/learn/day1/img" />
-      <recent name="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn" />
-      <recent name="$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images" />
-      <recent name="$PROJECT_DIR$/jslearn/primary/jsDom/day4+内置对象+定时器/learn" />
     </key>
   </component>
   <component name="RunManager">
@@ -504,25 +1016,26 @@
       <workItem from="1502980363099" duration="23172000" />
       <workItem from="1504749693839" duration="10033000" />
       <workItem from="1505129895124" duration="124610000" />
-      <workItem from="1505960874737" duration="20472000" />
+      <workItem from="1505960874737" duration="20598000" />
+      <workItem from="1506046570320" duration="34111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="347093000" />
+    <option name="totallyTimeSpent" value="381330000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="23" width="1280" height="730" extended-state="6" />
-    <editor active="true" />
+    <frame x="-880" y="-150" width="1280" height="729" extended-state="1" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2875298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21366164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265625" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1921875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19248827" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -552,363 +1065,432 @@
           <line>88</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/2菜单练习.html</url>
+          <url>file://$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/2菜单练习.html</url>
           <line>47</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/7创建表格.html</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bootstrap/readme.md">
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day1+选择器/8搜索与展开.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day4+内置对象+定时器/tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day4+内置对象+定时器/learn/2菜单联系.html" />
-    <entry file="file://$PROJECT_DIR$/cssLearn/css/day3-盒子模型/04-案例/爱宠知识.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="58" column="29" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cssLearn/css/day3-盒子模型/04-案例/行业动态.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cssLearn/css/day3-盒子模型/04-案例/表单控件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cssLearn/css/day3-盒子模型/05-练习/02购物车案例复习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cssLearn/css/day3-盒子模型/05-练习/03五彩导航.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cssLearn/css/day4-定位浮动/04-案例/上合导航案例/上合导航定位案例.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/1访问关系封装.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/2菜单练习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        <state relative-caret-position="188">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day4+内置对象+定时器/源码/05-祝愿墙.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="132" column="36" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/3style属性演示.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/04-改变盒子的大小和透明度.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/06-高级隔行变色.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/06 高级隔行变色.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1572">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/12 选水果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day4+内置对象+定时器/源码/04-在线用户.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="165" column="33" selection-start-line="165" selection-start-column="33" selection-end-line="165" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day4+内置对象+定时器/源码/08-表格操作.html">
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day1+选择器/5过滤选择器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day4+内置对象+定时器/源码/06-模拟百度搜索.html">
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day1+选择器/3隔行变色.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
+        <state relative-caret-position="285">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/4高级隔行变色.html">
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day1+选择器/4元素遍历.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+        <state relative-caret-position="209">
+          <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/5百度换肤.html" />
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/资料/07 百度皮肤.html">
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/8表格添加数据.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="27" />
+        <state relative-caret-position="419">
+          <caret line="189" column="19" selection-start-line="189" selection-start-column="19" selection-end-line="189" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/08-隐藏盒子.html">
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day3/03-val()和text()和html().html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/09-定位和层级.html">
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day3/04-动态输入案例（text）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state relative-caret-position="105">
+          <caret line="83" column="42" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/5百度皮肤.html">
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day3/05-height()和width().html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/6祝愿墙.html" />
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/14 祝愿墙.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="130" column="18" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/images/89_avatar_small.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/learn/6祝愿墙.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="162" column="30" selection-start-line="162" selection-start-column="30" selection-end-line="162" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-318">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day4+内置对象+定时器/资料/04 祝愿墙.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="160" column="58" selection-start-line="160" selection-start-column="32" selection-end-line="160" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3/源码/11-元素的操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cssLearn/css/day3-盒子模型/04-案例/体育栏目.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day8+鼠标/案例/07-拖拽案例.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1175">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day9+事件/案例/09-事件委托.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day9+事件/案例/06-冒泡体验.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsEnhance/day7+滑动动画封装/案例+滑动动画封装/10-json回顾和conpatMode属性问题.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/learn/day1/1jquery.html">
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day3/02-表格全选反选（prop+checkbox选择器+checked选择器）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        <state relative-caret-position="239">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/learn/jquery/jquery-3.2.1.js">
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day3/01-jquery属性 操作.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="4678" column="27" selection-start-line="4678" selection-start-column="22" selection-end-line="4678" selection-end-column="27" />
+        <state relative-caret-position="254">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/learn/day1/3隔行变色.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/learn/day1/4层级选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/learn/day1/5过滤选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../学习视频/hbird/js/jquery/08-jQuery/19-jQuery-选择器的使用/案例/13-下拉菜单案例（children+this）/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="67" column="16" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/learn/day1/6下拉菜单.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/learn/day1/2jquery对象和dom对象的区别.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="26" column="42" selection-start-line="24" selection-start-column="12" selection-end-line="26" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/learn/day1/7高亮效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="45" column="50" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/learn/day1/8搜索与展开.html">
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day3/06-坐标值操作.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/learn/day1/9taobao.html">
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day3/07-事件绑定.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="66" column="11" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
+        <state relative-caret-position="195">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/learn/day1/9taobao2.html">
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day3/09-事件触发.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="69" column="89" selection-start-line="69" selection-start-column="89" selection-end-line="69" selection-end-column="89" />
+        <state relative-caret-position="240">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day3/12-按键变色（event）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day3/14-五角星案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day3/11-回车换行.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day3/08-事件解绑.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/jquery/jquery-1.8.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/jquery/jquery-1.11.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day3/15-each修改透明度.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day3/16多库共存.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day3/13-连式编程和隐式迭代.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/jquery/jquery-3.2.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-873">
+          <caret line="113" column="28" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/jquery/jquery-color-master/jquery-color-master/test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/jquery/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/enabled_fadein.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="116" column="26" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/jquery.lazyload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/jquery/jquery_lazyload-1.9.5/jquery_lazyload-1.9.5/enabled_timeout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1216">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/jquery/jquery-my-3.2.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day3/17自定义插件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/ajax/FetchLearn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/ajax/xmlhttprequest/jsHttpUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/primary/jsDom/day3+查找创建元素/learn/2菜单练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/99元团美国Elta MD氨基酸洁面乳207ml_files/jumei.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13050">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <marker date="1505822312000" expanded="true" signature="51435:51459" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/99元团美国Elta MD氨基酸洁面乳207ml_files/h.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14182">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/99元团美国Elta MD氨基酸洁面乳207ml_files/ga.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13815">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/ailvxing/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/ailvxing/js/waterfall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-592">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/ailvxing/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/ailvxing/waterfall_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="207" column="26" selection-start-line="207" selection-start-column="26" selection-end-line="207" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/ailvxing/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/ailvxing/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/h5/day1/03 表单/01 表单类型.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/h5/day1/03 表单/03 表单属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/h5/day1/03 表单/04 表单事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/h5/day1/03 表单/练习/学生档案.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/h5/day1/03 表单/05表单上传文件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jslearn/ajax/xmlhttprequest/1、jsAjax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/17-表格添加数据（remove+   val）/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery/day2+dom节点操作+动画/17-表格添加数据（remove+   val）/checkDemo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #div{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            position: relative;
+        }
+
+    </style>
+    <script src="../jquery/jquery-3.2.1.js"></script>
+    <script>
+        //自定义动画:
+        //
+        $(function () {
+
+            /**
+             * 自定义动画:$(selector).animate({params},speed,callback);
+             */
+            $("#start").click(function () {
+                $("#div").animate({
+                    height:50,//大小 更改位置需要设置position属性为relative
+                    width:50,
+                    left:550,//位置
+                    top:520,
+                    opacity:'0.5',//透明
+
+                },3000,function () {
+                    alert("动画执行完成")
+                })
+            });
+
+
+            /**
+             * 停止动画
+             * $(selector).stop(stopAll,goToEnd);
+             * 1、stopAll 参数规定是否应该清除动画队列。默认是 false，即仅停止活动的动画，允许任何排入队列的动画向后执行。
+               2、 goToEnd 参数规定是否立即完成当前动画。默认是 false。
+             */
+            $("#stop").click(function () {
+               //停止动画:
+                $("#div").stop();
+            });
+        });
+    </script>
+</head>
+<body>
+
+<button id="start">点击</button>
+<button id="stop">停止动画</button>
+
+<div id="div">
+
+</div>
+</body>
+</html>

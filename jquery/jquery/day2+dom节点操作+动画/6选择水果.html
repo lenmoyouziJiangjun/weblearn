@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        select {
+            width: 170px;
+            height: 240px;
+            font-size: 18px;
+            background-color: #a4ff34;
+        }
+
+    </style>
+    <script src="../jquery/jquery-3.2.1.js"></script>
+    <script>
+        $(function () {
+            $("#selectAll").click(function () {
+                //右侧标签.append(左侧标签);
+                $("#sel2").append($("#sel1 option"));
+
+            });
+            $("#removeAll").click(function () {
+                $("#sel1").append($("#sel2 option"));
+            });
+
+
+            //获取子元素的时候要注意，获取的必须是，被选中的元素。
+            //技术点：怎么获取被选中的子元素呢？？？
+            //   option:selected;
+            $("#selectItem").click(function () {
+                $("#sel2").append($("#sel1 option:selected"));
+            });
+            $("#removeItem").click(function () {
+                $("#sel1").append($("#sel2 option:selected"));
+            });
+        })
+    </script>
+</head>
+<body>
+
+
+<select id="sel1" size="10" multiple>
+    <option value="0">香蕉</option>
+    <option value="1">苹果</option>
+    <option value="2">鸭梨</option>
+    <option value="3">葡萄</option>
+</select>
+
+<button id="selectAll">>>></button>
+<button id="removeAll"><<<</button>
+<button id="selectItem">></button>
+<button id="removeItem"><</button>
+<select id="sel2" size="10" multiple></select>
+
+</body>
+</html>

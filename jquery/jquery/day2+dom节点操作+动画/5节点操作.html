@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .wrap {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+
+        .new {
+            display: block;
+            overflow: hidden;
+            width: 50px;
+            height: 50px;
+            margin: auto 0;
+            text-align: center;
+            background-color: #00b0e0;
+        }
+    </style>
+    <script src="../jquery/jquery-3.2.1.js"></script>
+    <script>
+        /**
+         * js创建元素的三种方式:
+         *第一种创建方式：document.write();
+         document.write("<li>我是document.write创建的</li>");
+
+         var btn = document.getElementsByTagName("button")[0];
+         var ul = document.getElementsByTagName("ul")[0];
+         //    btn.onclick = function () {
+        //        document.write("<li>我是document.write创建的</li>");
+        //    }
+
+         //第二种：直接利用元素的innerHTNL方法。（innerText方法不识别标签）
+         ul.innerHTML += "<li id='li1'>我是innerHTML创建的</li>"
+
+
+         //第三种：利用dom的api创建元素
+         var newLi = document.createElement("li");
+         newLi.innerHTML = "我是createElement创建的";
+         //    console.log(newLi);
+         //在父元素的最后面添加元素。
+         //    ul.appendChild(newLi);
+         //指定位置添加
+         var li1 = document.getElementById("li1");
+         ul.insertBefore(newLi,li1);
+         *
+         */
+
+
+        $(function () {
+            //jquery创建元素1:
+            var $div = $("<div class='new'> 测试div创建</div>")
+            //1、添加到界面中
+            $(".wrap").append($div);
+
+            //2、创建方式//
+            $("ul").html("<li>我是html方法穿件出来的li标签</li>")
+        })
+
+    </script>
+</head>
+<body>
+
+<div class="wrap">
+
+</div>
+
+<ul ></ul>
+
+
+
+</body>
+</html>

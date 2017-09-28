@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--允许跨域访问-->
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+
+            document.getElementById("getTest").onclick = function () {
+                //1、第一步创建ajax对象
+                var ajaxObj = new XMLHttpRequest();
+
+                //2、设置请求的URL等参数
+                //open(method,url,async):
+                // async：true（异步）或 false（同步）
+                ajaxObj.open("get", "https://gist.github.com/algal/5480916  ", true);
+//                ajaxObj.setRequestHeader("Content-type", "application/x-www-form-urlencoded");//设置请求头:
+                ajaxObj.setRequestHeader("Access-Control-Allow-Origin","https://gist.github.com/algal/5480916")
+
+                //4、注册事件
+                ajaxObj.onreadystatechange = function () {
+//                    console.log("-------"+ajaxObj.responseText);
+                    //5、处理返回数据
+                    if (ajaxObj.readyState == 4 && ajaxObj.status == 200) {
+                         document.getElementById("myDiv").innerHTML=ajaxObj.responseText;//ajaxObj.responseText字符串格式返回数据
+//                         document.getElementById("#myDiv").innerHTML=ajaxObj.responseXML;//ajaxObj.responseXML 以xml方式返回数据
+                    }
+                }
+
+                //6、发送请求
+                ajaxObj.send();
+            }
+        }
+    </script>
+</head>
+<body>
+
+<button id="getTest"> 点击我啊</button>
+
+<div id="myDiv">
+
+</div>
+</body>
+</html>

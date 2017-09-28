@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .ad {
+            position: fixed; /*固定到底部*/
+            right: 0;
+            bottom: 0;
+            width: 230px;
+            height: 120px;
+            background-image: url(imgs/ad.jpg);
+            display: none;
+            margin-bottom: 20px;
+            margin-right: 20px;
+        }
+
+        .ad span {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 40px;
+            height: 18px;
+            background-image: url(imgs/h.jpg);
+            cursor: pointer;
+        }
+    </style>
+    <script src="../jquery/jquery-3.2.1.js"></script>
+    <script>
+        $(function () {
+
+
+            $(".ad").slideDown(1000).slideUp(1000).fadeIn(1000).children("span").click(function () {
+                $(this).parent().fadeOut(1000);
+            });
+
+//            $(".ad").slideDown(1000, function () {
+//                $(".ad").slideUp(1000, function () {
+//                    $(".ad").fadeIn(1000, function () {
+//                        $(".ad").children("span").click(function () {
+//                            $(this).parent().fadeOut(1000, function () {
+//                                alert("执行完毕！");
+//                            });
+//                        });
+//                    });
+//                });
+//            })
+
+        })
+    </script>
+</head>
+<body>
+
+
+<!--广告-->
+<div class="ad">
+    <span></span>
+</div>
+
+</body>
+</html>

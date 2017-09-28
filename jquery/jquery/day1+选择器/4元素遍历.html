@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="../jquery/jquery-3.2.1.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            //jQuery选择器:
+            //$()括号里面可以css的选择器
+
+            //1、基本元素选择器
+            var $li2 = $("#item2");//id获取元素
+            var $Cbox = $(".item");//class获取元素
+            var $div = $("ul");// tag获取元素
+
+
+            //2、层级元素选择
+            var $li = $("ul li");//后代选择,ul的所有li元素
+            $li.css("margin",5);
+            $li.css("background","pink");
+            var $li2=$("ul>li");//子元素选// 择器
+
+            //3、父亲
+
+            var $p= $(".item1").parent();//被选元素的直接父元素。
+            var $ps= $(".item1").parents();//parents() 方法返回被选元素的所有祖先元素，它一路向上直到文档的根元素 (<html>)。
+            var $ps= $(".item1").parents("ol");// 所有为ol的父元素
+            var $ps= $(".item1").parentsUntil("ul");// parentsUntil() 方法返回介于两个给定元素之间的所有祖先元素。
+
+            //4、孩子
+            var $childs = $("ol").children();//被选元素的所有直接子元素：
+            var $childs = $("ol").children(".item3");//返回类名为item3的所有直接子元素
+
+            var $childs = $("ol").children();//被选元素的所有直接子元素：
+
+            //5、兄弟
+//            siblings()  所有兄弟元素  siblings("p");//所有P标签的同胞元素
+//            next()
+//            nextAll()
+//            nextUntil()
+//            prev()
+//            prevAll()
+//            prevUntil()
+        });
+    </script>
+</head>
+<body>
+<ul>
+    <li class="item">我是第1个理</li>
+    <li class="item" id="item2">我是第2个理</li>
+    <li class="item">我是第3个理</li>
+    <li class="item">我是第4个理</li>
+    <li class="item">我是第5个理</li>
+    <ol>
+        <li class="item1">我是第6个理</li>
+        <li class="item1">我是第7个理</li>
+        <li class="item3">我是第8个理</li>
+        <li class="item1">我是第9个理</li>
+        <li class="item1">我是第10个理</li>
+    </ol>
+</ul>
+</body>
+</html>

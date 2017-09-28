@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--引入了多个jquery库,版本库一定要从低到高,放弃也是放弃最新的-->
+
+    <script src="../jquery/jquery-1.8.2.min.js"></script>
+    <script src="../jquery/jquery-1.11.1.min.js"></script>
+    <script src="../jquery/jquery-3.2.1.js"></script>
+    <script>
+        //多库共存,jquery库占用了$符号,不同库也用了$
+        console.log($.fn.jquery);//输出最后一个引用的jquery版本
+
+        $.noConflict();//放弃最后一个使用权
+
+        console.log($.fn.jquery);
+
+        var $$=$.noConflict(true);//放弃倒数两个使用权,同事定义一个新的
+
+        console.log($.fn.jquery);//3.2.1
+        console.log($$.fn.jquery);//1.8.2
+        console.log(jQuery.fn.jquery);//1.11.1
+    </script>
+</head>
+<body>
+
+</body>
+</html>

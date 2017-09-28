@@ -136,7 +136,7 @@
                 ' * ',
                 ' * Licensed under <%= pkg.license.join(" & ") %>',
                 ' * ',
-                ' * Released on: <%= date.month %> <%= date.day1 %>, <%= date.year %>',
+                ' * Released on: <%= date.month %> <%= date.day1+选择器 %>, <%= date.year %>',
                 ' */',
                 ''].join('\n'),
             date: {

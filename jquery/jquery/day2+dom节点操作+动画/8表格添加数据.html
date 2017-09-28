@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery动态添加表格数据</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .wrap {
+            width: 410px;
+            margin: 100px auto 0;
+        }
+
+        .btnAdd {
+            width: 110px;
+            height: 30px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        table {
+            margin-top: 20px;
+            border-collapse: collapse; /*设置边框模型 边框会合并为一个单一的边框。会忽略 border-spacing 和 empty-cells 属性。*/
+            border-spacing: 0;
+            border: 1px solid #c0c0c0;
+        }
+
+        th, td {
+            border: 1px solid #d0d0d0;
+            color: #404060;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #09c;
+            font: bold 16px "微软雅黑"; /*字体样式*/
+            color: #fff;
+        }
+
+        td {
+            font: 14px "微软雅黑"; /*字体样式*/
+        }
+
+        td a.get {
+            text-decoration: none;
+        }
+
+        tbody tr {
+            background-color: #f0f0f0;
+        }
+
+        tbody tr:hover {
+            cursor: pointer;
+            background-color: #fafafa;
+        }
+
+        .mask {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            opacity: 0.5; /*透明度*/
+            display: none;
+        }
+
+        .form_dialog {
+            position: fixed;
+            top: 30%;
+            left: 50%;
+            margin-left: -197px;
+            padding-bottom: 20px;
+            background: #fff;
+            display: none;
+        }
+
+        .form-add-title {
+            background-color: #f7f7f7;
+            border-width: 1px 1px 0px 1px;
+            border-bottom: 0;
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .form-add-title span {
+            width: auto;
+            height: 18px;
+            font-size: 16px;
+            font-family: "微软雅黑";
+            font-weight: bold;
+            color: rgb(102, 102, 102);
+            text-indent: 12px;
+            padding: 8px 0px 10px;
+            margin-right: 10px;
+            display: block;
+            overflow: hidden;
+            text-align: left;
+        }
+
+        .form-add-title div {
+            width: 16px;
+            height: 20px;
+            position: absolute;
+            right: 10px;
+            top: 6px;
+            font-size: 30px;
+            line-height: 16px;
+            cursor: pointer;
+        }
+
+        .form-item {
+            height: 100%;
+            position: relative;
+            padding-left: 100px;
+            padding-right: 20px;
+            margin-bottom: 34px;
+            line-height: 36px;
+        }
+
+        .form-item > .lb {
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: block;
+            width: 100px;
+            text-align: right;
+        }
+
+        .form-item > .txt {
+            width: 300px;
+            height: 32px;
+        }
+
+        .form-submit {
+            text-align: center;
+        }
+
+        .form-submit input {
+            width: 170px;
+            height: 80px;
+        }
+
+
+    </style>
+    <script src="../jquery/jquery-3.2.1.js"></script>
+    <script>
+        $(function () {
+            /**
+             * 显示添加对话框
+             */
+            $(".btnAdd").click(function () {
+                $(".mask").show();
+                $(".form_dialog").show();
+            })
+
+            /**
+             * 隐藏添加对话框
+             */
+            $("#j_hideFormAdd").click(function () {
+                $(".mask").hide();
+                $(".form_dialog").hide();
+            })
+
+            /**
+             * 添加数据
+             */
+            $("#j_btnAdd").click(function () {
+                //1、获取控件元素
+                var name = $("#j_txtLesson").val().trim();//.val()取值
+                if (name == "") {
+                    alert("课程名字不能为空");
+                    return;
+                }
+                //2、构建元素
+                //全部能容这个成tr嵌套td的形式添加到tbody中
+                //获取tr，然后为tr赋值。
+                var tr = $("<tr></tr>");//创建一个jquery的tr节点
+                //给tr节点赋值
+                tr.html('<td>' + $("#j_txtLesson").val() + '</td><td>' + $("#j_txtBelSch").val() + '</td><td><a href="javascrip:;" class="get">GET</a></td>');
+                //在房间tbody中
+                $("#j_tb").append(tr);
+
+                //3、给元素绑定操作
+                tr.find("a.get").click(function () {
+                    tr.remove();//删除自己
+                });
+
+
+                //4、清空dialog原有的数据
+                $("#j_txtLesson").val("");//.val("")赋值
+                $("#j_txtBelSch").val("传智播客-前端与移动开发学院");
+
+
+                //5、隐藏dialog
+                $(".mask").hide();
+                $(".form_dialog").hide();
+            })
+
+            $("a.get").click(function () {
+                $(this).parents("tr").remove();//
+            });
+        })
+    </script>
+</head>
+<body>
+
+<!-表格数据-->
+<div class="wrap">
+    <div>
+        <input type="button" value="添加数据" id="j_btnAddData" class="btnAdd"/>
+    </div>
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <!-- <th><input type="checkbox" id="j_cbAll" /></th> -->
+                <th>课程名称</th><!--表格头用th,表示粗体居中文本-->
+                <th>所属学院</th>
+                <th>已学会</th>
+            </tr>
+            </thead>
+            <tbody id="j_tb">
+            <tr>
+                <!-- <td><input type="checkbox"/></td> -->
+                <td>JavaScript</td>
+                <td>传智播客-前端与移动开发学院</td>
+                <td><a href="javascrip:;" class="get">GET</a></td>
+            </tr>
+            <tr>
+                <!-- <td><input type="checkbox"/></td> -->
+                <td>css</td>
+                <td>传智播客-前端与移动开发学院</td>
+                <td><a href="javascrip:;" class="get">GET</a></td>
+            </tr>
+            <tr>
+                <!-- <td><input type="checkbox"/></td> -->
+                <td>html</td>
+                <td>传智播客-前端与移动开发学院</td>
+                <td><a href="javascrip:;" class="get">GET</a></td>
+            </tr>
+            <tr>
+                <!-- <td><input type="checkbox"/></td> -->
+                <td>jQuery</td>
+                <td>传智播客-前端与移动开发学院</td>
+                <td><a href="javascrip:;" class="get">GET</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!--遮罩-->
+<div class="mask"></div>
+
+<!--dialog 输入框-->
+<div class="form_dialog">
+    <div class="form-add-title">
+        <span>添加数据</span>
+        <div id="j_hideFormAdd">x</div>
+    </div>
+    <div class="form-item">
+        <label class="lb" for="j_txtLesson">课程名称：</label>
+        <input class="txt" type="text" id="j_txtLesson" placeholder="请输入课程名称">
+    </div>
+    <div class="form-item">
+        <label class="lb" for="j_txtBelSch">所属学院：</label>
+        <input class="txt" type="text" id="j_txtBelSch" value="传智播客-前端与移动开发学院">
+    </div>
+    <div class="form-submit">
+        <input type="button" value="添加" id="j_btnAdd">
+    </div>
+</div>
+</body>
+</html>
